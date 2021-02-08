@@ -11,21 +11,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Media</title>
+    <title>P-Media</title>
     <link rel="stylesheet" href="../css/globalColor.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <header>
-    <!-- Menu -->
+    <!-- Menü -->
     <div id="menu">
         <?php include("../php/menu.php");?>
     </div>
 </header>
 
 <main>
+    <!-- Seitenabfrage (sites.php) -->
     <?php include("../php/sites.php");?>
 </main>
+    <!--Footer -->
     <?php include("../php/footer.php");?>
 </body>
 <script type="text/javascript" src="../javascript/slider.js"></script>

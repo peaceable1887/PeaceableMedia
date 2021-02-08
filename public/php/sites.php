@@ -1,5 +1,4 @@
 <?php
-
     if($section == "media")
     {
         include("../php/media.php");
@@ -8,7 +7,7 @@
     {
         include("../php/aboutMe.php");
     }
-    else if($section == "kontakt")
+    else if($section == "contact")
     {
         include("../php/contact.php");
     }
