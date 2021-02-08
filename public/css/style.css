@@ -1,0 +1,72 @@
+header
+{
+    background: var(--color-background-header);
+    color: var(--color-font-header);
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+header h1
+{
+    margin: 0;
+    position: absolute;
+}
+header nav
+{
+    align-content: center;
+}
+header nav ul li
+{
+    font-size: 30px;
+    list-style: none;
+    display: inline;
+    margin: 100px;
+}
+header nav ul li a
+{
+    color: var(--color-hyperlink);
+}
+header #menu
+{
+    padding-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body
+{
+    background: var(--color-background-body);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+main
+{
+    background: var(--color-background-main);
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+
+}
+/*main .sliderBackground
+{
+    display: flex;
+    background: var(--color-background-slider);
+}
+main.sliderBackground .mySlides
+{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    margin: 20px auto 20px auto;
+}*/
+footer
+{
+    background: var(--color-background-footer) ;
+    display: flex;
+    width: 100%;
+    height: 80px;
+}

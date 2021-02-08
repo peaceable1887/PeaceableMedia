@@ -1,0 +1,11 @@
+:root {
+    --color-background-header: black;
+    --color-font-header: white;
+    --color-hyperlink: dimgray;
+    --color-background-slider: dimgray;
+    --color-background-body: white;
+    --color-background-main: white;
+    --div-background-color: grey;
+    --color-background-footer: black;
+}
+
