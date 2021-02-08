@@ -1,3 +1,12 @@
+<?php
+    if(isset($_GET["_ijt"]))
+    {
+        $section = $_GET["_ijt"];
+    }else
+    {
+        $section = "";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,23 +19,14 @@
 <header>
     <!-- Menu -->
     <div id="menu">
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="../html/media.html">Media</a></li>
-                <li><a href="../html/aboutMe.html">Über Mich</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
+        <?php include("../php/menu.php");?>
     </div>
 </header>
 
 <main>
-
+    <?php include("../php/sites.php");?>
 </main>
+    <?php include("../php/footer.php");?>
 </body>
-<footer>
-
-</footer>
 <script type="text/javascript" src="../javascript/slider.js"></script>
 </html>
