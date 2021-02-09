@@ -9,26 +9,29 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>P-Media</title>
-    <link rel="stylesheet" href="../css/globalColor.css">
-    <link rel="stylesheet" href="../css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>P-Media</title>
+        <link rel="stylesheet" href="../css/globalColor.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/startseite.css">
+    </head>
 <body>
 <header>
-    <!-- Menü -->
-    <div id="menu">
-        <?php include("../php/menu.php");?>
-    </div>
+    <img class="logo" src="../images/logo_pmedia.png">
+        <h1>Peaceable<br>Media</h1>
+        <!-- Menü -->
+        <div id="menu">
+            <?php include("../php/menu.php");?>
+        </div>
 </header>
 
 <main>
-    <!-- Seitenabfrage (sites.php) -->
+    <!-- Seitenabfrage -->
     <?php include("../php/sites.php");?>
 </main>
     <!--Footer -->
     <?php include("../php/footer.php");?>
 </body>
-<script type="text/javascript" src="../javascript/slider.js"></script>
+    <script type="text/javascript" src="../javascript/slider.js"></script>
 </html>

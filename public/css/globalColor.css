@@ -1,11 +1,16 @@
 :root {
-    --color-background-header: black;
+    /* Globale Farben */
+    --color-background-header: #184e98;
     --color-font-header: white;
-    --color-hyperlink: dimgray;
-    --color-background-slider: dimgray;
-    --color-background-body: white;
-    --color-background-main: white;
+    --color-hyperlink: white;
+    --color-background-slider: #0f5dc4;
+    --color-background-body: #0f5dc4;
+    --color-font-body: white;
+    --color-background-main: #0f5dc4;
     --div-background-color: grey;
-    --color-background-footer: black;
+    --color-background-footer: #184e98;
+
+    /* Globale Schriftarten */
+    --fontfamily-global: Copperplate, Papyrus, fantasy;
 }
 

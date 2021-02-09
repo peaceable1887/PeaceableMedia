@@ -1,5 +1,6 @@
 header
 {
+    font-family: var(--fontfamily-global);
     background: var(--color-background-header);
     color: var(--color-font-header);
     display: flex;
@@ -25,12 +26,30 @@ header nav ul li
 header nav ul li a
 {
     color: var(--color-hyperlink);
+    text-decoration: none;
+}
+header nav ul li a:hover
+{
+    color: var(--color-hyperlink);
+    text-decoration: underline;
 }
 header #menu
 {
     padding-top: 90px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 110px;
+}
+header .logo
+{
+    width: 172px;
+    height: 133px;
+    border-style: solid;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+header h1
+{
+    margin-left: 190px;
+    margin-top: 30px;
 }
 body
 {
@@ -48,7 +67,12 @@ main
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
-
+}
+.welcomeText
+{
+    color: var(--color-font-body);
+    font-family: var(--fontfamily-global);
+    text-align: center;
 }
 .sliderBackground
 {
@@ -66,12 +90,14 @@ footer
 {
     color: white;
     background: var(--color-background-footer);
-    height: 80px;
+    font-family: var(--fontfamily-global);
+    height: 100px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
     position:absolute;
     bottom:0;
+    text-align: center;
 
 }
