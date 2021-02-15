@@ -5,8 +5,8 @@
 .picture
 {
     border-style: solid;
-    border-color: black;
-    background: aliceblue;
+    border-color: white;
+    background: var(--div-background-color);
     width: 400px;
     height: 400px;
     margin-left: auto;

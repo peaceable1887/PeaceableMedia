@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="../css/globalColor.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/startseite.css">
+        <link rel="stylesheet" href="../css/slider.css">
     </head>
 <body>
 <header>
