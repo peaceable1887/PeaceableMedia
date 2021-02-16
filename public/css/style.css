@@ -7,23 +7,20 @@ header
     width: 100%;
     height: 150px;
     margin-bottom: 20px;
-    border-bottom: 5px solid white;
 }
-header h1
+header #menu
 {
-    margin: 0;
-    position: absolute;
-}
-header nav
-{
-    align-content: center;
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header nav ul li
 {
     font-size: 30px;
     list-style: none;
     display: inline;
-    margin: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 header nav ul li a
 {
@@ -32,16 +29,11 @@ header nav ul li a
 }
 header nav ul li a:hover
 {
-    color: var(--color-hyperlink);
-    text-decoration: underline;
-}
-header #menu
-{
-    padding-top: 90px;
-    margin-left: 110px;
+    color: black;
 }
 header .logo
 {
+    position: absolute;
     width: 172px;
     height: 133px;
     border-style: solid;
@@ -50,6 +42,7 @@ header .logo
 }
 header h1
 {
+    position: absolute;
     margin-left: 190px;
     margin-top: 30px;
 }
@@ -84,13 +77,11 @@ footer
     font-family: var(--fontfamily-global);
     height: 100px;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     justify-content: space-between;
     position: absolute;
     bottom:0;
     text-align: center;
-    border-top: 5px solid white;
 
 }
 .test

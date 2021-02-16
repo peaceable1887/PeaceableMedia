@@ -1,5 +1,5 @@
 <?php
-    echo "<pre>";
+   /* echo "<pre>";
     print_r($_FILES);
     echo "</pre>";
 
@@ -58,15 +58,28 @@ function clear_filename($dateiname)
 
     $dateiname = filter_var($dateiname, FILTER_SANITIZE_URL);
     return ($dateiname);
-}
+}*/
 ?>
-<h1>Media</h1>
-<div class="test"></div>
-<div class="test"></div>
-<div class="test"></div>
-<div class="test"></div>
-<form name="uploadformular" enctype="multipart/form-data" action="media.php" method="post">
-    Datei: <input type="file" name="uploaddatei" size="60" maxlength="255">
-
-    <input type="submit" name="submit" value="Datei hochladen">
-</form>
+<div class="background-media">
+</div>
+    <ul id="galerie">
+        <li><button tabindex="1"><img src="../images/Gaming-Template - Kopie-1.png" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Parallax - Architekur-1.png" alt="Berg im Morgennebel"></button></li>
+        <li><button tabindex="1"><img src="../images/Flyer-Uhr.jpg" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Smartphone-Flyer (1).jpg" alt="Korallenriff"></button></li>
+        <li><button tabindex="1"><img src="../images/KMI-Visitenkarten-farbe.jpg" alt="Morgensonne am Gardasee"></button></li>
+        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe (1).jpg" alt="Via Appia, Rom"></button></li>
+        <li><button tabindex="1"><img src="../images/Gaming-Template - Kopie-1.png" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Parallax - Architekur-1.png" alt="Berg im Morgennebel"></button></li>
+        <li><button tabindex="1"><img src="../images/Flyer-Uhr.jpg" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Smartphone-Flyer (1).jpg" alt="Korallenriff"></button></li>
+        <li><button tabindex="1"><img src="../images/KMI-Visitenkarten-farbe.jpg" alt="Morgensonne am Gardasee"></button></li>
+        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe (1).jpg" alt="Via Appia, Rom"></button></li>
+    </ul>
+<!-- Uploadbereicht -->
+<!--<div class="uploadArea">
+    <form name="uploadformular" enctype="multipart/form-data" action="media.php" method="post">
+        Datei: <input type="file" name="uploaddatei" size="60" maxlength="255">
+        <input type="submit" name="submit" value="Datei hochladen">
+    </form>
+</div>-->
