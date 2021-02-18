@@ -1,6 +1,6 @@
 <div id="contact">
     <h1>Formulare erstellen</h1><br>
-    <form action="../php/contact.php" method="post">
+    <form action="../database/inputDB.php" method="post">
         <label>Nachname:</label>
         <input type="text" name="nachname"> <br>
         <label>Vorname:</label>
@@ -23,7 +23,7 @@
     $nachricht = $_POST["nachricht"];
 
     $con = mysqli_connect("localhost", "root", "");
-    mysqli_select_db($con, "pmediadb");
+    mysqli_select_db($con, "pmedia");
     mysqli_query($con, "INSERT INTO contact (nachname,vorname,email,betreff,nachricht) VALUES ('$nachname','$vorname','$email','$betreff','$nachricht')");
 
     /*$result = mysqli_query($con, "SELECT * FROM contact");
@@ -39,3 +39,5 @@
         );
     }*/
 ?>
+
+

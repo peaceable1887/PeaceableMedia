@@ -5,7 +5,7 @@
       <paths name="apache Webserver">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="PMedia" local="$PROJECT_DIR$" web="/PMedia" />
           </mappings>
         </serverdata>
       </paths>
