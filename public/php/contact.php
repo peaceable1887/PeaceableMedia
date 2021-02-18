@@ -18,14 +18,14 @@
     //PHPWarning-Message will not be shown
     error_reporting(E_ERROR);
 
+    include("../database/dbCon.php");
+    $con = new dbCon();
+
     $nachname = $_POST["nachname"];
     $vorname = $_POST["vorname"];
     $email = $_POST["email"];
     $betreff = $_POST["betreff"];
     $nachricht = $_POST["nachricht"];
-
-    $con = mysqli_connect("localhost", "root", "");
-    mysqli_select_db($con, "pmediadb");
 
     //Wird durchgeführt wenn Felder ausgefüllt wurden
     if(isset($_POST["nachname"],$_POST["vorname"],$_POST["email"],$_POST["betreff"],$_POST["nachricht"] ))
