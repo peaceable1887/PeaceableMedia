@@ -14,9 +14,8 @@
         <button name="submit" type="submit">Jetzt abschicken!</button>
     </form>
 </div>
-
 <?php
-    //Warning-Message not show
+    //PHPWarning-Message will not be shown
     error_reporting(E_ERROR);
 
     $nachname = $_POST["nachname"];
@@ -28,6 +27,7 @@
     $con = mysqli_connect("localhost", "root", "");
     mysqli_select_db($con, "pmediadb");
 
+    //Wird durchgeführt wenn Felder ausgefüllt wurden
     if(isset($_POST["nachname"],$_POST["vorname"],$_POST["email"],$_POST["betreff"],$_POST["nachricht"] ))
     {
         mysqli_query($con, "INSERT INTO contact (nachname,vorname,email,betreff,nachricht) VALUES ('$nachname','$vorname','$email','$betreff','$nachricht')");
@@ -38,17 +38,29 @@
     <?php
     }
     ?>
-    <!--$result = mysqli_query($con, "SELECT * FROM contact");
-    while($row = mysqli_fetch_assoc($result))
-    {
-        echo
-        (
-            $row["nachname"]. ",".
-            $row["vorname"]. ",".
-            $row["email"]. ",".
-            $row["betreff"]. ",".
-            $row["nachricht"]. ","
-        );
-    }-->
+    <!-- Import Files -->
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" name="sub" value="Importieren">
+    </form>
+    <?php
+        include("../database/csvImport.php");
+        $csv = new csvImport();
+        if(isset($_POST["sub"]))
+        {
+            $csv->import($_FILES["file"]["tmp_name"]);
+        }
+    ?>
 
-
+<!--$result = mysqli_query($con, "SELECT * FROM contact");
+while($row = mysqli_fetch_assoc($result))
+{
+    echo
+    (
+        $row["nachname"]. ",".
+        $row["vorname"]. ",".
+        $row["email"]. ",".
+        $row["betreff"]. ",".
+        $row["nachricht"]. ","
+    );
+}-->
