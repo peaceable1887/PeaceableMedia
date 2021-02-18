@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/startseite.css">
         <link rel="stylesheet" href="../css/media.css">
-        <link rel="stylesheet" href=" slider.css">
+        <link rel="stylesheet" href="../css/slider.css">
     </head>
 <body>
 <header>

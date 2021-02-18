@@ -1,21 +1,24 @@
 <div id="contact">
     <h1>Formulare erstellen</h1><br>
-    <form action="../php/contact.php" method="post">
+    <form action="../php/index.php?_ijt=contact" method="post">
         <label>Nachname:</label>
-        <input type="text" name="nachname"> <br>
+        <input type="text" name="nachname" required> <br>
         <label>Vorname:</label>
-        <input type="text" name="vorname"> <br>
+        <input type="text" name="vorname" required> <br>
         <label>E-Mail:</label>
         <input type="email" name="email" required> <br>
         <label>Betreff:</label>
-        <input type="text" name="betreff"> <br>
+        <input type="text" name="betreff" required> <br>
         <label>Nachricht:</label>
         <textarea rows="7" name="nachricht" required></textarea> <br>
-        <button id="submit" type="submit">Jetzt abschicken!</button>
+        <button name="submit" type="submit">Jetzt abschicken!</button>
     </form>
 </div>
 
 <?php
+    //Warning-Message not show
+    error_reporting(E_ERROR);
+
     $nachname = $_POST["nachname"];
     $vorname = $_POST["vorname"];
     $email = $_POST["email"];
@@ -24,9 +27,18 @@
 
     $con = mysqli_connect("localhost", "root", "");
     mysqli_select_db($con, "pmediadb");
-    mysqli_query($con, "INSERT INTO contact (nachname,vorname,email,betreff,nachricht) VALUES ('$nachname','$vorname','$email','$betreff','$nachricht')");
 
-    /*$result = mysqli_query($con, "SELECT * FROM contact");
+    if(isset($_POST["nachname"],$_POST["vorname"],$_POST["email"],$_POST["betreff"],$_POST["nachricht"] ))
+    {
+        mysqli_query($con, "INSERT INTO contact (nachname,vorname,email,betreff,nachricht) VALUES ('$nachname','$vorname','$email','$betreff','$nachricht')");
+    ?>
+        <script type="text/javascript">
+            window.alert("Anfrage wurde übermitteln!");
+        </script>
+    <?php
+    }
+    ?>
+    <!--$result = mysqli_query($con, "SELECT * FROM contact");
     while($row = mysqli_fetch_assoc($result))
     {
         echo
@@ -37,5 +49,6 @@
             $row["betreff"]. ",".
             $row["nachricht"]. ","
         );
-    }*/
-?>
+    }-->
+
+
