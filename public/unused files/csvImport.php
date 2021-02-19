@@ -8,8 +8,10 @@ class csvImport extends dbCon
     {
         $file = fopen($file, "r");
 
+        //Rows will be read in
         while($row = fgetcsv($file))
         {
+            //implode — Verbindet Array-Elemente zu einem String
             $value = "'".implode("','", $row)."'";
             $query = "INSERT INTO file(age,name,lastname) VALUES ($value)";
             if($this->query($query))

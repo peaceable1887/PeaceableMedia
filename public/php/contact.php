@@ -27,31 +27,25 @@
     $betreff = $_POST["betreff"];
     $nachricht = $_POST["nachricht"];
 
-    //Wird durchgeführt wenn Felder ausgefüllt wurden
+    //Wird durchgeführt wenn Felder ausgefüllt sind
     if(isset($_POST["nachname"],$_POST["vorname"],$_POST["email"],$_POST["betreff"],$_POST["nachricht"] ))
     {
         mysqli_query($con, "INSERT INTO contact (nachname,vorname,email,betreff,nachricht) VALUES ('$nachname','$vorname','$email','$betreff','$nachricht')");
-    ?>
-        <script type="text/javascript">
-            window.alert("Anfrage wurde übermitteln!");
-        </script>
-    <?php
+?>
+    <script type="text/javascript">
+        window.alert("Anfrage wurde übermittelt!");
+    </script>
+<?php
     }
-    ?>
+?>
     <!-- Import Files -->
     <form method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="submit" name="sub" value="Importieren">
+        <input type="File" name="file">
+        <input type="submit" name="submit">
     </form>
-    <?php
-        include("../database/csvImport.php");
-        $csv = new csvImport();
-        if(isset($_POST["sub"]))
-        {
-            $csv->import($_FILES["file"]["tmp_name"]);
-        }
-    ?>
-
+<?php
+    include("../files/fileUplaod.php");
+?>
 <!--$result = mysqli_query($con, "SELECT * FROM contact");
 while($row = mysqli_fetch_assoc($result))
 {
