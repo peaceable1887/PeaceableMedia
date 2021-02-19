@@ -1,6 +1,6 @@
 <div id="contact">
     <h1>Formulare erstellen</h1><br>
-    <form action="../php/index.php?_ijt=contact" method="post">
+    <form action="index.php?_ijt=contact" method="post">
         <label>Nachname:</label>
         <input type="text" name="nachname" required> <br>
         <label>Vorname:</label>

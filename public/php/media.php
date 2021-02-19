@@ -63,18 +63,18 @@ function clear_filename($dateiname)
 <div class="background-media">
 </div>
     <ul id="galerie">
-        <li><button tabindex="1"><img src="../images/Gaming-Template - Kopie-1.png" alt="Spaß in der Sonne"></button></li>
-        <li><button tabindex="1"><img src="../images/Parallax - Architekur-1.png" alt="Berg im Morgennebel"></button></li>
+        <li><button tabindex="1"><img src="../images/Gaming-Template%20-%20Kopie-1.png" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Parallax%20-%20Architekur-1.png" alt="Berg im Morgennebel"></button></li>
         <li><button tabindex="1"><img src="../images/Flyer-Uhr.jpg" alt="Spaß in der Sonne"></button></li>
-        <li><button tabindex="1"><img src="../images/Smartphone-Flyer (1).jpg" alt="Korallenriff"></button></li>
+        <li><button tabindex="1"><img src="../images/Smartphone-Flyer%20(1).jpg" alt="Korallenriff"></button></li>
         <li><button tabindex="1"><img src="../images/KMI-Visitenkarten-farbe.jpg" alt="Morgensonne am Gardasee"></button></li>
-        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe (1).jpg" alt="Via Appia, Rom"></button></li>
-        <li><button tabindex="1"><img src="../images/Gaming-Template - Kopie-1.png" alt="Spaß in der Sonne"></button></li>
-        <li><button tabindex="1"><img src="../images/Parallax - Architekur-1.png" alt="Berg im Morgennebel"></button></li>
+        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe%20(1).jpg" alt="Via Appia, Rom"></button></li>
+        <li><button tabindex="1"><img src="../images/Gaming-Template%20-%20Kopie-1.png" alt="Spaß in der Sonne"></button></li>
+        <li><button tabindex="1"><img src="../images/Parallax%20-%20Architekur-1.png" alt="Berg im Morgennebel"></button></li>
         <li><button tabindex="1"><img src="../images/Flyer-Uhr.jpg" alt="Spaß in der Sonne"></button></li>
-        <li><button tabindex="1"><img src="../images/Smartphone-Flyer (1).jpg" alt="Korallenriff"></button></li>
+        <li><button tabindex="1"><img src="../images/Smartphone-Flyer%20(1).jpg" alt="Korallenriff"></button></li>
         <li><button tabindex="1"><img src="../images/KMI-Visitenkarten-farbe.jpg" alt="Morgensonne am Gardasee"></button></li>
-        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe (1).jpg" alt="Via Appia, Rom"></button></li>
+        <li><button tabindex="1"><img src="../images/Visitenkarten-Farbe%20(1).jpg" alt="Via Appia, Rom"></button></li>
     </ul>
 <!-- Uploadbereicht -->
 <!--<div class="uploadArea">

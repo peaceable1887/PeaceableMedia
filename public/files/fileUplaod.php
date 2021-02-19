@@ -11,13 +11,19 @@
 
         move_uploaded_file($tname,$uploads_dir."/".$pname);
 
-        $sql = "INSERT INTO files(image) VALUES ('$pname')";
-
-        if(mysqli_query($conn, $sql))
+        //if-abfrage ob Datei eingefügt wurde.
+        if($_FILES["file"]["tmp_name"]!="")
         {
-            echo("Hat geklappt");
+            $sql = "INSERT INTO files(image) VALUES ('$pname')";
+
+            if(mysqli_query($conn, $sql))
+            {
+                echo("Datei wurde übermittelt.");
+            }else {
+                echo("Datei konnte nicht übermittelt werden.");
+            }
         }else{
-            echo("fehlgeschlagen");
+           echo ("Bitte eine Datei einfügen!");
         }
     }
 
