@@ -1,4 +1,4 @@
-let simpleSlides = function () {
+/*let simpleSlides = function () {
     let i;
     let slides = document.querySelectorAll(".slides");
     for (i = 0; i < slides.length; i++) {
@@ -11,4 +11,27 @@ let simpleSlides = function () {
 }
 
 let count = 0;
-simpleSlides();
+simpleSlides();*/
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+
+}
