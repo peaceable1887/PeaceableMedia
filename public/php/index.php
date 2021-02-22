@@ -20,12 +20,10 @@
     </head>
 <body>
 <header>
-    <img class="logo" src="../images/logo_pmedia.png">
-        <h1>Peaceable<br>Media</h1>
-        <!-- Menü -->
-        <div id="menu">
-            <?php include("../php/menu.php");?>
-        </div>
+    <!-- Menü -->
+    <div id="menu">
+        <?php include("../php/menu.php");?>
+    </div>
 </header>
 
 <main>

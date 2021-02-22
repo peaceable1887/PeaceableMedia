@@ -1,3 +1,7 @@
+<div class="logo">
+    <img class="logo" src="../images/logo-new.png">
+</div>
+    <h1>Peaceable Media</h1>
 <nav>
     <ul>
         <li><a href="index.php">Startseite</a></li>

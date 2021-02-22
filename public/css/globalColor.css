@@ -1,6 +1,7 @@
 :root {
     /* Globale Farben */
     --color-background-header: #184e98;
+    --color-background-hover: #0f5dc4;
     --color-font-header: white;
     --color-hyperlink: white;
     --color-background-slider: #0f5dc4;
