@@ -26,7 +26,8 @@ iframe
     width: 100%;
     height: 200px;
 }
-.overlay {
+.overlay
+{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -54,22 +55,3 @@ iframe
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-/*@media screen and (max-width: 800px)
-{
-    .column
-    {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-@media screen and (max-width: 600px)
-{
-    .column
-    {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-}*/

@@ -4,7 +4,8 @@ showSlides(slideIndex);
 let count = 0;
 simpleSlides();
 
-function plusSlides(n) {
+function plusSlides(n)
+{
     showSlides(slideIndex += n);
 }
 
@@ -12,9 +13,16 @@ function plusSlides(n) {
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
+    if (n > slides.length)
+    {
+        slideIndex = 1
+    }
+    if (n < 1)
+    {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++)
+    {
         slides[i].style.display = "none";
     }
     slides[slideIndex-1].style.display = "block";
@@ -24,11 +32,12 @@ function showSlides(n) {
 function simpleSlides () {
     let i;
     let slides = document.querySelectorAll(".mySlides");
-    for (i = 0; i < slides.length; i++) {
+    for (i = 0; i < slides.length; i++)
+    {
         slides[i].setAttribute("style","display:none");
     }
     count++;
     if (count > slides.length) { count = 1; }
     slides[count-1].setAttribute("style","display:block");
-    setTimeout(simpleSlides, 7000);
+    setTimeout(simpleSlides, 6000);
 }
