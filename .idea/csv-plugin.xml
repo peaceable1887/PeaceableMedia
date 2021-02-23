@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\public\php\media.php">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\public\unused files\oldStyle.css">
           <value>
             <Attribute>

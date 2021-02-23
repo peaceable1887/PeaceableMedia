@@ -1,51 +1,98 @@
-.background-media
+/** {
+    box-sizing: border-box;
+}
+body
 {
+    margin: 0;
+}
+.header
+{
+    text-align: center;
+    padding: 32px;
+}
+.row
+{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column
+{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img
+{
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
-    height: 650px;
-    position: absolute;
+}*/
+.mediaManager
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.container {
 
-}
-#galerie
-{
-    list-style: none;
-}
-.mediaContent
-{
-    float: left;
-    margin: 20px 30px 20px 30px;
-    padding: 0.1em;
-    width: 200px;
-    height: 200px;
     position: relative;
-    border: 3px solid var(--color-border-div);
-    border-radius: 1em;
-    background: var(--div-background-color);
+    width: 50%;
+    margin: 0;
 }
 
-.mediaContent img
-{
-    margin-left: 30px;
-    margin-top: 4px;
-    border: 0;
+.imageHover {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
     position: absolute;
-    left: 0;
     top: 0;
-    z-index: 1;
-    width: 10em;
-    transition: all 1s;
-
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
 }
 
-.mediaContent:focus img,
-.mediaContent:hover img
-{
-    border: 10px solid #eee;
-    border-radius: 1em;
-    box-shadow: 1px 1px 5px #333;
-    width: 300%;
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.textHover {
+    color: white;
+    font-size: 20px;
     position: absolute;
-    left: -4%;
-    top: -4%;
-    z-index: 5;
-    transition: all 1s;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+/*@media screen and (max-width: 800px)
+{
+    .column
+    {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}*/
