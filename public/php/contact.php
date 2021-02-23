@@ -1,5 +1,17 @@
+<h1>Kontaktieren</h1>
+<div class="textContact">
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
+        At vero eos et accusam et justo duo dolores et ea rebum.<br>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+
+<h1>Formulare erstellen</h1>
 <div id="contact">
-    <h1>Formulare erstellen</h1><br>
     <form action="index.php?_ijt=contact" method="post">
         <label>Nachname:</label>
         <input type="text" name="nachname" required> <br>
@@ -39,10 +51,12 @@
     }
 ?>
     <!-- Import Files -->
+<div id="upload">
     <form method="post" enctype="multipart/form-data">
         <input type="File" name="file">
         <input type="submit" name="submit">
     </form>
+</div>
 <?php
     include("../files/fileUplaod.php");
 ?>

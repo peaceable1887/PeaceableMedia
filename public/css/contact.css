@@ -1,0 +1,24 @@
+.textContact
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#contact
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact button
+{
+
+}
+#upload
+{
+    display: flex;
+    justify-content: center;
+}
