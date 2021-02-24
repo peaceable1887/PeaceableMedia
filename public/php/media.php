@@ -1,4 +1,4 @@
-<h2>Bilder</h2>
+<h4>Bilder</h4>
 <div class="mediaManager">
     <div class="container">
         <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
@@ -21,7 +21,7 @@
     <div class="container">
         <img class="image" src="../images/Visitenkarten-Farbe%20(1).jpg">
         <div class="overlay">
-            <div class="textHover">Bild 4<a target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
+            <div class="textHover">Bild 4<a target="_blank" href="../images/Visitenkarten-Farbe%20(1).jpg">Vergrößern</a></div>
         </div>
     </div>
     <div class="container">
@@ -61,21 +61,36 @@
         </div>
     </div>
 </div>
-<h2>Videos</h2>
+<h4>Videos</h4>
 <div class="mediaManager">
     <div class="container">
-        <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+        <div class="overlay">
+            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
+        </div>
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="overlay">
+            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
+        </div>
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="overlay">
+            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
+        </div>
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="overlay">
+            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
+        </div>
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="overlay">
+            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
+        </div>
     </div>
 </div>

@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\public\php\contact.php">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\public\php\media.php">
           <value>
             <Attribute>

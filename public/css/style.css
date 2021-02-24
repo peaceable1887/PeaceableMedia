@@ -19,6 +19,20 @@ h1
     letter-spacing: 1px;
     padding-bottom: 15px;
 }
+h4
+{
+    background: var(--color-background-header) ;
+    font-size: 24px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 a
 {
     color: white;
@@ -87,6 +101,12 @@ footer
     justify-content: center;
     bottom:0;
     text-align: center;
+}
+footer p
+{
+    padding-top: 40px;
+    word-spacing: 5px;
+
 }
 
 @media all and(max-width: 1000px)

@@ -1,4 +1,4 @@
-<h1>Über Mich</h1>
+<h4>Über Mich</h4>
 <div class="textAboutMe">
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>

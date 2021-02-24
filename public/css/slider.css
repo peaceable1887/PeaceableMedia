@@ -18,6 +18,7 @@
     color: white;
     background: #0f5dc4;
     padding: 20px;
+    border-top: solid 2px white;
 }
 .prev, .next {
     color: white;

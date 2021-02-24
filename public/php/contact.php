@@ -1,4 +1,4 @@
-<h1>Kontaktieren</h1>
+<h4>Kontaktieren</h4>
 <div class="textContact">
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -10,7 +10,7 @@
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
 
-<h1>Formulare erstellen</h1>
+<h4>Formulare erstellen</h4>
 <div id="contact">
     <form action="index.php?_ijt=contact" method="post">
         <label>Nachname:</label>
@@ -23,7 +23,7 @@
         <input type="text" name="betreff" required> <br>
         <label>Nachricht:</label>
         <textarea rows="7" name="nachricht" required></textarea> <br>
-        <button name="submit" type="submit">Jetzt abschicken!</button>
+        <button name="submit" type="submit">Jetzt abschicken</button>
     </form>
 </div>
 <?php
