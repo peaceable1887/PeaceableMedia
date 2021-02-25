@@ -1,3 +1,7 @@
+html
+{
+    background-image: url("../images/1077.jpg");
+}
 .logo
 {
     background: var(--color-background-header) ;
@@ -17,6 +21,22 @@ h1
     justify-content: center;
     color: white;
     letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+h3
+{
+    -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    background: white;
+    font-size: 24px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    letter-spacing: 1px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 h4
@@ -53,7 +73,8 @@ a:hover
     background: white;
 }
 
-nav ul {
+nav ul
+{
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     background: var(--color-background-header) ;
@@ -61,7 +82,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 nav li
 {
@@ -76,13 +96,15 @@ nav h1
 }
 body {
     font-family: var(--fontfamily-global);
-    margin: 0;
+    margin: auto;
+    width: 100%;
 }
 main
 {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background:  var(--color-background-body);
 }
 p
@@ -101,6 +123,7 @@ footer
     justify-content: center;
     bottom:0;
     text-align: center;
+    border-top: solid 2px white;
 }
 footer p
 {

@@ -23,7 +23,7 @@
                 echo("Datei konnte nicht übermittelt werden.");
             }
         }else{
-           echo ("Bitte eine Datei einfügen!");
+            echo ("Bitte eine Datei einfügen!");
         }
     }
 

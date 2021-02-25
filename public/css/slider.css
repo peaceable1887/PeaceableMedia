@@ -1,13 +1,18 @@
-.slideshow-container {
+.slideshow-container
+{
     position: relative;
     background: var(--color-background-header);
 }
-.mySlides {
+.mySlides
+{
     -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
     box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
     display: none;
     text-align: center;
     padding-top: 20px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .imageSlider
 {
@@ -15,10 +20,18 @@
 }
 .text
 {
+    position: absolute;
+    margin-top: -103px;
+    width: 100%;
+    height: 100px;
+    background: rgba(24,78,152,0.8);
+}
+.text p
+{
+
     color: white;
-    background: #0f5dc4;
-    padding: 20px;
-    border-top: solid 2px white;
+    font-size: 26px;
+    margin-top: 34px;
 }
 .prev, .next {
     color: white;
@@ -35,6 +48,7 @@
 }
 .next
 {
+    font-size: 24px;
     position: absolute;
     right: 0;
     border-radius: 3px 0 0 3px;

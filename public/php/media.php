@@ -1,4 +1,4 @@
-<h4>Bilder</h4>
+<h3>Bilder</h3>
 <div class="mediaManager">
     <div class="container">
         <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
@@ -61,7 +61,7 @@
         </div>
     </div>
 </div>
-<h4>Videos</h4>
+<h3>Videos</h3>
 <div class="mediaManager">
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>

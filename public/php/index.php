@@ -27,7 +27,6 @@
         <?php include("../php/menu.php");?>
     </div>
 </header>
-
 <main>
     <!-- Seitenabfrage -->
     <?php include("../php/sites.php");?>
