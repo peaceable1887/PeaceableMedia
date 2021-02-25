@@ -2,21 +2,22 @@
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="../images/Gaming-Template%20-%20Kopie-1.png">
-        <div class="text"><p>Beispiel für eine Gamingwebseite.</p></div>
+        <div class="text"><p>Beispiel für eine Gamingwebseite
+            </p></div>
     </div>
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="../images/Parallax%20-%20Architekur-1.png">
-        <div class="text"><p>Beispiel für eine Architekturwebseite.</p></div>
+        <div class="text"><p>Beispiel für eine Architekturwebseite</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/Smartphone-Flyer-newSize.png" >
+        <img class="imageSlider" src="../images/Smartphone-Flyer (1).jpg" >
         <div class="text"><p>Smartphone Flyerwerbung</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/KMI-Visitenkarten-farbe-newSize.png">
+        <img class="imageSlider" src="../images/KMI-Visitenkarten-farbe.jpg">
         <div class="text"><p>Visitenkarten</p></div>
     </div>
 
