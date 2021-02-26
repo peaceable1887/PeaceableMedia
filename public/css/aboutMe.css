@@ -1,8 +1,26 @@
+.divManager
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .textAboutMe
 {
+    -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    background: var(--color-background-body);
+    color: white;
+    padding: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
     align-content: center;
     text-align: center;
-
+    width: 25%;
+    font-size: 14px;
+}
+.textAboutMe h5
+{
+    font-size: 20px;
+    margin: 0 0 10px 0 ;
 }

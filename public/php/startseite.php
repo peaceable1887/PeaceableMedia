@@ -25,27 +25,35 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
-<h3>Willkommen auf meiner Webseite</h3>
+
+<h4>Willkommen</h4>
+<div class="hr"></div>
+<div class="divManager">
 <div class="textAboutMe">
+    <h5>Headline</h5>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        At vero eos et accusam et justo duo dolores et ea rebum.<br>
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        At vero eos et accusam et justo duo dolores et ea rebum.<br>
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <br>
+
 </div>
+<div class="textAboutMe">
+    <h5>Headline</h5>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
 
+</div>
+<div class="textAboutMe">
+    <h5>Headline</h5>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
 
-
+</div>
+</div>

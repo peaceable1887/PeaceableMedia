@@ -1,15 +1,41 @@
-<h3>Bilder</h3>
+
+<h4>Webseiten</h4>
+<div class="hr"></div>
 <div class="mediaManager">
     <div class="container">
-        <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
+        <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
         <div class="overlay">
-            <div class="textHover">Bild 1<a target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
+            <div class="textHover">Bild 2<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <img class="image" src="../images/Parallax%20-%20Architekur-1.png">
+        <div class="overlay">
+            <div class="textHover">Bild 6<a target="_blank" href="../images/Parallax%20-%20Architekur-1.png">Vergrößern</a></div>
         </div>
     </div>
     <div class="container">
         <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
         <div class="overlay">
-            <div class="textHover">Bild 2<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+            <div class="textHover">Bild 8<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
+        <div class="overlay">
+            <div class="textHover">Bild 10<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+        </div>
+    </div>
+</div>
+
+<h4>Flyer / Visitenkarten</h4>
+<div class="hr"></div>
+<div class="mediaManager">
+    <div class="container">
+        <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
+        <div class="overlay">
+            <div class="textHover">Bild 1<a target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
         </div>
     </div>
     <div class="container">
@@ -31,21 +57,9 @@
         </div>
     </div>
     <div class="container">
-        <img class="image" src="../images/Parallax%20-%20Architekur-1.png">
-        <div class="overlay">
-            <div class="textHover">Bild 6<a target="_blank" href="../images/Parallax%20-%20Architekur-1.png">Vergrößern</a></div>
-        </div>
-    </div>
-    <div class="container">
         <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
         <div class="overlay">
             <div class="textHover">Bild 7<a target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
-        </div>
-    </div>
-    <div class="container">
-        <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
-        <div class="overlay">
-            <div class="textHover">Bild 8<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
         </div>
     </div>
     <div class="container">
@@ -54,14 +68,10 @@
             <div class="textHover">Bild 9<a target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
         </div>
     </div>
-    <div class="container">
-        <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
-        <div class="overlay">
-            <div class="textHover">Bild 10<a target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
-        </div>
-    </div>
 </div>
-<h3>Videos</h3>
+
+<h4>Videos</h4>
+<div class="hr"></div>
 <div class="mediaManager">
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>

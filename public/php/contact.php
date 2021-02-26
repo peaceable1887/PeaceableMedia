@@ -1,4 +1,5 @@
-<h3>Kontaktieren</h3>
+<h4>Kontaktieren</h4>
+<div class="hr"></div>
 <div class="textContact">
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -10,7 +11,8 @@
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
 
-<h3>Formulare erstellen</h3>
+<h4>Formulare erstellen</h4>
+<div class="hr"></div>
 <div id="contact">
     <form action="index.php?_ijt=contact" method="post">
         <label>Nachname:</label>
