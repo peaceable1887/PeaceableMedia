@@ -28,6 +28,7 @@ textarea
     min-height: 100px;
     max-height: 250px;
     box-sizing: border-box;
+    margin-top: 8px;
 }
 button
 {
