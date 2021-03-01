@@ -18,12 +18,12 @@
 
             if(mysqli_query($conn, $sql))
             {
-                echo("Datei wurde übermittelt.");
+
             }else {
-                echo("Datei konnte nicht übermittelt werden.");
+
             }
         }else{
-            echo ("Bitte eine Datei einfügen!");
+
         }
     }
 

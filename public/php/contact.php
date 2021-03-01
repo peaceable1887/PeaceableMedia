@@ -52,16 +52,17 @@
 <?php
     }
 ?>
+<?php
+    include("../files/fileUpload.php");
+?>
     <!-- Import Files -->
 <div id="upload">
     <form method="post" enctype="multipart/form-data">
-        <input type="File" name="file">
-        <input type="submit" name="submit">
+        <input id="fileFile" type="File" name="file">
+        <input id="submitFile" type="submit" name="submit" value="Upload" disabled>
     </form>
 </div>
-<?php
-    include("../files/fileUplaod.php");
-?>
+
 <!--$result = mysqli_query($con, "SELECT * FROM contact");
 while($row = mysqli_fetch_assoc($result))
 {
@@ -74,3 +75,4 @@ while($row = mysqli_fetch_assoc($result))
         $row["nachricht"]. ","
     );
 }-->
+<script type="text/javascript" src="../javascript/contact.js"></script>
