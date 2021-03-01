@@ -14,7 +14,7 @@
 <h4>Formulare erstellen</h4>
 <div class="hr"></div>
 <div id="contact">
-    <form action="index.php?_ijt=contact" method="post">
+    <form action="index.php?_ijt=contact" method="post" enctype="multipart/form-data">
         <label>Nachname:</label>
         <input type="text" name="nachname" required> <br>
         <label>Vorname:</label>
@@ -25,6 +25,7 @@
         <input type="text" name="betreff" required> <br>
         <label>Nachricht:</label>
         <textarea rows="7" name="nachricht" required></textarea> <br>
+        <input id="fileFile" type="File" name="file">
         <button name="submit" type="submit">Jetzt abschicken</button>
     </form>
 </div>
@@ -55,13 +56,6 @@
 <?php
     include("../files/fileUpload.php");
 ?>
-    <!-- Import Files -->
-<div id="upload">
-    <form method="post" enctype="multipart/form-data">
-        <input id="fileFile" type="File" name="file">
-        <input id="submitFile" type="submit" name="submit" value="Upload" disabled>
-    </form>
-</div>
 
 <!--$result = mysqli_query($con, "SELECT * FROM contact");
 while($row = mysqli_fetch_assoc($result))
