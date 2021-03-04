@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\public\php\aboutMe.php">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\public\php\contact.php">
           <value>
             <Attribute>

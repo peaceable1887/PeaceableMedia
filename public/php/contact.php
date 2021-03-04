@@ -30,6 +30,26 @@
     </form>
 </div>
 <?php
+    error_reporting(E_ALL);
+    ini_set("display_errors", "On");
+    if(isset($_POST["submit"])){
+        require_once "../libaries/swiftmailer/vendor/autoload.php";
+
+        $transport = new Swift_SmtpTransport("smtp.gmail.com", 587, "tls");
+        $transport->setUsername("fln.hansmann@gmail.com");
+        $transport->setPassword("mvqktwkvoyvxxxzr");
+
+        $mail = new Swift_Mailer($transport);
+        $transport->setEncryption("tls");
+        $message = new Swift_Message("Mein Betreff");
+        $message->setFrom($_POST["email"]);
+        $message->setTo(["felix-hh1887@hotmail.de"=>"Felix"]);
+        $message->setSubject($_POST["betreff"]);
+        $message->setBody($_POST["nachricht"]);
+
+        $result = $mail->send($message);
+
+    }
     //PHPWarning-Message will not be shown
     error_reporting(E_ERROR);
 
@@ -52,6 +72,7 @@
     </script>
 <?php
     }
+
 ?>
 <?php
     include("../files/fileUpload.php");
@@ -69,4 +90,3 @@ while($row = mysqli_fetch_assoc($result))
         $row["nachricht"]. ","
     );
 }-->
-<script type="text/javascript" src="../javascript/contact.js"></script>
