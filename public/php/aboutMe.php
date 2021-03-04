@@ -116,8 +116,6 @@ if(isset($_POST["submit"])) {
     $mail->Port = 587;
 
     $mail->setFrom("fln.hansmann@gmail.com", "Testmail");
-
-
     $mail->addAddress("felix-hh1887@hotmail.de","Testmail");
     $mail->isHTML(true);
     $mail->Subject = "Test";

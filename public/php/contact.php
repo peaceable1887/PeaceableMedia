@@ -32,15 +32,16 @@
 <?php
     error_reporting(E_ALL);
     ini_set("display_errors", "On");
+
     if(isset($_POST["submit"])){
         require_once "../libaries/swiftmailer/vendor/autoload.php";
 
         $transport = new Swift_SmtpTransport("smtp.gmail.com", 587, "tls");
         $transport->setUsername("fln.hansmann@gmail.com");
         $transport->setPassword("mvqktwkvoyvxxxzr");
+        $transport->setEncryption("tls");
 
         $mail = new Swift_Mailer($transport);
-        $transport->setEncryption("tls");
         $message = new Swift_Message("Mein Betreff");
         $message->setFrom($_POST["email"]);
         $message->setTo(["felix-hh1887@hotmail.de"=>"Felix"]);
@@ -72,21 +73,7 @@
     </script>
 <?php
     }
-
 ?>
 <?php
     include("../files/fileUpload.php");
 ?>
-
-<!--$result = mysqli_query($con, "SELECT * FROM contact");
-while($row = mysqli_fetch_assoc($result))
-{
-    echo
-    (
-        $row["nachname"]. ",".
-        $row["vorname"]. ",".
-        $row["email"]. ",".
-        $row["betreff"]. ",".
-        $row["nachricht"]. ","
-    );
-}-->

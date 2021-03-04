@@ -26,16 +26,25 @@
 <body>
 <header>
     <!-- Menü -->
-    <div id="menu">
+        <div id="startseite"></div>
         <?php include("../php/menu.php");?>
-    </div>
 </header>
 <main>
     <!-- Seitenabfrage -->
     <?php include("../php/sites.php");?>
+    <div id="media"></div>
+        <?php include("../php/media.php");?>
+
+    <div id="aboutMe"></div>
+        <?php include("../php/aboutMe.php");?>
+
+    <div id="contact"></div>
+        <?php include("../php/contact.php");?>
+
 </main>
     <!--Footer -->
     <?php include("../php/footer.php");?>
 </body>
     <script type="text/javascript" src="../javascript/slider.js"></script>
+    <script type="text/javascript" src="../javascript/zoomOutScrolling.js"></script>
 </html>
