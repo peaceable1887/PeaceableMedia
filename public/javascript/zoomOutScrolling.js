@@ -6,7 +6,7 @@
     function scrollFunction()
     {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById("menu").style.fontSize = "10px";
+            document.getElementById("menu").style.fontSize = "";
         } else {
             document.getElementById("menu").style.fontSize = "";
         }
