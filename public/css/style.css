@@ -1,6 +1,6 @@
 html
 {
-    background-image: url("../images/1077.jpg");
+    background-color: var(--color-background-header);
     scroll-behavior: smooth;
 }
 #menu
@@ -49,6 +49,9 @@ h3
 }
 h4
 {
+    -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    background-color: var(--color-background-body);
     font-size: 24px;
     list-style: none;
     margin-top: 10px;
@@ -57,11 +60,11 @@ h4
     color: white;
     letter-spacing: 1px;
     padding-top: 25px;
+    padding-bottom: 25px;
+
 }
 .hr
 {
-    border-top: solid 1px white;
-    margin-bottom: 20px;
 }
 
 ul li a

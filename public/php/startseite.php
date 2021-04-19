@@ -26,7 +26,6 @@
 
 </div>
 
-<h4>Willkommen</h4>
 <div class="hr"></div>
 <div class="divManager">
 <div class="textAboutMe">

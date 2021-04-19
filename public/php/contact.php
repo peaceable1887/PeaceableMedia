@@ -1,5 +1,6 @@
 <h4>Kontaktieren</h4>
 <div class="hr"></div>
+<div class="divManager">
 <div class="textContact">
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -10,11 +11,11 @@
         At vero eos et accusam et justo duo dolores et ea rebum.<br>
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
-
+</div>
 <h4>Formulare erstellen</h4>
 <div class="hr"></div>
 <div id="contact">
-    <form action="index.php?_ijt=contact" method="post" enctype="multipart/form-data">
+    <form action="index.php?_ijt=5p6j4peep2pkf6m5kuh30i38v4#contact" method="post" enctype="multipart/form-data">
         <label>Nachname:</label>
         <input type="text" name="nachname" required> <br>
         <label>Vorname:</label>

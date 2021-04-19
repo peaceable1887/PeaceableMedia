@@ -14,7 +14,7 @@
 
     $(window).scroll(function()
     {
-        if ($(window).scrollTop() > 300)
+        if ($(window).scrollTop() > 500)
         {
             $('.logo').slideUp(300);
             $('.headline').slideUp(300);

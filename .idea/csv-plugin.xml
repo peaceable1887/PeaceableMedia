@@ -3,6 +3,41 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Users\felix\AppData\Roaming\JetBrains\IntelliJIdea2020.3\consoles\db\257c7659-5840-49d7-b94f-aaa59f70d4d1\console.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\felix\AppData\Roaming\JetBrains\IntelliJIdea2020.3\consoles\db\257c7659-5840-49d7-b94f-aaa59f70d4d1\console_2.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\felix\Downloads\uebungSchuleDB (1).sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\public\css\aboutMe.css">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\public\css\contact.css">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\public\css\slider.css">
           <value>
             <Attribute>
