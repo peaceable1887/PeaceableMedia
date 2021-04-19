@@ -4,7 +4,7 @@
     <div class="container">
         <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
         <div class="overlay">
-            <div class="textHover">Bild 2<a class="enlargeMedia" target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+            <div class="textHover">Gaming-Template<a class="enlargeMedia" target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
         </div>
     </div>
     <div class="containerText">
@@ -25,9 +25,9 @@
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
     </div>
     <div class="container">
-        <img class="image" src="../images/Gaming-Template%20-%20Kopie-1.png">
+        <img class="image" src="../images/Parallax - Architekur-1.png">
         <div class="overlay">
-            <div class="textHover">Bild 8<a class="enlargeMedia" target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
+            <div class="textHover">Architekur-Template<a class="enlargeMedia" target="_blank" href="../images/Parallax - Architekur-1.png">Vergrößern</a></div>
         </div>
     </div>
 
@@ -40,7 +40,7 @@
     <div class="container">
         <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
         <div class="overlay">
-            <div class="textHover">Bild 1<a class="enlargeMedia" target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
+            <div class="textHover">Visitenkarten-Design<a class="enlargeMedia" target="_blank" href="../images/KMI-Visitenkarten-farbe.jpg">Vergrößern</a></div>
         </div>
     </div>
     <div class="containerText">
@@ -62,7 +62,7 @@
     <div class="container">
         <img class="image" src="../images/Smartphone-Flyer%20(1).jpg">
         <div class="overlay">
-            <div class="textHover">Bild 5<a class="enlargeMedia" target="_blank" href="../images/Smartphone-Flyer%20(1).jpg">Vergrößern</a></div>
+            <div class="textHover">Smartphone-Flyer<a class="enlargeMedia" target="_blank" href="../images/Smartphone-Flyer%20(1).jpg">Vergrößern</a></div>
         </div>
     </div>
     <div class="container">
@@ -86,9 +86,6 @@
 <div class="mediaManager">
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
-        <div class="overlay">
-            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
-        </div>
     </div>
     <div class="containerText">
         <h5>Template-Webseite</h5>
@@ -108,9 +105,7 @@
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="overlay">
-            <div class="textHover"><a target="_blank" href="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8">Play</a></div>
-        </div>
+
     </div>
 
 </div>

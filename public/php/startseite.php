@@ -1,24 +1,24 @@
 <div class="slideshow-container">
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/Gaming-Template%20-%20Kopie-1.png">
-        <div class="text"><p>Beispiel für eine Gamingwebseite
+        <img class="imageSlider" src="../images/pexels-pixabay-270360.jpg">
+        <div class="text"><p>Webprogrammierung
             </p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/Parallax%20-%20Architekur-1.png">
-        <div class="text"><p>Beispiel für eine Architekturwebseite</p></div>
+        <img class="imageSlider" src="../images/pexels-picjumbocom-196644.jpg">
+        <div class="text"><p>Designkonzeption: Vom Wireframe bis zu einem fertigen Design</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/Smartphone-Flyer (1).jpg" >
-        <div class="text"><p>Smartphone Flyerwerbung</p></div>
+        <img class="imageSlider" src="../images/design.jpg" >
+        <div class="text"><p>Corporate Design: Flyer, Visitenkarten etc</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/KMI-Visitenkarten-farbe.jpg">
-        <div class="text"><p>Visitenkarten</p></div>
+        <img class="imageSlider" src="../images/video-editing.jpg">
+        <div class="text"><p>Video Editing</p></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -29,7 +29,8 @@
 <div class="hr"></div>
 <div class="divManager">
 <div class="textAboutMe">
-    <h5>Headline</h5>
+    <img class="icon" src="../images/iconmonstr-code-2-240.png">
+    <h5>Coding</h5>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
@@ -38,7 +39,8 @@
 
 </div>
 <div class="textAboutMe">
-    <h5>Headline</h5>
+    <img class="icon" style="margin-left: 10px;" src="../images/iconmonstr-pen-18-240.png">
+    <h5>Design</h5>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
@@ -47,7 +49,8 @@
 
 </div>
 <div class="textAboutMe">
-    <h5>Headline</h5>
+    <img class="icon" src="../images/iconmonstr-video-15-240.png">
+    <h5>Video</h5>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
