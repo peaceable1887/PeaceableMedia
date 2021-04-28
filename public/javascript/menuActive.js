@@ -1,11 +1,12 @@
-const currentLocation = location.href;
-const menuItem = document.querySelectorAll("a");
-const menuLength = menuItem.length;
+let header = document.getElementById("menuDIV")
+let btns = header.getElementsByClassName("activeLink");
 
-for(let i = 0; i <menuLength; i++)
-{
-    if(menuItem[i].href === currentLocation)
+    for (let i = 0; i < btns.length; i++)
     {
-        menuItem[i].className = "active";
-    }
+        btns[i].addEventListener("click", function()
+        {
+          let current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
 }

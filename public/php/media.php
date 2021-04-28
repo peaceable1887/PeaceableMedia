@@ -88,7 +88,7 @@
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
     </div>
     <div class="containerText">
-        <h5>Template-Webseite</h5>
+        <h5>Videos</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
@@ -96,7 +96,7 @@
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
     </div>
     <div class="containerText">
-        <h5>Template-Webseite</h5>
+        <h5>Videos</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>

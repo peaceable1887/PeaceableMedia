@@ -81,17 +81,18 @@ ul li a
     text-align: center;
     margin: 0;
 }
-ul li a:hover
-{
-    color: black;
-    background: white;
-}
 .activeLink
 {
     color: white;
     background: var(--color-background-body);
     cursor: pointer;
 }
+.active, .activeLink:hover
+{
+    color: black;
+    background: white;
+}
+
 nav ul
 {
     border-top: solid 2px white;
