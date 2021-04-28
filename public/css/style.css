@@ -66,34 +66,7 @@ h4
 .hr
 {
 }
-
-ul li a
-{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-decoration: none;
-    background: white;
-    padding: 20px 5px;
-    display: inline-block;
-    width: 98%;
-    text-align: center;
-    margin: 0;
-}
-.activeLink
-{
-    color: white;
-    background: var(--color-background-body);
-    cursor: pointer;
-}
-.active, .activeLink:hover
-{
-    color: black;
-    background: white;
-}
-
-nav ul
+nav
 {
     border-top: solid 2px white;
     border-bottom: solid 2px white;
@@ -103,7 +76,7 @@ nav ul
     padding: 0;
     display: flex;
 }
-nav li
+nav
 {
     flex: 3;
 }
@@ -114,6 +87,27 @@ nav h1
     margin-left: 130px;
     font-size: 22px;
 }
+nav a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: var(--color-background-body);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 98%;
+    text-align: center;
+    margin: 0;
+}
+nav a:hover,
+nav a.active
+{
+    color: black;
+    background: white;
+}
+
 body
 {
     font-family: var(--fontfamily-global);
