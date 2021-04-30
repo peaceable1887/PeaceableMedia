@@ -22,3 +22,27 @@
     filter: invert(100%);
     -webkit-filter:invert(100%);
 }
+.divManagerStartseite
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.textContainerStartseite
+{
+    background: var(--color-background-body);
+    color: white;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    width: 25%;
+    font-size: 14px;
+}
+.textContainerStartseite h5
+{
+    font-size: 20px;
+    margin: 0 0 10px 0 ;
+}

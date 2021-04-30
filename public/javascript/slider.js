@@ -37,7 +37,10 @@ function simpleSlides () {
         slides[i].setAttribute("style","display:none");
     }
     count++;
-    if (count > slides.length) { count = 1; }
+    if (count > slides.length)
+    {
+        count = 1;
+    }
     slides[count-1].setAttribute("style","display:block");
     setTimeout(simpleSlides, 6000);
 }
