@@ -12,7 +12,7 @@
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="../images/design.jpg" >
-        <div class="text"><p>Corporate Design: Flyer, Visitenkarten etc</p></div>
+        <div class="text"><p>Corporate Design: Flyer, Visitenkarten usw.</p></div>
     </div>
 
     <div class="mySlides fade animate-left">

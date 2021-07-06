@@ -1,6 +1,7 @@
 html
 {
     background-color: var(--color-background-header);
+
     scroll-behavior: smooth;
 }
 #menu

@@ -16,8 +16,8 @@
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
         <br><b>Weitere Templates</b><br>
-        <a href="../images/Parallax - Architekur-1.png">Architekur Template</a><br>
-        <a href="../images/Parallax - Architekur-1.png">Mode Template</a><br>
+        <a href="../images/Parallax - Architekur-1.png" target="_blank">Architekur Template</a><br>
+        <a href="../images/Parallax - Architekur-1.png" target="_blank">Mode Template</a><br>
     </div>
     <div class="containerText">
         <h5 style=" padding-bottom: 30px; border-bottom: solid;">
@@ -28,8 +28,7 @@
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
         <br><b>Weitere Templates</b><br>
-        <a href="../images/Parallax - Architekur-1.png">Logo: TH Lübeck</a><br>
-        <a href="../images/Parallax - Architekur-1.png">Visitenkarten: TH Lübeck</a><br>
+        <a href="../images/Visitenkarten-Farbe (1).jpg" target="_blank">Visitenkarten: TH Lübeck</a><br>
     </div>
     <div class="container">
         <img class="image" src="../images/KMI-Visitenkarten-farbe.jpg">
@@ -52,7 +51,7 @@
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
         <br><b>Weitere Templates</b><br>
-        <a href="../images/Parallax - Architekur-1.png">Flyer Uhr</a><br>
+        <a href="../images/Flyer-Uhr.jpg" target="_blank">Flyer Uhr</a><br>
     </div>
     <div class="containerText">
         <h5 style=" padding-bottom: 30px; border-bottom: solid;">
@@ -63,7 +62,7 @@
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
         <br><b>Weitere Videos</b><br>
-        <a href="../images/Parallax - Architekur-1.png">Link zum Channel</a><br>
+        <a href="https://www.youtube.com/channel/UC84e0H6FkEQZHsFprSesesQ/videos" target="_blank">Link zum Channel</a><br>
     </div>
     <div class="container">
         <iframe src="https://www.youtube-nocookie.com/embed/O-k9uP9hrp8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
