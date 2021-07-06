@@ -51,15 +51,15 @@ h4
     -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
     box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
     background-color: var(--color-background-body);
-    font-size: 24px;
+    font-size: 22px;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     color: white;
     letter-spacing: 1px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .hr
 {

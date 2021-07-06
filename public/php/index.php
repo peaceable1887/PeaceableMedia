@@ -26,21 +26,20 @@
 <body>
 <header>
     <!-- Menü -->
-        <section id="startseite" data-anchor="Startseite"></section>
-        <?php include("../php/menu.php");?>
+    <section id="startseite" data-anchor="Startseite"></section>
+    <?php include("../php/menu.php");?>
 </header>
 <main>
     <!-- Seitenabfrage -->
     <?php include("../php/sites.php");?>
     <section id="media" data-anchor="Media"></section>
-    <p></p>
-        <?php include("../php/media.php");?>
+    <?php include("../php/media.php");?>
 
     <section id="aboutMe" data-anchor="Über Mich"></section>
-        <?php include("../php/aboutMe.php");?>
+    <?php include("../php/aboutMe.php");?>
 
     <section id="contact" data-anchor="Kontakt"></section>
-        <?php include("../php/contact.php");?>
+    <?php include("../php/contact.php");?>
 
 </main>
     <!--Footer -->
@@ -49,4 +48,6 @@
     <script type="text/javascript" src="../javascript/slider.js"></script>
     <script type="text/javascript" src="../javascript/zoomOutScrolling.js"></script>
     <script type="text/javascript" src="../javascript/menuActive.js"></script>
+
+   
 </html>
