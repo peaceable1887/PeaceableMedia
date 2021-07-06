@@ -12,7 +12,7 @@
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
 </div>
-<h4>Formulare erstellen</h4>
+<h4>Anfrage abschicken</h4>
 <div class="hr"></div>
 <div id="contact">
     <form action="index.php?_ijt=5p6j4peep2pkf6m5kuh30i38v4#contact" method="post" enctype="multipart/form-data">
@@ -83,11 +83,7 @@
             }
         }else
             {
-                ?>
-                <script type="text/javascript">
-                    window.alert("Fehler bei der Eingabe!");
-                </script>
-                <?php
+                echo "Fehler bei der Eingabe";
             }
     }
 ?>
