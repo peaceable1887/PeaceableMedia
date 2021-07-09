@@ -7,6 +7,9 @@ h2
 h5
 {
     font-size: 22px;
+    padding-bottom: 20px;
+    margin: 70px 0 0 0;
+
 }
 .mediaManager
 {
@@ -29,6 +32,8 @@ h5
     position: relative;
     width: 50%;
     background-color: var(--color-background-body);
+    /*background: rgb(15,93,196);
+    background: linear-gradient(207deg, rgba(15,93,196,1) 61%, rgba(0,0,0,1) 100%);*/
     color: white;
     align-content: center;
     text-align: center;
