@@ -22,7 +22,7 @@
     width: 100%;
     height: 120px;
     background: rgba(15, 93, 196,0.8);
-    border-bottom: solid 1px white;
+
 }
 .text p
 {
@@ -50,14 +50,15 @@
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-.prev:hover, .next:hover {
+.prev:hover, .next:hover
+{
     background-color: rgba(255,255,255,0);
     color: black;
 }
-
-.author {color: cornflowerblue;}
-
+.author
+{
+    color: cornflowerblue;
+}
 .animate-left
 {
     position: relative;

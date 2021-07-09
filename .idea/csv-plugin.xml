@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\public\css\globalColor.css">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\public\css\slider.css">
           <value>
             <Attribute>

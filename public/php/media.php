@@ -7,10 +7,10 @@
             <div class="textHover">Gaming-Template<a class="enlargeMedia" target="_blank" href="../images/Gaming-Template%20-%20Kopie-1.png">Vergrößern</a></div>
         </div>
     </div>
-    <div class="containerText">
-        <h5 style=" padding-bottom: 30px; border-bottom: solid;">
+    <div class="containerText" >
+        <h5>
             Mockups</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
+        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
@@ -20,7 +20,7 @@
         <a href="../images/Parallax - Architekur-1.png" target="_blank">Mode Template</a><br>
     </div>
     <div class="containerText">
-        <h5 style=" padding-bottom: 30px; border-bottom: solid;">
+        <h5>
             Corporate Design</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class="containerText">
-        <h5 style=" padding-bottom: 30px;border-bottom: solid;">
+        <h5>
             Werbung / Flyer-Design</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -54,7 +54,7 @@
         <a href="../images/Flyer-Uhr.jpg" target="_blank">Flyer Uhr</a><br>
     </div>
     <div class="containerText">
-        <h5 style=" padding-bottom: 30px; border-bottom: solid;">
+        <h5>
             Videos</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
