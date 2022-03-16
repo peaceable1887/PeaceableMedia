@@ -6,7 +6,6 @@
 }
 .textAboutMe
 {
-    background: var(--color-background-body);
     color: white;
     padding: 25px;
     position: relative;

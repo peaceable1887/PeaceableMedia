@@ -54,7 +54,7 @@ h4
     background-color: var(--color-background-body);
     font-size: 22px;
     list-style: none;
-    margin-top: 30px;
+    margin: 0;
     display: flex;
     justify-content: center;
     color: white;
