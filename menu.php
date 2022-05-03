@@ -1,9 +1,7 @@
+
 <div id="menu">
     <div class="logo">
-        <img class="logo" src="images/logo-new.png">
-    </div>
-    <div class="headline">
-        <h1>Peaceable Media</h1>
+        <img class="logo" src="images/PMedia-Logo.png">
     </div>
     <nav>
         <a href="#startseite" data-scroll="Startseite">Startseite</a>

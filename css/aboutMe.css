@@ -3,15 +3,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 3% 3% 0 3%;
+
+
 }
 .textAboutMe
 {
-    color: white;
+    color: var(--color-font);
     padding: 25px;
     position: relative;
     align-content: center;
     text-align: center;
-    width: 25%;
     font-size: 14px;
 }
 .textAboutMe h5

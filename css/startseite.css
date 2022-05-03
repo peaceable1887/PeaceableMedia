@@ -15,23 +15,24 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
+
 .icon
 {
     height: 50px;
     width: 50px;
-    filter: invert(100%);
-    -webkit-filter:invert(100%);
+    filter: invert(25%) sepia(94%) saturate(1591%) hue-rotate(201deg) brightness(92%) contrast(99%);
 }
 .divManagerStartseite
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 3%;
 }
 .textContainerStartseite
 {
     background: var(--color-background-body);
-    color: white;
+    color: var(--color-font);
     padding: 25px;
     margin: 3% 0 3% 0;
     position: relative;
@@ -42,8 +43,9 @@
 }
 .textContainerStartseite h5
 {
-    font-size: 20px;
-    margin: 0 0 10px 0 ;
+    font-size: 28px;
+    margin: 3% 0 5% 0 ;
+    color: var(--color-h5);
 }
 @media screen and (max-width: 1000px)
 {

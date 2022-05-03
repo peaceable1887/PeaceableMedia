@@ -1,25 +1,25 @@
 .textContact
 {
-    color: white;
+    color: var(--color-font);
     padding: 25px;
     margin-bottom: 20px;
     position: relative;
     align-content: center;
     text-align: center;
-    width: 25%;
     font-size: 14px;
 }
 #contact
 {
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    margin: 3% 3% 6% 3%;
+
 }
 #contact label
 {
-    color: white;
+    color: var(--color-font);
 }
 input[type=text],input[type=email]
 {
@@ -42,7 +42,7 @@ button
     font-family: var(--fontfamily-global);
     background-color: var(--color-background-button);
     border: none;
-    color: white;
+    color: var(--color-font);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
