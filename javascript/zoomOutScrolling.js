@@ -7,7 +7,7 @@
     {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             document.getElementById("menu").style.fontSize = "";
-            document.getElementById("menu").style.borderBottom = "2px solid #000000";
+            document.getElementById("menu").style.borderBottom = "2px solid #0f5dc4";
         } else {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";

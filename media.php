@@ -5,8 +5,7 @@
         <img class="image" src="images/website-gf54cf3f59_1280.png">
     </div>
     <div class="containerText" >
-        <h5 style="text-decoration: underline;">
-            Mockups</h5>
+        <h5>Mockups</h5>
         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
@@ -15,8 +14,7 @@
         <a href="images/Gaming-Template%20-%20Kopie-1.png" target="_blank">Gaming Template</a><br>
     </div>
     <div class="containerText">
-        <h5 style="text-decoration: underline;">
-            Corporate Design</h5>
+        <h5>Corporate Design</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
@@ -31,8 +29,7 @@
         <img class="image" src="images/email-gedee3e702_1280.png">
     </div>
     <div class="containerText">
-        <h5 style="text-decoration: underline;">
-            Werbung / Flyer-Design</h5>
+        <h5>Werbung / Flyer-Design</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br></p>
