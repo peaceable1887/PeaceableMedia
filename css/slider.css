@@ -67,3 +67,8 @@
     from { left :0; opacity:0 } to { left:0; opacity:1 }
 }
 
+@media screen and (max-width: 1000px)
+{
+    .slideshow-container{display: none}
+}
+

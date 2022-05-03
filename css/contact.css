@@ -56,3 +56,8 @@ button:hover
     color: black;
     background: white;
 }
+
+@media screen and (max-width: 1000px)
+{
+    .textContact{width: 80%}
+}

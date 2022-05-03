@@ -112,3 +112,10 @@ iframe
     transform: translate(-50%, -50%);
     text-align: center;
 }
+@media screen and (max-width: 1000px)
+{
+    .mediaManager{justify-content: center}
+    .image{display: none}
+    .container{width: 0}
+    .containerText{width: 80%}
+}
