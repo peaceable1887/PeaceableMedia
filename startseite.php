@@ -1,22 +1,22 @@
 <div class="slideshow-container">
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/pexels-pixabay-270360.jpg">
+        <img class="imageSlider" src="images/pexels-pixabay-270360.jpg">
         <div class="text"><p>Webprogrammierung
             </p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/pexels-picjumbocom-196644.jpg">
+        <img class="imageSlider" src="images/pexels-picjumbocom-196644.jpg">
         <div class="text"><p>Designkonzeption: Vom Wireframe bis zu einem fertigen Design</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/design.jpg" >
+        <img class="imageSlider" src="images/design.jpg" >
         <div class="text"><p>Corporate Design: Flyer, Visitenkarten usw.</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="../images/video-editing.jpg">
+        <img class="imageSlider" src="images/video-editing.jpg">
         <div class="text"><p>Video Editing</p></div>
     </div>
 
@@ -26,7 +26,7 @@
 <div class="hr"></div>
 <div class="divManagerStartseite">
     <div class="textContainerStartseite">
-        <img class="icon" src="../images/iconmonstr-code-2-240.png">
+        <img class="icon" src="images/iconmonstr-code-2-240.png">
         <h5>Coding</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -36,7 +36,7 @@
 
     </div>
     <div class="textContainerStartseite">
-        <img class="icon" style="margin-left: 10px;" src="../images/iconmonstr-pen-18-240.png">
+        <img class="icon" style="margin-left: 10px;" src="images/iconmonstr-pen-18-240.png">
         <h5>Design</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
@@ -46,7 +46,7 @@
 
     </div>
     <div class="textContainerStartseite">
-        <img class="icon" src="../images/iconmonstr-video-15-240.png">
+        <img class="icon" src="images/iconmonstr-video-15-240.png">
         <h5>Video</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>

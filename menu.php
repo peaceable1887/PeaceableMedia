@@ -1,6 +1,6 @@
 <div id="menu">
     <div class="logo">
-        <img class="logo" src="../images/logo-new.png">
+        <img class="logo" src="images/logo-new.png">
     </div>
     <div class="headline">
         <h1>Peaceable Media</h1>

@@ -35,7 +35,7 @@
     //PHPWarning-Message will not be shown
     error_reporting(E_ERROR);
 
-    include("../database/dbCon.php");
+    include("database/dbCon.php");
     $con = new dbCon();
 
     $regexName = "/^[a-zA-Z\s\.]{1,50}+$/";
@@ -88,5 +88,5 @@
     }
 ?>
 <?php
-    include("../files/fileUpload.php");
+    include("files/fileUpload.php");
 ?>

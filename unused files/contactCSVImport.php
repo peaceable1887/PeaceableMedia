@@ -1,4 +1,4 @@
-<form action="../php/index.php?_ijt=contact" method="post" enctype="multipart/form-data">
+<form action="../index.php?_ijt=contact" method="post" enctype="multipart/form-data">
     <h3>Datei Hochladen</h3>
     <input type="file" name="myfile"><br>
     <button type="submit" name="save">Hochladen</button>
