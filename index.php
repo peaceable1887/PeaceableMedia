@@ -39,7 +39,7 @@
     <section id="aboutMe" data-anchor="Über Mich"></section>
     <?php include("aboutMe.php");?>
 
-    <section id="contact" data-anchor="Kontakt"></section>
+    <section id="contactScroll" data-anchor="Kontakt"></section>
     <?php include("contact.php");?>
 
 </main>

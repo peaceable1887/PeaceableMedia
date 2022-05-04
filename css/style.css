@@ -12,6 +12,8 @@ html
     width: 100%;
     background-color: white;
     display: flex;
+    -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
+    box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
 }
 .logo
 {
@@ -76,6 +78,7 @@ nav
     justify-content: center;
     flex: 3;
     align-items: flex-end;
+
 }
 nav h1
 {
@@ -112,8 +115,6 @@ body
 main
 {
     margin: 140px auto 0 auto;
-    -webkit-box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
-    box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
     max-width: 100%;
     background:  var(--color-background-body);
 }
@@ -125,16 +126,17 @@ p
 footer
 {
     display:flex;
-    color: var(--color-font);
-    background: var(--color-background-footer);
-    font-family: var(--fontfamily-global);
+    color: white;
+    background: black;
+    font-weight: bold;
     height: 100px;
     width: 100%;
     margin: auto;
     justify-content: center;
     bottom:0;
     text-align: center;
-    border-top: solid 2px #0f5dc4;
+    /*border-top: 2px solid #0f5dc4;*/
+
 }
 footer p
 {
