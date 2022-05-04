@@ -157,5 +157,10 @@ footer p
 
 @media screen and (max-width: 800px)
 {
-
+    .logo{width: auto;
+        height: auto; display: flex; justify-content: center}
+    #menu{flex-direction: column; }
+    nav a{font-size: 16px;}
+    h4{font-size: 40px}
+    p{font-size: 15px}
 }

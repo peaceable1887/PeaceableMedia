@@ -115,8 +115,11 @@ iframe
 }
 @media screen and (max-width: 1000px)
 {
-    .mediaManager{justify-content: center}
-    .image{display: none}
+    .mediaManager{justify-content: center; padding: 5% 0 5% 0; margin: 6% 3% 10% 3%;}
     .container{width: 0}
-    .containerText{width: 80%}
+    .containerText{width: 80%; margin-bottom: 4%}
+    h5{font-size: 24px;margin-bottom: 4%}
+    p{margin-bottom: 2%}
+    b{font-size: 15px}
+    a{font-size: 14px}
 }
