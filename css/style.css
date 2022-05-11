@@ -153,6 +153,12 @@ footer p
     nav .logo {flex-basis: 50%;}
 }
 
+@media screen and (min-width: 800px)
+{
+    #menu a.icon{font-size: 0; }
+
+}
+
 @media screen and (max-width: 1200px)
 {
     p{font-size: 14px}
@@ -160,10 +166,50 @@ footer p
 
 @media screen and (max-width: 800px)
 {
-    .logo{width: auto;
-        height: auto; display: flex; justify-content: center}
-    #menu{flex-direction: column; }
     nav a{font-size: 15px;}
     h4{font-size: 40px}
     p{font-size: 15px}
+
+    /*TEST-Menu*/
+
+    #menu {
+        flex-direction: column;
+        /*overflow: hidden;
+        position: relative;*/
+        padding: 2%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    #menu nav {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    #menu a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    #menu a.icon {
+        display: block;
+        position: absolute;
+        right: 5%;
+        font-size: 50px;
+    }
+
+    /* Add a grey background color on mouse-over */
+    #menu a:hover {
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .logo {
+        color: white;
+        height: 90px;
+        margin: 0;
+    }
 }
+

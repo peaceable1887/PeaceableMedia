@@ -1,16 +1,3 @@
-/*let header = document.getElementById("menuDIV")
-let btns = header.getElementsByClassName("activeLink");
-
-    for (let i = 0; i < btns.length; i++)
-    {
-        btns[i].addEventListener("click", function()
-        {
-          let current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-        });
-}*/
-
 $('nav a').on('click', function() {
 
     var scrollAnchor = $(this).attr('data-scroll'),
@@ -42,26 +29,5 @@ $(window).scroll(function() {
 
 }).scroll();
 
-
-/*const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("nav #menuDIV ul li");
-
-window.addEventListener("scroll", ()=> {
-    let current = "";
-    sections.forEach(section =>{
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if(pageXOffset >= sectionTop){
-            current = section.getAttribute("id");
-        }
-    })
-    navLi.forEach(li =>{
-        li.classList.remove("active");
-        if(li.classList.contains(current)){
-            li.classList.add("active")
-            console.log(current);
-        }
-    })
-})*/
 
 

@@ -1,14 +1,17 @@
     window.onscroll = function()
     {
-        scrollFunction()
+        scrollFunction();
     };
 
     function scrollFunction()
     {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+        {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";
-        } else {
+
+        }else
+        {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";
         }
@@ -19,11 +22,26 @@
         if ($(window).scrollTop() > 500)
         {
             $('.logo').slideUp(300);
-            $('.headline').slideUp(300);
 
-        } else {
+        }else
+        {
             $('.logo').slideDown(300);
-            $('.headline').slideDown(300);
+        }
+    });
+
+
+
+    $(window).resize(function() {
+
+        let width = $(document).width();
+
+        if (width < 800)
+        {
+            $( "nav" ).css( "display", "none" );
+
+        }else if(width > 800)
+        {
+            $( "nav" ).css( "display", "flex" );
 
         }
     });
