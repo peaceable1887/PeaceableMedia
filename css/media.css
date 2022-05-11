@@ -20,6 +20,16 @@ h2
     box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);
 
 }
+.containerManager
+{
+    display: flex;
+    flex-direction: row;
+}
+.containerManagerRowReverse
+{
+    display: flex;
+    flex-direction: row;
+}
 .container
 {
     width: 50%;
@@ -118,13 +128,21 @@ iframe
     transform: translate(-50%, -50%);
     text-align: center;
 }
+@media screen and (max-width: 1200px)
+{
+    .containerTextContent h5{font-size: 24px;border-bottom: 3px solid #0f5dc4;}
+    .containerTextContent b{font-size: 14px;}
+    a {font-size: 14px;}
+
+}
 @media screen and (max-width: 1000px)
 {
-    .mediaManager{justify-content: center; padding: 5% 0 5% 0; margin: 6% 3% 10% 3%;}
-    .container{width: 0}
-    .containerText{width: 80%; margin-bottom: 4%}
-    h5{font-size: 24px;margin-bottom: 4%}
-    p{margin-bottom: 2%}
+    .mediaManager{justify-content: center; margin: 6% 6% 10% 6%;}
+    .containerManager{justify-content: center; flex-direction: column}
+    .containerManagerRowReverse{justify-content: center; flex-direction: column-reverse}
+    .containerText{width: 100%; margin: 10% 0 10% 0}
+    .container{width: 100%}
+    .containerTextContent h5{font-size: 24px;margin-bottom: 4%}
     b{font-size: 15px}
     a{font-size: 14px}
 }
