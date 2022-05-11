@@ -19,29 +19,37 @@
 
     $(window).scroll(function()
     {
-        if ($(window).scrollTop() > 500)
+        let width = $(document).width();
+
+        if ($(window).scrollTop() > 500 && width > 800)
         {
             $('.logo').slideUp(300);
 
-        }else
+        }else if ($(window).scrollTop() < 500 && width > 800)
         {
             $('.logo').slideDown(300);
+
+        }else if ($(window).scrollTop() > 500 && width < 800)
+        {
+
         }
     });
-
-
 
     $(window).resize(function() {
 
         let width = $(document).width();
 
-        if (width < 800)
+        if (width <= 800)
         {
             $( "nav" ).css( "display", "none" );
+            $('.logo').slideDown(0);
 
         }else if(width > 800)
         {
-            $( "nav" ).css( "display", "flex" );
-
+            $( "nav" )
+                .css("align-items", "end")
+                .css('display' ,'flex')
+                .css( "flex-direction","row")
+                .css("paddingTop","0");
         }
     });

@@ -9,7 +9,7 @@
         <a href="#aboutMe" data-scroll="aboutMe">Über mich</a>
         <a href="#contact" data-scroll="contactScroll">Kontakt</a>
     </nav>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
         <i class="fa fa-bars"></i>
     </a>
 </div>

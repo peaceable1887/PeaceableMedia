@@ -202,7 +202,7 @@ footer p
 
     /* Add a grey background color on mouse-over */
     #menu a:hover {
-        color: black;
+        color: #0f5dc4;
     }
 
     /* Style the active link (or home/logo) */
