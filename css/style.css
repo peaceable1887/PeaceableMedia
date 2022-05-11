@@ -57,7 +57,7 @@ h4
     box-shadow: 2px 1px 16px -2px rgba(0,0,0,0.53);*/
     background-color: var(--color-background-body);
     font-size: 60px;
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
     display: flex;
     justify-content: center;
     color: var(--color-h4);
@@ -121,14 +121,13 @@ main
 p
 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 footer
 {
     display:flex;
     color: white;
     background: black;
-    font-weight: bold;
     height: 100px;
     width: 100%;
     margin: auto;
@@ -153,6 +152,7 @@ footer p
 {
     nav li {flex-basis: 100%;}
     nav .logo {flex-basis: 50%;}
+
 }
 
 @media screen and (max-width: 800px)

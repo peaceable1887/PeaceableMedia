@@ -1,4 +1,4 @@
-<h4>Kontaktieren</h4>
+<!--<h4>Kontaktieren</h4>
 <div class="hr"></div>
 <div class="divManager">
 <div class="textContact">
@@ -11,7 +11,7 @@
         At vero eos et accusam et justo duo dolores et ea rebum.<br>
         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
-</div>
+</div>-->
 <h4>Anfrage abschicken</h4>
 <div class="hr"></div>
 <div id="contact">
@@ -65,7 +65,7 @@
             ini_set("display_errors", "On");
 
             if(isset($_POST["submit"])){
-                require_once "../libaries/swiftmailer/vendor/autoload.php";
+                require_once "libaries/swiftmailer/vendor/autoload.php";
 
                 $transport = new Swift_SmtpTransport("smtp.gmail.com", 587, "tls");
                 $transport->setUsername("fln.hansmann@gmail.com");
