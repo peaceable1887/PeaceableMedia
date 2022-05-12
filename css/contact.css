@@ -55,6 +55,40 @@ button:hover
 {
     
 }
+.contactBox
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mailContact
+{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/black-elegant-background-with-copy-space.jpg");
+    margin-bottom: 10%;
+    border-radius: 50px;
+}
+.mailContact span
+{
+    color: white
+}
+.mailContact a
+{
+    color: white;
+}
+.mailContact  a button
+{
+    width: 200px;
+    height: 60px;
+    margin: 0;
+
+}
+
 
 @media screen and (max-width: 1000px)
 {

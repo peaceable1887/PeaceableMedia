@@ -127,7 +127,7 @@ footer
 {
     display:flex;
     color: white;
-    background: black;
+    background-image: url("../images/black-elegant-background-with-copy-space.jpg");
     height: 100px;
     width: 100%;
     margin: auto;
