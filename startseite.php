@@ -20,8 +20,8 @@
         <div class="text"><p>Video Editing</p></div>
     </div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" id="prevBtn" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="next" id="nextBtn" onclick="plusDivs(1)">&#10095;</a>
 </div>
 <div class="hr"></div>
 <div class="divManagerStartseite">

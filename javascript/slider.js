@@ -1,46 +1,67 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let slideIndex = -1;
+let repeater;
 
-let count = 0;
-simpleSlides();
-
-function plusSlides(n)
+function carousel()
 {
-    showSlides(slideIndex += n);
-}
-
-// Slider: Bildwechsel per klick
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    if (n > slides.length)
-    {
-        slideIndex = 1
-    }
-    if (n < 1)
-    {
-        slideIndex = slides.length
-    }
     for (i = 0; i < slides.length; i++)
     {
         slides[i].style.display = "none";
     }
-    slides[slideIndex-1].style.display = "block";
+
+    slideIndex++;
+
+    if (slideIndex > slides.length)
+    {
+        slideIndex = 1;
+    }else if (slideIndex <= 0)
+    {
+        slideIndex = slides.length;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
 
 }
-// Slider: Bildwechsel in Sekundenintervallen
-function simpleSlides () {
-    let i;
-    let slides = document.querySelectorAll(".mySlides");
-    for (i = 0; i < slides.length; i++)
+
+function cycle(r)
+{
+    if (r)
     {
-        slides[i].setAttribute("style","display:none");
+        clearInterval(repeater);
+        repeater = setInterval(function()
+        {
+            carousel();
+        }, 6000);
+    }else
+        {
+        clearInterval(repeater);
     }
-    count++;
-    if (count > slides.length)
-    {
-        count = 1;
-    }
-    slides[count-1].setAttribute("style","display:block");
-    setTimeout(simpleSlides, 6000);
 }
+
+window.onload = function()
+{
+    carousel();
+};
+
+carousel();
+cycle(true);
+
+
+function plusDivs(n)
+{
+    cycle(true);
+    slideIndex += n - 1;
+    carousel();
+}
+
+function currentDiv(n)
+{
+    cycle(true);
+    slideIndex = n - 1;
+    carousel();
+}
+
+
+
+

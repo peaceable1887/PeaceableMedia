@@ -53,3 +53,21 @@
                 .css("paddingTop","0");
         }
     });
+
+    let position = $(window).scrollTop();
+
+    $(window).scroll(function() {
+
+        let scroll = $(window).scrollTop();
+        let width = $(document).width();
+
+        if(scroll > position && width < 800)
+        {
+            $('nav').slideUp(200);
+        }else if (scroll < position && width < 800)
+        {
+            $('nav').slideUp(200);
+            /* $( "nav" ).css( "display", "none");*/
+        }
+        position = scroll;
+    });
