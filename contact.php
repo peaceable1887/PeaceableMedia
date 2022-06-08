@@ -30,12 +30,6 @@
         <button name="submit" type="submit">Jetzt abschicken</button>
     </form>
 </div>-->
-<div class="contactBox">
-    <div class="mailContact">
-        <span>Kontaktieren</span>
-        <a href="mailto:felix-hh1887@hotmail.de"><button>Kontaktiere mich</button></a>
-    </div>
-</div>
 <?php
 
     //PHPWarning-Message will not be shown
