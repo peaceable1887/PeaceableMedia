@@ -5,15 +5,17 @@
 
     function scrollFunction()
     {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
         {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";
+
 
         }else
         {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";
+
         }
     }
 

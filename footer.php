@@ -1,6 +1,7 @@
 <footer>
     <div class="contactBox">
         <div class="mailContact">
+            <img src="images/iconmonstr-paper-plane-2-240 (4).png" height="50" width="50">
             <p>Sende gerne eine Anfrage</p>
             <a href="mailto:felix-hh1887@hotmail.de"><button>Kontaktieren</button></a>
         </div>

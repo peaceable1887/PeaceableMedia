@@ -13,23 +13,23 @@
 </div>
 </div>
 <h4>Anfrage abschicken</h4>
-<div class="hr"></div>
+<div class="hr"></div>-->
 <div id="contact">
-    <form action="index.php?_ijt=5p6j4peep2pkf6m5kuh30i38v4#contact" method="post" enctype="multipart/form-data">
-        <label>Nachname:</label>
-        <input type="text" name="nachname" required> <br>
-        <label>Vorname:</label>
-        <input type="text" name="vorname" required> <br>
-        <label>E-Mail:</label>
-        <input type="email" name="email" required> <br>
-        <label>Betreff:</label>
-        <input type="text" name="betreff" required> <br>
-        <label>Nachricht:</label>
-        <textarea rows="7" name="nachricht" required></textarea> <br>
-        <input id="fileFile" type="File" name="file">
-        <button name="submit" type="submit">Jetzt abschicken</button>
-    </form>
-</div>-->
+    <!-- <form action="index.php?_ijt=5p6j4peep2pkf6m5kuh30i38v4#contact" method="post" enctype="multipart/form-data">
+         <label>Nachname:</label>
+         <input type="text" name="nachname" required> <br>
+         <label>Vorname:</label>
+         <input type="text" name="vorname" required> <br>
+         <label>E-Mail:</label>
+         <input type="email" name="email" required> <br>
+         <label>Betreff:</label>
+         <input type="text" name="betreff" required> <br>
+         <label>Nachricht:</label>
+         <textarea rows="7" name="nachricht" required></textarea> <br>
+         <input id="fileFile" type="File" name="file">
+         <button name="submit" type="submit">Jetzt abschicken</button>
+     </form>-->
+</div>
 <?php
 
     //PHPWarning-Message will not be shown

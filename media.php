@@ -51,7 +51,9 @@
     <div class="containerManagerRowReverse">
         <div class="containerText">
             <div class="containerTextContent">
-                <h5>Programmierung</h5>
+                <div class="iconH5Container">
+                    <h5>Programmierung</h5>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="">mehr...</a></p>
