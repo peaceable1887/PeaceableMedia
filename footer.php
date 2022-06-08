@@ -1,7 +1,8 @@
 <footer>
     <div class="contactBox">
         <div class="mailContact">
-            <a href="mailto:felix-hh1887@hotmail.de"><button>Anfrage senden</button></a>
+            <p>Sende gerne eine Anfrage</p>
+            <a href="mailto:felix-hh1887@hotmail.de"><button>Kontaktieren</button></a>
         </div>
     </div>
     <div class="footerContent">

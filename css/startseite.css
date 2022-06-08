@@ -27,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 3% 4% 6% 4%;
+    margin: 3% 8% 6% 8%;
 }
 .textContainerStartseite
 {
@@ -40,6 +40,7 @@
     text-align: center;
     width: 25%;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 .textContainerStartseite h5
 {

@@ -61,6 +61,12 @@ button:hover
     display: flex;
     justify-content: center;
 }
+.contactBox p
+{
+    font-size: 35px;
+    margin: 0 0 2% 0;
+    letter-spacing: 2px;
+}
 .mailContact
 {
     width: 100%;
@@ -83,6 +89,7 @@ button:hover
     width: 230px;
     height: 70px;
     margin: 0;
+    letter-spacing: 2px;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
