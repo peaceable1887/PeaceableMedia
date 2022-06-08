@@ -35,11 +35,12 @@
 <main>
     <!-- Seitenabfrage -->
     <?php include("sites.php");?>
-    <section id="media" data-anchor="Media"></section>
-    <?php include("media.php");?>
 
     <section id="aboutMe" data-anchor="Über Mich"></section>
     <?php include("aboutMe.php");?>
+
+    <section id="media" data-anchor="Media"></section>
+    <?php include("media.php");?>
 
     <section id="contactScroll" data-anchor="Kontakt"></section>
     <?php include("contact.php");?>

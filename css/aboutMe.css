@@ -3,7 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 3% 6% 3%;
+    background: linear-gradient(to bottom,#0E0E0E 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    margin-bottom: 8%;
+    height: 800px;
+    align-content: center;
 
 
 }
@@ -15,6 +18,7 @@
     align-content: center;
     text-align: center;
     font-size: 14px;
+
 }
 .textAboutMe h5
 {

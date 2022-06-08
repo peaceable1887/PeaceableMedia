@@ -5,8 +5,8 @@
     </div>
     <nav>
         <a href="#startseite" data-scroll="Startseite">Startseite</a>
-        <a href="#media" data-scroll="Media">Media</a>
         <a href="#aboutMe" data-scroll="aboutMe">Über Mich</a>
+        <a href="#media" data-scroll="Media">Media</a>
         <a href="#contact" data-scroll="contactScroll">Kontakt</a>
     </nav>
     <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">

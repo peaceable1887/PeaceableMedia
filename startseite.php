@@ -1,7 +1,7 @@
 <div class="slideshow-container">
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/pexels-pixabay-270360.jpg">
-        <div class="text"><p>Webprogrammierung
+        <div class="text"><p>Programmierung
             </p></div>
     </div>
 
@@ -24,7 +24,7 @@
     <a class="next" id="nextBtn" onclick="plusDivs(1)">&#10095;</a>
 </div>
 <div class="hr"></div>
-<div class="divManagerStartseite">
+<!--<div class="divManagerStartseite">
     <div class="textContainerStartseite">
         <img class="icon" src="images/iconmonstr-code-2-240.png">
         <h5>Coding</h5>
@@ -54,4 +54,4 @@
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
     </div>
-</div>
+</div>-->

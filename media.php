@@ -56,7 +56,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="">mehr...</a></p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://github.com/peaceable1887">mehr...</a></p>
                 <!--<br><b style="text-decoration: underline;">Entwürfe</b><br>
                 <a href="images/Visitenkarten-Farbe%20(1).jpg" target="_blank">Visitenkarten: TH Lübeck</a><br>
                 <a href="images/EA2_Visitenkarten_swUndFarbe_FelixHansmann.png" target="_blank">Visitenkarten: VFG GmbH</a><br>-->
