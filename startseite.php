@@ -7,7 +7,7 @@
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/pexels-picjumbocom-196644.jpg">
-        <div class="text"><p>Designkonzeption: Vom Wireframe bis zu einem fertigen Design</p></div>
+        <div class="text"><p>Design: Vom Wireframe bis zu einem fertigen Design</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
@@ -16,8 +16,8 @@
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="images/video-editing.jpg">
-        <div class="text"><p>Video Editing</p></div>
+        <img class="imageSlider" src="images/mockup.jpg">
+        <div class="text"><p>Usability - Mensch Computer Interaktion</p></div>
     </div>
 
     <a class="prev" id="prevBtn" onclick="plusDivs(-1)">&#10094;</a>
