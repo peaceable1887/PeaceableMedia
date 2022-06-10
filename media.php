@@ -2,11 +2,11 @@
 <div class="mediaManager">
     <div class="containerManager">
         <div class="container">
-            <img class="image" src="images/website-gf54cf3f59_1280.png">
+            <img class="image" src="images/flyer-werbung2.0.jpg">
         </div>
         <div class="containerText" >
             <div class="containerTextContent">
-                <h5>Mockup Konzeption</h5>
+                <h5>Werbung / Flyer-Design</h5>
                 <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="">mehr...</a></p>
@@ -29,16 +29,16 @@
             </div>
         </div>
         <div class="container">
-            <img class="image" src="images/pencil-g1a058454d_1280.jpg">
+            <img class="image" src="images/corp-design2.0.jpg">
         </div>
     </div>
     <div class="containerManager">
         <div class="container">
-            <img class="image" src="images/email-gedee3e702_1280.png">
+            <img class="image" src="images/online-web-design.jpg">
         </div>
         <div class="containerText">
             <div class="containerTextContent">
-                <h5>Werbung / Flyer-Design</h5>
+                <h5>Mockup Konzeption</h5>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="">mehr...</a></p>
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="container">
-            <img class="image" src="images/pencil-g1a058454d_1280.jpg">
+            <img class="image" src="images/coding.jpg">
         </div>
     </div>
 </div>
