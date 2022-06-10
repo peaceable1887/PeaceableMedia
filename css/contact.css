@@ -50,6 +50,7 @@ button
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 button:hover
 {

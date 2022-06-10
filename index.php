@@ -36,6 +36,7 @@
     <!-- Seitenabfrage -->
     <?php include("sites.php");?>
 
+    <p>&nbsp;</p>
     <section id="aboutMe" data-anchor="Über Mich"></section>
     <?php include("aboutMe.php");?>
 

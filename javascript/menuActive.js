@@ -18,7 +18,7 @@ $(window).scroll(function()
         $('nav').addClass('fixed');
         $('section').each(function(i)
         {
-            if ($(this).position().top <= windscroll +100)
+            if ($(this).position().top <= windscroll + 100)
             {
                 $('nav a.active').removeClass('active');
                 $('nav a').eq(i).addClass('active');
@@ -26,9 +26,9 @@ $(window).scroll(function()
         });
     } else
         {
-        $('nav').removeClass('fixed');
-        $('nav a.active').removeClass('active');
-        $('nav a:first').addClass('active');
+            $('nav').removeClass('fixed');
+            $('nav a.active').removeClass('active');
+            $('nav a:first').addClass('active');
     }
 
 }).scroll();
