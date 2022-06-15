@@ -70,3 +70,13 @@
     .aboutMeText p b{font-size: 22px}
     .aboutMeText p {font-size: 14px}
 }
+@media screen and (max-width: 500px)
+{
+    .aboutMeHeadline{font-size: 22px; text-align: center}
+    .aboutMeIcons {margin: 7% 0 3% 0;}
+    .aboutMeIcons .aboutMeIconsWrapper .icon{height: 45px; width: 45px;}
+    .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 16px}
+    .aboutMeText {margin: 3% 0 3% 0;padding: 4%;}
+    .aboutMeText p b{font-size: 18px}
+    .aboutMeText p {font-size: 14px; padding: 4%}
+}
