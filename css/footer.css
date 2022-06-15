@@ -61,13 +61,15 @@ footer
 
 @media screen and (max-width: 1000px)
 {
-    footer{height: 700px}
+    footer{height: 800px}
     .contactBox p{margin: 0 0 5% 0}
 
 }
 @media screen and (max-width: 500px)
 {
-    .footerCard{width: 25%; font-size: 12px}
+    .mailContact img{height: 40px; width: 40px}
+    .footerContent{height: 300px; flex-direction: column}
+    .footerCard{width: 50%; font-size: 12px; margin: 2%}
     .contactBox p{font-size: 22px}
 
 }
