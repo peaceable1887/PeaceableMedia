@@ -162,6 +162,10 @@ p
     p{font-size: 14px}
     nav a{font-size: 22px}
 }
+@media screen and (max-width: 1000px)
+{
+    main{margin: 100px auto 0 auto}
+}
 
 @media screen and (max-width: 800px)
 {

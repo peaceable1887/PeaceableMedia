@@ -63,5 +63,10 @@
 
 @media screen and (max-width: 1000px)
 {
-
+    .aboutMeHeadline{font-size: 24px}
+    .aboutMeIcons .aboutMeIconsWrapper .icon{height: 60px; width: 60px;}
+    .aboutMeIcons {margin: 5% 0 3% 0}
+    .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 18px}
+    .aboutMeText p b{font-size: 22px}
+    .aboutMeText p {font-size: 14px}
 }
