@@ -72,6 +72,12 @@
     from { left :0; opacity:0 } to { left:0; opacity:1 }
 }
 
+@media screen and (max-width: 1200px)
+{
+    .imageSlider{height: 580px}
+    .text p{font-size: 40px}
+}
+
 @media screen and (max-width: 1000px)
 {
     .slideshow-container{display: none}
