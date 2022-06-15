@@ -68,7 +68,7 @@ footer
 @media screen and (max-width: 500px)
 {
     .mailContact img{height: 40px; width: 40px}
-    .footerContent{height: 300px; flex-direction: column}
+    .footerContent{height: 260px; flex-direction: column}
     .footerCard{width: 50%; font-size: 12px; margin: 2%}
     .contactBox p{font-size: 22px}
 
