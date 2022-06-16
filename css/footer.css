@@ -53,7 +53,7 @@ footer
 @media screen and (max-width: 1200px)
 {
     .contactBox p{font-size: 26px;}
-    .mailContact{height: 320px;}
+    .mailContact{height: 300px;}
     .mailContact a button{width: 200px; height: 50px; font-size: 16px}
     .footerCard{font-size: 14px;}
     .footerCard h5{font-size: 16px;}
@@ -66,7 +66,7 @@ footer
 }
 @media screen and (max-width: 800px)
 {
-    .footerContent{height: 260px; flex-direction: column; margin-bottom: 60px}
+    .footerContent{height: 260px; flex-direction: column; margin-bottom: 30px}
     .footerCard{width: 50%; font-size: 12px; margin: 2%}
 }
 
