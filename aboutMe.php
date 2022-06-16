@@ -8,8 +8,8 @@
             <img class="icon" src="images/iconmonstr-idea-8-240.png">
             <h5>Konzeption</h5>
         </div>
-        <div class="aboutMeIconsWrapper" >
-            <img class="icon" style="margin-left: 10px;" src="images/iconmonstr-pen-18-240.png">
+        <div class="aboutMeIconsWrapper">
+            <img class="icon" src="images/iconmonstr-paintbrush-8-240.png">
             <h5>Design</h5>
         </div>
         <div class="aboutMeIconsWrapper">
