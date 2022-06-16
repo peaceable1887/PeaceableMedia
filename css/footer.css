@@ -53,7 +53,7 @@ footer
 @media screen and (max-width: 1200px)
 {
     .contactBox p{font-size: 26px;}
-    .mailContact{height: 280px;}
+    .mailContact{height: 320px;}
     .mailContact a button{width: 200px; height: 50px; font-size: 16px}
     .footerCard{font-size: 14px;}
     .footerCard h5{font-size: 16px;}
@@ -61,15 +61,18 @@ footer
 
 @media screen and (max-width: 1000px)
 {
-    footer{height: 800px}
+    footer{height: 950px}
     .contactBox p{margin: 0 0 5% 0}
-
 }
+@media screen and (max-width: 800px)
+{
+    .footerContent{height: 260px; flex-direction: column; margin-bottom: 30px}
+    .footerCard{width: 50%; font-size: 12px; margin: 2%}
+}
+
 @media screen and (max-width: 500px)
 {
     .mailContact img{height: 40px; width: 40px}
-    .footerContent{height: 260px; flex-direction: column}
-    .footerCard{width: 50%; font-size: 12px; margin: 2%}
     .contactBox p{font-size: 22px}
 
 }
