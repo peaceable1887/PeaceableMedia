@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 3% 0 0 0;
+    margin: 7% 0 4% 0;
 }
 .aboutMeIcons .aboutMeIconsWrapper
 {
@@ -63,9 +63,9 @@
 
 @media screen and (max-width: 1000px)
 {
-    .aboutMeHeadline{font-size: 24px}
+    .aboutMeHeadline{font-size: 24px; text-align: center}
     .aboutMeIcons .aboutMeIconsWrapper .icon{height: 60px; width: 60px;}
-    .aboutMeIcons {margin: 5% 0 3% 0}
+    .aboutMeIcons {margin: 10% 0 8% 0}
     .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 18px}
     .aboutMeText p b{font-size: 22px}
     .aboutMeText p {font-size: 14px}
@@ -73,7 +73,7 @@
 @media screen and (max-width: 500px)
 {
     .aboutMeHeadline{font-size: 22px; text-align: center}
-    .aboutMeIcons {margin: 12% 0 4% 0;}
+    .aboutMeIcons {margin: 13% 0 6% 0;}
     .aboutMeIcons .aboutMeIconsWrapper .icon{height: 50px; width: 50px;}
     .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 17px}
     .aboutMeText {margin: 3% 0 3% 0;padding: 4%;}
