@@ -1,18 +1,18 @@
 <div class="slideshow-container">
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/pexels-pixabay-270360.jpg">
-        <div class="text"><p>Programmierung
+        <div class="text"><p>Programmierung - Frontend und Backend
             </p></div>
     </div>
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/pexels-picjumbocom-196644.jpg">
-        <div class="text"><p>Design: Vom Wireframe bis zu einem fertigen Design</p></div>
+        <div class="text"><p>Design - Vom Wireframe bis zu einem fertigen Design</p></div>
     </div>
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/design.jpg" >
-        <div class="text"><p>Corporate Design: Flyer, Visitenkarten usw.</p></div>
+        <div class="text"><p>Corporate Design - Flyer, Visitenkarten usw.</p></div>
     </div>
 
     <div class="mySlides fade animate-left">

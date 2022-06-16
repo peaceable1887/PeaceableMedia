@@ -61,12 +61,12 @@ footer
 
 @media screen and (max-width: 1000px)
 {
-    footer{height: 950px}
+    footer{height: 850px}
     .contactBox p{margin: 0 0 5% 0}
 }
 @media screen and (max-width: 800px)
 {
-    .footerContent{height: 260px; flex-direction: column; margin-bottom: 30px}
+    .footerContent{height: 260px; flex-direction: column; margin-bottom: 60px}
     .footerCard{width: 50%; font-size: 12px; margin: 2%}
 }
 
