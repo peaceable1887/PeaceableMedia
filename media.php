@@ -9,7 +9,7 @@
                 <h5>Werbung / Flyer-Design</h5>
                 <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/jgqubfau4qbfkhr/AAAZ3PBKvXckppc1Aa1NSUGFa?dl=0">mehr...</a></p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/jgqubfau4qbfkhr/AAAZ3PBKvXckppc1Aa1NSUGFa?dl=0" target="_blank">mehr...</a></p>
             </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
                 <h5>Corporate Design</h5>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/5c9bf99avvdpcd9/AAAoqIRTGtKOB7Acs-Qq8ohLa?dl=0">mehr...</a></p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/5c9bf99avvdpcd9/AAAoqIRTGtKOB7Acs-Qq8ohLa?dl=0" target="_blank">mehr...</a></p>
             </div>
         </div>
         <div class="container">
@@ -35,7 +35,7 @@
                 <h5>Mockup Konzeption</h5>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0">mehr...</a></p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">mehr...</a></p>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://github.com/peaceable1887">mehr...</a></p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><a href="https://github.com/peaceable1887" target="_blank">mehr...</a></p>
             </div>
         </div>
         <div class="container">
