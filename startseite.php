@@ -1,57 +1,24 @@
 <div class="slideshow-container">
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/pexels-pixabay-270360.jpg">
-        <div class="text"><p>Programmierung - Frontend und Backend
-            </p></div>
+        <a href="#program"><div class="text"><p><b>Programmierung</b> - Frontend und Backend</p></div></a>
     </div>
-
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="images/pexels-picjumbocom-196644.jpg">
-        <div class="text"><p>Design - Vom Wireframe bis zu einem fertigen Design</p></div>
+        <img class="imageSlider" src="images/mockup.jpg">
+        <a href="#wireframe"><div class="text"><p><b>Design</b> - Vom Wireframe bis zu einem fertigen Design</p></div></a>
     </div>
 
     <div class="mySlides fade animate-left">
         <img class="imageSlider" src="images/design.jpg" >
-        <div class="text"><p>Corporate Design - Flyer, Visitenkarten usw.</p></div>
+        <a href="#corpDesign"><div class="text"><p><b>Corporate Design</b> - Briefpapier, Visitenkarten usw.</p></div></a>
     </div>
 
     <div class="mySlides fade animate-left">
-        <img class="imageSlider" src="images/mockup.jpg">
-        <div class="text"><p>Usability - Mensch Computer Interaktion</p></div>
+        <img class="imageSlider" src="images/marketingstrategie-planungsstrategie-konzept.jpg">
+        <a href="#media"><div class="text"><p><b>Werbung</b> - Gestaltung von Flyern</p></div></a>
     </div>
 
     <a class="prev" id="prevBtn" onclick="plusDivs(-1)">&#10094;</a>
     <a class="next" id="nextBtn" onclick="plusDivs(1)">&#10095;</a>
 </div>
 <div class="hr"></div>
-<!--<div class="divManagerStartseite">
-    <div class="textContainerStartseite">
-        <img class="icon" src="images/iconmonstr-code-2-240.png">
-        <h5>Coding</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-
-    </div>
-    <div class="textContainerStartseite">
-        <img class="icon" style="margin-left: 10px;" src="images/iconmonstr-pen-18-240.png">
-        <h5>Design</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-
-    </div>
-    <div class="textContainerStartseite">
-        <img class="icon" src="images/iconmonstr-video-15-240.png">
-        <h5>Video</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-    </div>
-</div>-->

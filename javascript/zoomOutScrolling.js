@@ -23,15 +23,15 @@
     {
         let width = $(document).width();
 
-        if ($(window).scrollTop() > 500 && width > 800)
+        if ($(window).scrollTop() > 500 && width > 900)
         {
             $('.logo').slideUp(300);
 
-        }else if ($(window).scrollTop() < 500 && width > 800)
+        }else if ($(window).scrollTop() < 500 && width > 900)
         {
             $('.logo').slideDown(300);
 
-        }else if ($(window).scrollTop() > 500 && width < 800)
+        }else if ($(window).scrollTop() > 500 && width < 900)
         {
 
         }
@@ -41,12 +41,12 @@
 
         let width = $(document).width();
 
-        if (width <= 800)
+        if (width <= 900)
         {
             $( "nav" ).css( "display", "none" );
             $('.logo').slideDown(0);
 
-        }else if(width > 800)
+        }else if(width > 900)
         {
             $( "nav" )
                 .css("align-items", "end")

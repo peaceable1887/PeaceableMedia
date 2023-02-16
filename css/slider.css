@@ -2,6 +2,7 @@
 {
     position: relative;
     background: #0f5dc4;
+    /*cursor: grab;*/
 
 }
 .mySlides
@@ -9,6 +10,7 @@
     display: none;
     text-align: center;
     position: relative;
+    user-select: none;
 }
 .imageSlider
 {
@@ -59,6 +61,10 @@
 {
     background-color: rgba(255,255,255,0);
 }
+.grabbing
+{
+    cursor: grabbing;
+}
 .author
 {
     color: cornflowerblue;
@@ -76,19 +82,22 @@
 {
     .imageSlider{height: 580px}
     .text p{font-size: 40px}
+    .text{margin-top: -154px; height: 150px}
 }
 
 @media screen and (max-width: 1000px)
 {
     .slideshow-container{}
     .text p{font-size: 35px; margin: 6% 5% 0 5%;}
+    .text b{font-size: 35px; }
     .text{margin-top: -154px; height: 150px}
 }
 @media screen and (max-width: 500px)
 {
     .imageSlider{height: 320px}
     .prev, .next{font-size: 40px;}
-    .text p{font-size: 20px; margin: 6% 5% 0 5%;}
+    .text p{font-size: 18px; margin: 6% 5% 0 5%;}
+    .text b{font-size: 19px; }
     .text{margin-top: -104px; height: 100px; display: flex; align-items: center}
 }
 

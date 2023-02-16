@@ -1,6 +1,6 @@
 <div class="hr"></div>
 <div class="aboutMeContent">
-    <div class="aboutMeHeadline">
+   <div class="aboutMeHeadline">
         Alles, was digitalisiert werden kann, wird digitalisiert
     </div>
     <div class="aboutMeIcons">
