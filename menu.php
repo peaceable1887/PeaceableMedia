@@ -1,16 +1,16 @@
 
 <div id="menu">
-    <div class="logo">
-        <img class="logo" src="images/PMedia-Logo.png">
+    <div id="logo">
+        <span id="first-name">Felix</span>
+        <span id="last-name">Hansmann</span>
     </div>
     <nav>
-        <a href="#startseite" data-scroll="Startseite">Startseite</a>
-        <a href="#aboutMe" data-scroll="aboutMe">Über Mich</a>
-        <a href="#media" data-scroll="Media">Media</a>
-        <a href="#contact" data-scroll="contactScroll">Kontakt</a>
+        <a class="navLink" href="#aboutMe" data-scroll="aboutMe">About</a>
+        <a class="navLink" href="#media" data-scroll="Media">Projects</a>
+        <a class="navLink" href="#contact" data-scroll="contactScroll">Contact</a>
     </nav>
-    <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
-        <i class="fa fa-bars"></i>
+    <a href="javascript:void(0);" class="icon" id="menuIcon">
+        <i onclick="burgerMenu(); changeMenuIcon(this)" class="fa-solid fa-bars"></i>
     </a>
 </div>
 

@@ -24,7 +24,11 @@
         <link rel="stylesheet" href="css/aboutMe.css" media="screen">
         <link rel="stylesheet" href="css/contact.css" media="screen ">
         <link rel="stylesheet" href="css/footer.css" media="screen ">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/topPresentation.css" media="screen">
+        <link rel="stylesheet" href="css/projects.css" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 <body>
 <header>
@@ -33,15 +37,19 @@
     <?php include("menu.php");?>
 </header>
 <main>
+    <?php include("topPresentation.php");?>
     <!-- Seitenabfrage -->
-    <?php include("sites.php");?>
+    <?php /* include("sites.php"); */?>
+    
+    <?php include("projects.php");?>
+
+    <section id="media" data-anchor="Media"></section>
+    <?php /* include("media.php");*/?>
 
     <p>&nbsp;</p>
     <section id="aboutMe" data-anchor="Über Mich"></section>
-    <?php include("aboutMe.php");?>
 
-    <section id="media" data-anchor="Media"></section>
-    <?php include("media.php");?>
+    <?php /* include("aboutMe.php");*/?>
 
     <section id="contactScroll" data-anchor="Kontakt"></section>
     <?php include("contact.php");?>
