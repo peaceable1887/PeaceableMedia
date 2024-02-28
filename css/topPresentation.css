@@ -30,9 +30,22 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1000px)
 {
-   
+    .topPresentation
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .topPresentationText
+    {
+        align-items: center;
+    }
+    .presentationText
+    {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 900px)
@@ -48,6 +61,10 @@
         width: 450px;
         height: 450px;
     }
+    .topPresentationText
+    {
+        align-items: center;
+    }
     .helloText
     {
         font-size: 70px;
@@ -55,6 +72,7 @@
     .presentationText
     {
         font-size: 36px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 500px)

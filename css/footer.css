@@ -1,79 +1,185 @@
 footer
 {
     width: 100%;
-    height: 900px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     font-size: 14px;
     color: white;
+}
+
+.contactBox
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
     background: url("../images/dice-426204.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
-
-.footerContent
+.contactBox .mailContact p
 {
-    display: flex;
+    font-size: 35px;
+    margin: 0 0 2% 0;
+    letter-spacing: 2px;
+}
+.mailContact
+{
     width: 100%;
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mailContact img
+{
+    height: 50px;
+    width: 50px;
+}
+.mailContact span
+{
+    color: white
+}
+.mailContact a
+{
+    color: white;
+}
+.mailContact  a button
+{
+    margin: 0;
+    letter-spacing: 2px;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button
+{
+    font-family: var(--fontfamily-global);
+    background-color: var(--color-background-button);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+button:hover
+{
+ background-color: var(--backgroundColor-button-hover);
+}
+.footer-data
+{
+    background-color: #15171B;
+    width: 100%;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding: 4% 0 4% 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -1.95px 2.6px;
 }
 
-.footerCard
+.footer-copyright
 {
-    width: 20%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1%;
-    border-radius: 2px;
     font-size: 16px;
 }
-.footerCard h5
+
+.footer-copyright a
 {
-    font-size: 18px;
-    margin: 0 0 5% 0;
-    border-bottom: 2px solid #0f5dc4;
+    text-decoration: none;
 }
-.footerIcon
+.footer-copyright a:visited
 {
-    padding: 2%;
+    color: white;
 }
 
-.footerIcon img
+
+.footer-icons
 {
-    filter: invert(100%) sepia(100%) saturate(31%) hue-rotate(67deg) brightness(106%) contrast(108%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.footer-icons a
+{
+    text-decoration: none;
+   
+}
+
+.github-account img
+{
+    height: 45px;
+    width: 45px;
+}
+
+.linkedin-account img
+{
+    height: 45px;
+    width: 45px;
+}
+
+.xing-account img
+{
+    height: 45px;
+    width: 45px;
+}
+
+.footer-impressum
+{
+    font-size: 16px;
+}
+
+.footer-impressum a
+{
+    text-decoration: none;
+}
+.footer-impressum a:visited
+{
+    color: white;
 }
 
 @media screen and (max-width: 1200px)
 {
-    .contactBox p{font-size: 26px;}
-    .mailContact{height: 300px;}
-    .mailContact a button{width: 200px; height: 50px; font-size: 16px}
-    .footerCard{font-size: 14px;}
-    .footerCard h5{font-size: 16px;}
+    .footer-copyright a{font-size: 16px;}
+    .footer-impressum a{font-size: 16px;}
 }
 
 @media screen and (max-width: 1000px)
 {
-    footer{height: 850px}
-    .contactBox p{margin: 0 0 5% 0}
+   
 }
 @media screen and (max-width: 800px)
 {
-    .footerContent{height: 260px; flex-direction: column; margin-bottom: 30px}
-    .footerCard{width: 50%; font-size: 12px; margin: 2%}
+    .contactBox{height: 400px;}
+    .footer-copyright a{font-size: 14px;}
+    .footer-impressum a{font-size: 14px;}
+    .github-account img{height: 35px; width: 35px;}
+    .linkedin-account img{height: 35px; width: 35px;}
+    .xing-account img{height: 35px; width: 35px;}
+    .mailContact  a button{}
+    .contactBox .mailContact p{font-size: 26px}
+    .mailContact img{height: 40px; width: 40px;}
 }
 
 @media screen and (max-width: 500px)
 {
-    .mailContact img{height: 40px; width: 40px}
-    .contactBox p{font-size: 22px}
-
+    .contactBox{height: 250px;}
+    .footer-copyright a{font-size: 12px;}
+    .footer-impressum a{font-size: 12px;}
+    .footer-icons{width: 30%;}
+    .github-account img{height: 30px; width: 30px;}
+    .linkedin-account img{height: 30px; width: 30px;}
+    .xing-account img{height: 30px; width: 30px;}
+    .mailContact a button{font-size: 14px; padding: 10px 28px;}
+    .contactBox .mailContact p{font-size: 20px}
+    .mailContact img{height: 35px; width: 35px;}
 }
 

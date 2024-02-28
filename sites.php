@@ -1,18 +1,14 @@
 <?php
-    if($section == "media")
+    if($section == "home")
     {
-        include("media.php");
+        include("home.php");
     }
-    else if($section == "ueber_mich")
+    else if($section == "projects")
     {
-        include("aboutMe.php");
+        include("projects.php");
     }
-    else if($section == "contact")
+    else if($section == "footer")
     {
-        include("contact.php");
-    }
-    else
-    {
-        include("startseite.php");
+        include("footer.php");
     }
 ?>

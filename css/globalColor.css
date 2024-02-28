@@ -1,6 +1,7 @@
 :root {
     /* Globale Farben */
     --color-font: black;
+    --color-font-secondary: white;
     --color-background-header: white;
     --color-background-hover: white;
     --color-font-header: white;
@@ -16,5 +17,6 @@
     --color-background-footer:  white;
     --color-background-button: #0f5dc4 ;
     --color-primary: #0f5dc4;
+    --backgroundColor-button-hover: #0F4FA3;
 }
 

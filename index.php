@@ -22,46 +22,34 @@
         <link rel="stylesheet" href="css/media.css" media="screen">
         <link rel="stylesheet" href="css/slider.css" media="screen">
         <link rel="stylesheet" href="css/aboutMe.css" media="screen">
-        <link rel="stylesheet" href="css/contact.css" media="screen ">
         <link rel="stylesheet" href="css/footer.css" media="screen ">
         <link rel="stylesheet" href="css/topPresentation.css" media="screen">
         <link rel="stylesheet" href="css/projects.css" media="screen">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 <body>
 <header>
     <!-- Menü -->
-    <section id="startseite" data-anchor="Startseite"></section>
+    
     <?php include("menu.php");?>
 </header>
 <main>
-    <?php include("topPresentation.php");?>
     <!-- Seitenabfrage -->
-    <?php /* include("sites.php"); */?>
-    
+    <?php include("sites.php"); ?>
+
+    <section id="home" data-anchor="home"></section>
+    <?php include("home.php");?>
+
+    <section id="projects" data-anchor="projects"></section>
     <?php include("projects.php");?>
-
-    <section id="media" data-anchor="Media"></section>
-    <?php /* include("media.php");*/?>
-
-    <p>&nbsp;</p>
-    <section id="aboutMe" data-anchor="Über Mich"></section>
-
-    <?php /* include("aboutMe.php");*/?>
-
-    <section id="contactScroll" data-anchor="Kontakt"></section>
-    <?php include("contact.php");?>
 
 </main>
     <!--Footer -->
+    <section id="contact" data-anchor="contact"></section>
     <?php include("footer.php");?>
 </body>
-    <script type="text/javascript" src="javascript/slider.js"></script>
-    <script type="text/javascript" src="javascript/zoomOutScrolling.js"></script>
+    <script type="text/javascript" src="javascript/resizeScrollFunctions.js"></script>
     <script type="text/javascript" src="javascript/menuActive.js"></script>
     <script type="text/javascript" src="javascript/burgerMenu.js"></script>
-
-   
 </html>

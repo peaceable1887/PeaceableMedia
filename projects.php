@@ -14,10 +14,10 @@
                 Ratione iste iure architecto aut ducimus, quos cupiditate <br>
                 dolorum placeat aperiam unde sint asperiores.
             </span>
-            <div class="description-link">
-                <span class="description-link-text">Link</span>
-                <img class="description-link-icon" src="images/arrow-right.png">
-            </div>
+            <a class="description-btn" href="#aboutMe">
+                <span class="description-link-text">Details</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
     </div>
     <div class="project-image">
@@ -35,15 +35,16 @@
             </span>
         </div>
         <div class="project-description">
+            
             <span class="description-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
                 Ratione iste iure architecto aut ducimus, quos cupiditate <br>
                 dolorum placeat aperiam unde sint asperiores.
             </span>
-            <div class="description-link">
-                <span class="description-link-text">Link</span>
-                <img class="description-link-icon" src="images/arrow-right.png">
-            </div>
+            <a class="description-btn" href="#aboutMe">
+                <span class="description-link-text">Details</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
     </div>
     <div class="project-image">
