@@ -1,3 +1,4 @@
+
 <div class="project">
     <div class="project-info">
         <div class="project-headline">
@@ -41,7 +42,7 @@
                 Ratione iste iure architecto aut ducimus, quos cupiditate <br>
                 dolorum placeat aperiam unde sint asperiores.
             </span>
-            <a class="description-btn" href="#aboutMe">
+            <a class="description-btn" href="project_detail_view.php">
                 <span class="description-link-text">Details</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </a>

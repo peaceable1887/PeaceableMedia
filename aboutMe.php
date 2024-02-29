@@ -1,29 +1,48 @@
-<div class="hr"></div>
-<div class="aboutMeContent">
-   <div class="aboutMeHeadline">
-        Alles, was digitalisiert werden kann, wird digitalisiert
-    </div>
-    <div class="aboutMeIcons">
-        <div class="aboutMeIconsWrapper">
-            <img class="icon" src="images/iconmonstr-idea-8-240.png">
-            <h5>Konzeption</h5>
-        </div>
-        <div class="aboutMeIconsWrapper">
-            <img class="icon" src="images/iconmonstr-paintbrush-8-240.png">
-            <h5>Design</h5>
-        </div>
-        <div class="aboutMeIconsWrapper">
-            <img class="icon" src="images/iconmonstr-code-2-240.png">
-            <h5>Coding</h5>
-        </div>
-    </div>
-    <div class="aboutMeText">
-        <p><b>Lorem ipsum dolor</b><br><br>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br><br>
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br>
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br>
-
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-    </div>
+<div class="aboutMe">
+    <section class="about-me-content">
+        <section class="about-me-description">
+            <h2>Über Mich</h2>
+            <section class="about-me-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione iste iure architecto aut ducimus, quos cupiditate 
+                dolorum placeat aperiam unde sint asperiores.
+            </section >
+        </section >
+        <section class="about-me-skills">
+            <h4>Meine Fähigkeiten</h4>
+            <figure class="skill-technologie-icon">
+                <a href="">
+                    <img src="images/github-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/linkedin-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/xing-icon.png">
+                </a>
+            </figure>
+            <figure class="skill-technologie-icon">
+                <a href="">
+                    <img src="images/github-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/linkedin-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/xing-icon.png">
+                </a>
+            </figure>
+            <figure class="skill-technologie-icon">
+                <a href="">
+                    <img src="images/github-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/linkedin-icon.png">
+                </a>
+                <a href="">
+                    <img src="images/xing-icon.png">
+                </a>
+            </figure>
+        </section >
+    </section>
 </div>

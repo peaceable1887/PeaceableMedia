@@ -1,82 +1,146 @@
-.aboutMeContent
+.aboutMe
 {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.aboutMeHeadline
-{
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-    padding: 8% 0 2% 0;
-}
-.aboutMeIcons
-{
-    display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
-    margin: 7% 0 4% 0;
+    justify-content: center;
+    padding-bottom: 50px;
 }
-.aboutMeIcons .aboutMeIconsWrapper
+.about-me-content
 {
-    text-align: center;
+    border-top: 1px solid grey; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 40px 0;
+    width: 80%;
 }
-.aboutMeIcons .aboutMeIconsWrapper .icon
-{
-    height: 80px;
-    width: 80px;
-}
-.aboutMeIcons .aboutMeIconsWrapper h5
-{
-    font-size: 22px;
-    margin: 10px 0 0 0;
-}
-.aboutMeText
+.about-me-description
 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me-description h2
+{
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+    padding: 0;
+}
+.about-me-text
+{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin: 4% 0 4% 0;
+    line-height: 1.3em;
+    font-size: 22px;
+    padding: 20px 0 40px 0;
+    width: 80%;
 }
-.aboutMeText p
+.about-me-skills
 {
-    color: black;
-    font-size: 20px;
+    width: 80%;
 }
-.aboutMeText p b
+.about-me-skills h4
 {
-    color: black;
+    text-align: center;
     font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.skill-technologie-icon
+{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+.skill-technologie-icon a img
+{
+    height: 45px;
+    width: 45px;
 }
 
 @media screen and (max-width: 1200px)
 {
-    .aboutMeHeadline{font-size: 28px}
-    .aboutMeIcons .aboutMeIconsWrapper .icon{height: 60px; width: 60px;}
-    .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 18px}
-    .aboutMeText p b{font-size: 24px}
-    .aboutMeText p {font-size: 16px}
+    .about-me-description h2
+    {
+        font-size: 50px;
+    }
+    .about-me-text
+    {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1000px)
 {
-    .aboutMeHeadline{font-size: 24px; text-align: center}
-    .aboutMeIcons .aboutMeIconsWrapper .icon{height: 60px; width: 60px;}
-    .aboutMeIcons {margin: 10% 0 8% 0}
-    .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 18px}
-    .aboutMeText p b{font-size: 22px}
-    .aboutMeText p {font-size: 14px}
+    .about-me-description h2
+    {
+        font-size:42px;
+    }
+    .about-me-skills h4
+    {
+        font-size: 25px;
+    }
+    .about-me-text
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    .about-me-description h2
+    {
+        font-size: 35px;
+    }
+    .about-me-skills h4
+    {
+        font-size: 22px;
+    }
+    .about-me-text
+    {
+        font-size: 16px;
+    }
+    .skill-technologie-icon
+    {
+        padding: 30px 0 30px 0;
+    }
+    .skill-technologie-icon a img
+    {
+        height: 40px;
+        width: 40px;
+    }
+
 }
 @media screen and (max-width: 500px)
 {
-    .aboutMeHeadline{font-size: 22px; text-align: center}
-    .aboutMeIcons {margin: 13% 0 6% 0;}
-    .aboutMeIcons .aboutMeIconsWrapper .icon{height: 50px; width: 50px;}
-    .aboutMeIcons .aboutMeIconsWrapper h5{font-size: 17px}
-    .aboutMeText {margin: 3% 0 3% 0;padding: 4%;}
-    .aboutMeText p b{font-size: 18px}
-    .aboutMeText p {font-size: 14px; padding: 4%}
+    .aboutMe
+    {
+        padding: 0;
+    }
+    .about-me-description h2
+    {
+        font-size: 30px;
+    }
+    .about-me-skills h4
+    {
+        font-size: 20px;
+    }
+    .about-me-text
+    {
+        font-size: 14px;
+    }
+    .skill-technologie-icon
+    {
+        padding: 20px 0 20px 0;
+    }
+    .skill-technologie-icon a img
+    {
+        height: 35px;
+        width: 35px;
+    }
 }

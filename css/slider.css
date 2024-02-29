@@ -1,42 +1,29 @@
 .slideshow-container
 {
+    padding: 2rem;
+}
+.slider-wrapper
+{
     position: relative;
-    background: #0f5dc4;
-    /*cursor: grab;*/
-
+    width: 70rem;
+    margin: 0 auto;
 }
 .mySlides
 {
-    display: none;
-    text-align: center;
-    position: relative;
-    user-select: none;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 1.5rem 3rem -75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
 }
 .imageSlider
 {
     width: 100%;
-    height: 780px;
+    flex: 1 0 100%;
     object-fit: cover;
 }
-.text
-{
-    position: absolute;
-    margin-top: -204px;
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(transparent, #0f5dc4 );
 
-}
-.text p
-{
-    color: white;
-    font-size: 50px;
-    text-align: left;
-    margin: 5% 0 0 4%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-    0px 8px 13px rgba(0,0,0,0.1),
-    0px 18px 23px rgba(0,0,0,0.1);
-}
 .prev, .next {
     background-color: rgba(255,255,255,0);
     color: white;
@@ -57,9 +44,14 @@
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
 .prev:hover, .next:hover
 {
     background-color: rgba(255,255,255,0);
+}
+.prev i:hover, .next i:hover
+{
+    color: #DADADA;
 }
 .grabbing
 {
@@ -72,7 +64,7 @@
 .animate-left
 {
     position: relative;
-    animation: animateleft 1.8s
+    animation: animateleft 2.4s
 }
 @keyframes animateleft {
     from { left :0; opacity:0 } to { left:0; opacity:1 }
@@ -83,6 +75,11 @@
     .imageSlider{height: 580px}
     .text p{font-size: 40px}
     .text{margin-top: -154px; height: 150px}
+
+    .slider-wrapper
+    {
+        width: 50rem;
+    }
 }
 
 @media screen and (max-width: 1000px)
@@ -91,7 +88,22 @@
     .text p{font-size: 35px; margin: 6% 5% 0 5%;}
     .text b{font-size: 35px; }
     .text{margin-top: -154px; height: 150px}
+
+    .slider-wrapper
+    {
+        width: 40rem;
+    }
 }
+
+@media screen and (max-width: 700px)
+{
+    .prev, .next{font-size: 40px;}
+    .slider-wrapper
+    {
+        width: 30rem;
+    }
+}
+
 @media screen and (max-width: 500px)
 {
     .imageSlider{height: 320px}
@@ -99,5 +111,9 @@
     .text p{font-size: 18px; margin: 6% 5% 0 5%;}
     .text b{font-size: 19px; }
     .text{margin-top: -104px; height: 100px; display: flex; align-items: center}
-}
 
+    .slider-wrapper
+    {
+        width: 25rem;
+    }
+}

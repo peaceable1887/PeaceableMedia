@@ -5,7 +5,7 @@
 
     function scrollFunction()
     {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200)
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
         {
             document.getElementById("menu").style.fontSize = "";
             document.getElementById("menu").style.borderBottom = "";

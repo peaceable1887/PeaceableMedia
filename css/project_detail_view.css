@@ -1,0 +1,151 @@
+.project-detail-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.project-detail-headlines 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.project-detail-headlines h1
+{
+    font-size: 56px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+    margin: 0;
+
+}
+.project-detail-headlines h3
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+.project-detail-description
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 22px;
+    padding: 40px 0 40px 0;
+    width: 80%;
+}
+.project-detail-images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    padding: 40px 0 40px 0;
+    margin: 0;
+}
+.project-detail-technologies
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 40px 0 40px 0;
+}
+.project-detail-technologies h2
+{
+    font-size: 30px;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+.technologies-icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.technologies-icons a img
+{
+    height: 45px;
+    width: 45px;
+}
+@media screen and (max-width: 1200px)
+{
+   
+}
+
+@media screen and (max-width: 1000px)
+{
+    .project-detail-headlines h1
+    {
+        font-size: 50px;
+    }
+    .project-detail-headlines h3
+    {
+        font-size: 14px;
+    }
+    .project-detail-description
+    {
+        font-size: 18px;
+    }
+    .project-detail-images
+    {
+        padding: 20px 0 20px 0;
+    }
+    .project-detail-technologies h2
+    {
+        font-size: 26px;
+    }
+    .technologies-icons a img
+    {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    
+}
+@media screen and (max-width: 500px)
+{
+    .project-detail-headlines h1
+    {
+        font-size: 35px;
+    }
+    .project-detail-headlines h3
+    {
+        font-size: 12px;
+    }
+    .project-detail-description
+    {
+        font-size: 14px;
+        padding: 20px 0 20px 0;
+    }
+    .project-detail-images
+    {
+        padding: 0px 0 0px 0;
+    }
+    .project-detail-technologies h2
+    {
+        font-size: 18px;
+    }
+    .technologies-icons a img
+    {
+        height: 30px;
+        width: 30px;
+    }
+    .project-detail-content
+    {
+        padding-bottom: 0px;
+    }
+}
