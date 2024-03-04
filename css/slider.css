@@ -1,9 +1,10 @@
 .slideshow-container
 {
-    padding: 2rem;
+   
 }
 .slider-wrapper
 {
+    width: 100%;
     position: relative;
     width: 70rem;
     margin: 0 auto;
@@ -72,7 +73,6 @@
 
 @media screen and (max-width: 1200px)
 {
-    .imageSlider{height: 580px}
     .text p{font-size: 40px}
     .text{margin-top: -154px; height: 150px}
 
@@ -106,7 +106,6 @@
 
 @media screen and (max-width: 500px)
 {
-    .imageSlider{height: 320px}
     .prev, .next{font-size: 40px;}
     .text p{font-size: 18px; margin: 6% 5% 0 5%;}
     .text b{font-size: 19px; }

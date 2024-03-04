@@ -10,7 +10,7 @@
 {
     border-top: 1px solid grey; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 80%;
     padding-top: 50px;
@@ -19,13 +19,15 @@
 .project-headline
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .headline-topic
 {
     font-size: 56px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .headline-sub
 {
@@ -43,7 +45,7 @@
 {
     line-height: 1.3em;
     font-size: 22px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 .description-btn
@@ -51,7 +53,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--color-primary);
-    width: 100px;
+    width: 120px;
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
@@ -78,11 +80,12 @@
 .project-image
 {
     display: flex;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
 }
 .project-image-src
 {
-    width: 800px;
+    width: 1000px;
+    border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 1200px)
@@ -94,11 +97,11 @@
     .headline-sub
     {
         font-size: 14px;
-        text-align: center;
     }
     .description-text
     {
         font-size: 18px;
+        padding-top: 30px;
     }
     .description-link-text
     {
@@ -115,12 +118,6 @@
     .project-info
     {
         padding-top: 30px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-description
-    {
-        align-items: center;
     }
     .headline-topic
     {
@@ -153,11 +150,7 @@
     .project-info
     {
         padding-top: 30px;
-        align-items: center;
-    }
-    .project-description
-    {
-        align-items: center;
+     
     }
     .project-image-src
     {
@@ -191,7 +184,6 @@
         font-size: 14px;
         margin-top: 3px;
     }
-
 }
 @media screen and (max-width: 500px)
 {
@@ -199,20 +191,17 @@
     .project-info
     {
         padding-top: 20px;
-        align-items: center;
-    }
-    .project-description
-    {
-        align-items: center;
+       
     }
     .project
     {
         padding-bottom: 20px;
     }
-    .project-info
+    .project-image
     {
-        flex-direction: column;
+        padding: 0px 0 20px 0;
     }
+
     .project-image-src
     {
         width: 350px;
