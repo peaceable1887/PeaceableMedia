@@ -1,6 +1,5 @@
 function burgerMenu() 
 {
-
     let elms = document.getElementsByTagName("nav");
 
     for (var i = 0; i < elms.length; i++) 

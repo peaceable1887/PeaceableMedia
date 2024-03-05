@@ -19,7 +19,6 @@
         <link rel="stylesheet" href="css/globalColor.css" media="screen">
         <link rel="stylesheet" href="css/style.css" media="screen">
         <link rel="stylesheet" href="css/slider.css" media="screen">
-        <link rel="stylesheet" href="css/startseite.css" media="screen">
         <link rel="stylesheet" href="css/menu.css" media="screen">
         <link rel="stylesheet" href="css/footer.css" media="screen ">
         <link rel="stylesheet" href="css/home.css" media="screen">

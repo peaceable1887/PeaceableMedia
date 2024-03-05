@@ -1,4 +1,4 @@
-<div id="menu">
+<div id="menu" >
     <?php
     // Bedingung überprüfen
     if ($_SESSION['changedPage']) 
@@ -10,7 +10,7 @@
                 <span id="last-name">Hansmann</span>
             </div>
         </a>
-        <nav>
+        <nav id="navItems">
         <a class="navLink" href="http://localhost:3000/#home" data-scroll="home">Home</a>
         <a class="navLink" href="http://localhost:3000/#projects" data-scroll="projects">Projects</a>
         <a class="navLink" href="http://localhost:3000/#contact" data-scroll="contact">Contact</a>';
@@ -24,7 +24,7 @@
                 <span id="last-name">Hansmann</span>
             </div>
         </a>
-        <nav>
+        <nav id="navItems">
         <a class="navLink" href="#projects" data-scroll="projects">Projects</a>
         <a class="navLink" href="#aboutMe" data-scroll="home">About</a>
         <a class="navLink" href="#contact" data-scroll="contact">Contact</a>';
@@ -33,7 +33,8 @@
         
     </nav>
     <a href="javascript:void(0);" class="icon" id="menuIcon">
-        <i onclick="burgerMenu(); changeMenuIcon(this)" class="fa-solid fa-bars"></i>
+        <i onclick="burgerMenu(); changeMenuIcon(this)" 
+        class="fa-solid fa-bars" id="menuIcon"></i>
     </a>
 </div>
 

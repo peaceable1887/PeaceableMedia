@@ -53,6 +53,7 @@
     padding: 10px;
     text-decoration: none;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 .repo-btn:hover
 {
@@ -72,8 +73,37 @@
     flex-direction: row;
     justify-content: center;
     width: 80%;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 20px 0;
     margin: 0;
+}
+#clickable-slider-images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    padding: 0px 0 40px 0;
+    margin: 0;
+}
+.clickable-image 
+{
+    padding: 0;
+    margin: 10px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 0.5rem;
+}
+.active, .clickable-image:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.clickable-image img
+{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 .project-detail-technologies
 {
@@ -98,11 +128,6 @@
     margin: 0;
     width: 100%;
 }
-.technologies-icons a img
-{
-   
-}
-
 .project-repo
 {
     display: flex;
@@ -112,7 +137,16 @@
 
 @media screen and (max-width: 1200px)
 {
-   
+    .clickable-image 
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .clickable-image img
+    {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 1000px)
@@ -157,9 +191,26 @@
     }
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 700px)
 {
-
+    .project-detail-images
+    {
+        padding: 10px 0 10px 0;
+    }
+    #clickable-slider-images
+    {
+        padding: 0px 0 0px 0;
+    }
+    .clickable-image 
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .clickable-image img
+    {
+        height: 60px;
+        width: 60px;
+    }
 }
 @media screen and (max-width: 500px)
 {
@@ -205,5 +256,15 @@
     {
         height: 15px;
         width: 15px;
+    }
+    .clickable-image 
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .clickable-image img
+    {
+        height: 50px;
+        width: 50px;
     }
 }

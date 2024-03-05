@@ -84,7 +84,6 @@
 
 @media screen and (max-width: 1000px)
 {
-    .slideshow-container{}
     .text p{font-size: 35px; margin: 6% 5% 0 5%;}
     .text b{font-size: 35px; }
     .text{margin-top: -154px; height: 150px}

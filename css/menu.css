@@ -10,6 +10,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
+    transition: background-color 0.3s ease;
+}
+#menu.scrolled 
+{
+    background-color: #15171B; /* Neue Hintergrundfarbe beim Scrollen */
 }
 #menu a
 {
@@ -17,12 +22,17 @@
 }
 #logo
 {
-    background: var(--color-background-header) ;
+    background: var(--color-background-header);
     list-style: none;
     padding: 0 0 0 5%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    transition: background-color 0.3s ease;
+}
+#logo.scrolled
+{
+    background-color: #15171B; 
 }
 #first-name
 {
@@ -37,6 +47,18 @@
     font-weight: 700;
     color: var(--color-font);
 }
+#menuIcon
+{
+    transition: transform 0.5s ease;
+}
+.fa-bars
+{
+    color: var(--color-primary);
+}
+.fa-xmark 
+{
+    transform: rotate(90deg);
+}
 nav
 {
    /* border-top: solid 2px var(--color-background-body);
@@ -49,6 +71,15 @@ nav
     position: absolute;
     width: 300px;
     right: 5%;
+}
+#navItems
+{
+    transition: background-color 0.3s ease;
+    background: var(--color-background-header);
+}
+#navItems.scrolled
+{
+    background-color: #15171B;
 }
 nav h1
 {
@@ -64,7 +95,7 @@ nav a
     display: inline-block;
     text-align: center;
     margin: 0;
-    color: black;
+    transition: color 0.3s ease;
 }
 nav a:hover,
 nav a:active
@@ -108,10 +139,9 @@ nav a:active
     {
         font-size: 40px;
     }
-
-
     /* Hide the links inside the navigation menu (except for logo/home) */
-    #menu nav {
+    #menu nav 
+    {
         display: none;
     }
 

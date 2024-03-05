@@ -29,15 +29,16 @@
                     <div class="mySlides fade animate-left">
                         <img class="imageSlider" src="images/Website - MemoDex - Pic03.jpg">
                     </div>
-                
-                    <a class="prev" id="prevBtn" onclick="plusDivs(-1)">
-                        <i class="fa-solid fa-chevron-left"></i>
-                    </a>
-                    <a class="next" id="nextBtn" onclick="plusDivs(1)">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </a>
                 </div>
             </section>
+        </figure>
+        <figure id="clickable-slider-images">
+            <button onclick="currentDiv(1)" class="clickable-image active">
+                <img src="images/Website - MemoDex - Pic02.jpg">
+            </button>
+            <button onclick="currentDiv(2)" class="clickable-image">
+                <img src="images/Website - MemoDex - Pic03.jpg">
+            </button>
         </figure>
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
