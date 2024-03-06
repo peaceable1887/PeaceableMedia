@@ -143,4 +143,8 @@
         height: 35px;
         width: 35px;
     }
+    .about-me-content 
+    {
+        padding: 40px 0 0px 0;
+    }
 }

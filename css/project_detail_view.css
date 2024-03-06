@@ -73,13 +73,14 @@
     flex-direction: row;
     justify-content: center;
     width: 80%;
-    padding: 40px 0 20px 0;
+    padding: 20px 0 20px 0;
     margin: 0;
 }
 #clickable-slider-images
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     width: 80%;
     padding: 0px 0 40px 0;
@@ -153,15 +154,17 @@
 {
     .project-detail-headlines h1
     {
-        font-size: 50px;
+        font-size: 35px;
     }
     .project-detail-content h3
     {
-        font-size: 14px;
+        font-size: 12px;
     }
     .project-detail-description
     {
         font-size: 18px;
+        padding: 20px 0 20px 0;
+        font-size: 16px;
     }
     .project-detail-images
     {

@@ -21,4 +21,4 @@
     <section id="contact" data-anchor="contact"></section>
     <?php include("footer.php");?>
 
-<?php include("scripts.php");?>
+<?php include("global_scripts.php");?>

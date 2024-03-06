@@ -67,11 +67,12 @@
     }
     .helloText
     {
-        font-size: 70px;
+        font-size: 65px;
+        padding-bottom: 10px;
     }
     .presentationText
     {
-        font-size: 36px;
+        font-size: 32px;
         text-align: center;
     }
 }

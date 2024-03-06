@@ -128,7 +128,6 @@ nav a:active
 
 @media screen and (max-width: 900px)
 {
-    nav a{font-size: 15px;}
     h4{font-size: 40px}
     p{font-size: 15px}
     #first-name
@@ -152,9 +151,9 @@ nav a:active
 
     /* Style navigation menu links */
     .navLink {
-        padding: 15px 0 15px 5% ;
+        padding: 15px 0 15px 3% ;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 15px;
         display: block;
     }
 
@@ -182,7 +181,6 @@ nav a:active
     {
         main{margin: 80px auto 80px auto;}
         .logo{height: 70px}
-        #menu a{font-size: 15px}
         #first-name
         {
             font-size: 30px;
@@ -192,6 +190,10 @@ nav a:active
             font-size: 30px;
         }
         #menu a.icon{font-size: 30px;}
+        .navLink 
+        {
+            font-size: 14px;
+        }
 
     }
 }

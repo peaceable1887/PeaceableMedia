@@ -137,13 +137,13 @@ window.addEventListener('scroll', function()
 
     var nav = document.querySelector("nav");
 
-    if (scroll > position && width < 800) 
+    if (scroll > position && width < 900) 
     {
         nav.style.display = "none";
         iconElement.classList.remove("fa-xmark");
         iconElement.classList.add("fa-bars");
 
-    } else if (scroll < position && width < 800)
+    } else if (scroll < position && width < 900)
         {
         nav.style.display = "none";
         iconElement.classList.remove("fa-xmark");

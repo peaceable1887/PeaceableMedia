@@ -1,7 +1,3 @@
-.slideshow-container
-{
-   
-}
 .slider-wrapper
 {
     width: 100%;
@@ -11,6 +7,7 @@
 }
 .mySlides
 {
+    background: black;
     display: flex;
     aspect-ratio: 16 / 9;
     overflow-x: hidden;
@@ -23,6 +20,13 @@
     width: 100%;
     flex: 1 0 100%;
     object-fit: cover;
+}
+video
+{
+    height: 95%;
+    display: block;
+    margin: 15px auto;
+    width: 50%;
 }
 
 .prev, .next {
@@ -92,6 +96,10 @@
     {
         width: 40rem;
     }
+    video
+    {
+        margin: 10px auto;
+    }
 }
 
 @media screen and (max-width: 700px)
@@ -100,6 +108,10 @@
     .slider-wrapper
     {
         width: 30rem;
+    }
+    video
+    {
+        margin: 7px auto;
     }
 }
 
@@ -113,5 +125,9 @@
     .slider-wrapper
     {
         width: 25rem;
+    }
+    video
+    {
+        margin: 0px auto;
     }
 }

@@ -7,31 +7,104 @@
    <article class="project-detail-content">
         <header class="project-detail-headlines">
             <h1>Quizduell</h1>
-            <h3>Mobile Browserspiel</h3>
+            <section class="project-repo">
+                <a class="repo-btn" href="">
+                    <span class="repo-link-text">GitHub</span>
+                    <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
+                </a>
+            </section >
         </header>
+        <h3>Browserspiel</h3>
         <section class="project-detail-description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Ratione iste iure architecto aut ducimus, quos cupiditate 
             dolorum placeat aperiam unde sint asperiores.
         </section >
         <figure class="project-detail-images">
-            <?php include("slider.php");?>
+            <section class="slideshow-container">
+                <div class="slider-wrapper">
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <video src="videos/ScreenCast_Quizduell.mp4" controls></video>
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Profil bearbeiten.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Lobby.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Home.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Frage.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Auswertung.jpg">
+                    </div>
+                    <div class="mySlides fade animate-left">
+                        <img class="imageSlider" src="images/Quizduell - Spiel erstellen.jpg">
+                    </div>
+                </div>
+            </section>
+        </figure>
+        <figure id="clickable-slider-images">
+            <button onclick="currentDiv(1)" class="clickable-image active">
+                <img src="images/Quizduell.jpg">
+            </button>
+            <button onclick="currentDiv(2)" class="clickable-image active">
+                <img src="images/play_video_icon.jpg">
+            </button>
+            <button onclick="currentDiv(3)" class="clickable-image">
+                <img src="images/Quizduell - Profil bearbeiten.jpg">
+            </button>
+            <button onclick="currentDiv(4)" class="clickable-image active">
+                <img src="images/Quizduell - Lobby.jpg">
+            </button>
+            <button onclick="currentDiv(5)" class="clickable-image">
+                <img src="images/Quizduell - Home.jpg">
+            </button>
+            <button onclick="currentDiv(6)" class="clickable-image active">
+                <img src="images/Quizduell - Frage.jpg">
+            </button>
+            <button onclick="currentDiv(7)" class="clickable-image active">
+                <img src="images/Quizduell - Auswertung.jpg">
+            </button>
+            <button onclick="currentDiv(3)" class="clickable-image active">
+                <img src="images/Quizduell - Spiel erstellen.jpg">
+            </button>
         </figure>
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
             <figure class="technologies-icons">
                 <a href="">
-                    <img src="images/github-icon.png">
+                    <img src="images/figma.png" alt="Figma" width="50" height="50">
                 </a>
                 <a href="">
-                    <img src="images/linkedin-icon.png">
+                    <img src="images/nodejs.png" alt="NodeJS" width="60" height="60">
                 </a>
                 <a href="">
-                    <img src="images/xing-icon.png">
+                    <img src="images/mysql.png" alt="MySQL" width="60" height="60">
+                </a>
+            </figure>
+            <figure class="technologies-icons">
+                <a href="">
+                    <img src="images/express.png" alt="Express" width="60" height="60">
+                </a>
+                <a href="">
+                    <img src="images/flutter.png" alt="Flutter" width="50" height="50">
+                </a>
+                <a href="">
+                    <img src="images/rest-api-icon.png" alt="REST API" width="55" height="50">
                 </a>
             </figure>
         </section >
    </article >
 </main>
 <?php include("footer.php");?>
-<?php include("scripts.php");?>
+<script type="text/javascript" src="javascript/slider.js"></script>
+<script type="text/javascript" src="javascript/activeImageButton.js"></script>
+<?php include("global_scripts.php");?>
+
