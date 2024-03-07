@@ -8,7 +8,7 @@
         <header class="project-detail-headlines">
             <h1>MemoDex</h1>
             <section class="project-repo">
-                <a class="repo-btn" href="">
+                <a class="repo-btn" href="https://github.com/peaceable1887/memo_dex_client" target="_blank">
                     <span class="repo-link-text">GitHub</span>
                     <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
                 </a>
@@ -43,25 +43,25 @@
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
             <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/figma.png" alt="Figma" width="50" height="50">
+                <a title="Figma" href="https://www.figma.com/" target="_blank">
+                    <img src="images/icons/figma.png" alt="Figma">
                 </a>
-                <a href="">
-                    <img src="images/nodejs.png" alt="NodeJS" width="60" height="60">
+                <a title="NodeJS" href="https://nodejs.org/" target="_blank">
+                    <img src="images/icons/node-js.png" alt="NodeJS">
                 </a>
-                <a href="">
-                    <img src="images/mysql.png" alt="MySQL" width="60" height="60">
+                <a title="MySQL" href="https://www.mysql.com/" target="_blank">
+                    <img src="images/icons/mysql.png" alt="MySQL">
                 </a>
             </figure>
             <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/express.png" alt="Express" width="60" height="60">
+                <a title="Express" href="https://expressjs.com/" target="_blank">
+                    <img src="images/icons/express.png" alt="Express">
                 </a>
-                <a href="">
-                    <img src="images/flutter.png" alt="Flutter" width="50" height="50">
+                <a title="Flutter" href="https://flutter.dev/" target="_blank">
+                    <img src="images/icons/flutter.png" alt="Flutter">
                 </a>
-                <a href="">
-                    <img src="images/rest-api-icon.png" alt="REST API" width="55" height="50">
+                <a title="RESTful" href="https://en.wikipedia.org/wiki/REST" target="_blank">
+                    <img src="images/icons/api-mobile-program.png" alt="RESTful">
                 </a>
             </figure>
         </section >

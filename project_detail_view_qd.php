@@ -8,7 +8,7 @@
         <header class="project-detail-headlines">
             <h1>Quizduell</h1>
             <section class="project-repo">
-                <a class="repo-btn" href="">
+                <a class="repo-btn" href="https://github.com/peaceable1887/Quizduell" target="_blank">
                     <span class="repo-link-text">GitHub</span>
                     <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
                 </a>
@@ -79,25 +79,33 @@
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
             <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/figma.png" alt="Figma" width="50" height="50">
+                <a title="Vue.js" href="https://vuejs.org/" target="_blank">
+                    <img src="images/icons/vue-dot-js.png" alt="NodeJS">
                 </a>
-                <a href="">
-                    <img src="images/nodejs.png" alt="NodeJS" width="60" height="60">
+                <a title="HTML5" href="https://www.w3schools.com/html/" target="_blank">
+                    <img src="images/icons/html.png" alt="HTML5">
                 </a>
-                <a href="">
-                    <img src="images/mysql.png" alt="MySQL" width="60" height="60">
+                <a title="CSS3" href="https://www.w3schools.com/css/" target="_blank">
+                    <img src="images/icons/css.png" alt="CSS">
                 </a>
             </figure>
             <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/express.png" alt="Express" width="60" height="60">
+                <a title="Adobe Photoshop" href="https://www.adobe.com/de/products/photoshop.html" target="_blank">
+                    <img src="images/icons/photoshop.png" alt="Adobe Photoshop">
                 </a>
-                <a href="">
-                    <img src="images/flutter.png" alt="Flutter" width="50" height="50">
+                <a title="Spring Boot" href="https://spring.io/projects/spring-boot" target="_blank">
+                    <img src="images/icons/spring.png" alt="Spring Boot">
                 </a>
-                <a href="">
-                    <img src="images/rest-api-icon.png" alt="REST API" width="55" height="50">
+                <a title="Java" href="https://www.java.com/de/" target="_blank">
+                    <img src="images/icons/java.png" alt="Java">
+                </a>
+            </figure>
+            <figure class="technologies-icons" style="justify-content: space-around;">
+                <a title="RESTful" href="https://en.wikipedia.org/wiki/REST" target="_blank">
+                    <img src="images/icons/api-mobile-program.png" alt="RESTful">
+                </a>
+                <a title="WebSocket" href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">
+                    <img src="images/icons/websocket.png" alt="WebSocket">
                 </a>
             </figure>
         </section >

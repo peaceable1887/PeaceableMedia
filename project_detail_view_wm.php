@@ -8,9 +8,9 @@
         <header class="project-detail-headlines">
             <h1>Website Mockups</h1>
             <section class="project-repo">
-                <a class="repo-btn" href="">
-                    <span class="repo-link-text">GitHub</span>
-                    <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
+                <a class="repo-btn" href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">
+                    <span class="repo-link-text">Dropbox</span>
+                    <img src="images/icons/dropbox.png" alt="GitHuB" width="25" height="25">
                 </a>
             </section >
         </header>
@@ -72,26 +72,12 @@
         </figure>
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
-            <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/figma.png" alt="Figma" width="50" height="50">
+            <figure class="technologies-icons" style="justify-content: space-around">
+                <a title="Figma" href="https://www.figma.com/" target="_blank">
+                    <img src="images/icons/figma.png" alt="Figma">
                 </a>
-                <a href="">
-                    <img src="images/nodejs.png" alt="NodeJS" width="60" height="60">
-                </a>
-                <a href="">
-                    <img src="images/mysql.png" alt="MySQL" width="60" height="60">
-                </a>
-            </figure>
-            <figure class="technologies-icons">
-                <a href="">
-                    <img src="images/express.png" alt="Express" width="60" height="60">
-                </a>
-                <a href="">
-                    <img src="images/flutter.png" alt="Flutter" width="50" height="50">
-                </a>
-                <a href="">
-                    <img src="images/rest-api-icon.png" alt="REST API" width="55" height="50">
+                <a title="Adobe Photoshop" href="https://www.adobe.com/de/products/photoshop.html" target="_blank">
+                    <img src="images/icons/photoshop.png" alt="Adobe Photoshop">
                 </a>
             </figure>
         </section >
