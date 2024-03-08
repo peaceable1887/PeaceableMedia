@@ -1,7 +1,7 @@
 <div class="aboutMe">
     <section class="about-me-content">
         <section class="about-me-description">
-            <h3>Ich bin Felix, Entwickler und<br> 
+            <h3>Ich bin Felix, Entwickler und
                 Designer aus Hamburg.</h3>
             <section class="about-me-text">
                 Mein Weg führt mich aktuell durch das spannende Studium der Medieninformatik, wo meine Leidenschaft zur Technologie und Kreativität perfekt zusammenfließt.

@@ -9,7 +9,7 @@
     </div>
     <div class="footer-data">
         <div class="footer-copyright">
-           Copyright &copy; Felix Hansmann, 2023
+           Copyright &copy; Felix Hansmann 2023
         </div>
         <div class="footer-icons">
             <a class="github-account" href="https://github.com/peaceable1887" target="_blank">

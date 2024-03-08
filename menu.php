@@ -18,7 +18,7 @@
     } else 
     {
         echo '
-        <a href="#home" data-scroll="home">
+        <a href="https://www.felix-hansmann.de/" >
             <div id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>

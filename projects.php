@@ -19,7 +19,9 @@
         </div>
     </div>
     <div class="project-image">
-        <img class="project-image-src" src="images/Website - MemoDex - Pic02.jpg">
+        <a href="images/Website - MemoDex - Pic02.jpg">
+            <img class="project-image-src" src="images/Website - MemoDex - Pic02.jpg">
+        </a>
     </div>
 </div>
 <div class="project">
@@ -44,7 +46,9 @@
         </div>
     </div>
     <div class="project-image">
-        <img class="project-image-src" src="images/FourKingz_01.jpg">
+        <a href="images/FourKingz_01.jpg">
+            <img class="project-image-src" src="images/FourKingz_01.jpg">
+        </a>
     </div>
 </div>
 <div class="project">
@@ -70,7 +74,9 @@
         </div>
     </div>
     <div class="project-image">
-        <img class="project-image-src" src="images/Quizduell.jpg">
+        <a href="images/Quizduell.jpg">
+            <img class="project-image-src" src="images/Quizduell.jpg">
+        </a>
     </div>
 </div>
 <div class="project">
@@ -96,7 +102,9 @@
         </div>
     </div>
     <div class="project-image">
-        <img class="project-image-src" src="images/Rating_Drink.jpg">
+        <a href="images/Rating_Drink.jpg">
+            <img class="project-image-src" src="images/Rating_Drink.jpg">
+        </a>
     </div>
 </div>
 <div class="project">
@@ -120,6 +128,8 @@
         </div>
     </div>
     <div class="project-image">
-        <img class="project-image-src" src="images/Website_Mockups.jpg">
+        <a href="images/Website_Mockups.jpg">
+            <img class="project-image-src" src="images/Website_Mockups.jpg">
+        </a>
     </div>
 </div>

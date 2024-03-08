@@ -92,6 +92,12 @@ button:hover
     width: 33.3%;
     text-align: center;
 }
+.footer-copyright::after {
+    content: "\A";
+    white-space: pre;
+    display: block;
+}
+
 
 .footer-icons
 {
@@ -147,19 +153,52 @@ button:hover
 
 @media screen and (max-width: 1200px)
 {
-    .footer-copyright a{font-size: 16px;}
-    .footer-impressum a{font-size: 16px;}
+    .footer-copyright {font-size: 14px;}
+    .footer-impressum a{font-size: 14px;}
+    .github-account img
+    {
+        height: 40px;
+        width: 40px;
+    }
+
+    .linkedin-account img
+    {
+        height: 40px;
+        width: 40px;
+    }
+
+    .xing-account img
+    {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 @media screen and (max-width: 1000px)
 {
-   
+    .github-account img
+    {
+        height: 35px;
+        width: 35px;
+    }
+
+    .linkedin-account img
+    {
+        height: 35px;
+        width: 35px;
+    }
+
+    .xing-account img
+    {
+        height: 35px;
+        width: 35px;
+    }
 }
 @media screen and (max-width: 800px)
 {
     .contactBox{height: 400px;}
-    .footer-copyright a{font-size: 14px;}
-    .footer-impressum a{font-size: 14px;}
+    .footer-copyright {font-size: 12px;}
+    .footer-impressum a{font-size: 12px;}
     .github-account img{height: 35px; width: 35px;}
     .linkedin-account img{height: 35px; width: 35px;}
     .xing-account img{height: 35px; width: 35px;}
@@ -171,7 +210,9 @@ button:hover
 @media screen and (max-width: 500px)
 {
     .contactBox{height: 250px;}
-    .footer-copyright a{font-size: 12px;}
+    .footer-copyright::after {
+        content: "";
+    }
     .footer-impressum a{font-size: 12px;}
     .footer-icons{width: 30%;}
     .github-account img{height: 30px; width: 30px;}
