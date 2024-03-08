@@ -11,8 +11,8 @@
             </div>
         </a>
         <nav id="navItems">
-        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="home">Home</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="projects">Projects</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="home">Projects</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="projects">About</a>
         <a class="navLink" href="https://www.felix-hansmann.de/#contact" data-scroll="contact">Contact</a>';
       
     } else 
