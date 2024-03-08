@@ -4,16 +4,16 @@
     if ($_SESSION['changedPage']) 
     {
         echo '
-        <a href="http://localhost:3000/#home">
+        <a href="home.php">
             <div id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>
             </div>
         </a>
         <nav id="navItems">
-        <a class="navLink" href="http://localhost:3000/#home" data-scroll="home">Home</a>
-        <a class="navLink" href="http://localhost:3000/#projects" data-scroll="projects">Projects</a>
-        <a class="navLink" href="http://localhost:3000/#contact" data-scroll="contact">Contact</a>';
+        <a class="navLink" href="home.php" data-scroll="home">Home</a>
+        <a class="navLink" href="projects.php" data-scroll="projects">Projects</a>
+        <a class="navLink" href="footer.php" data-scroll="contact">Contact</a>';
       
     } else 
     {
