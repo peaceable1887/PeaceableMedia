@@ -14,9 +14,7 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-            Die MemoDex-App befindet sich seit ungefähr 7 Monaten in der Entwicklungsphase und wird als native Mobile-Anwendung sowohl für Android als auch für iOS konzipiert. 
-            Meine gegenwärtige intensive und leidenschaftliche Arbeit konzentriert sich auf die Umsetzung und Gestaltung, 
-            um eine herausragende Benutzererfahrung auf beiden Plattformen zu gewährleisten.
+            "MemoDex" ist eine Karteikarten-App und befindet sich seit ungefähr 7 Monaten in der Entwicklung und wird als native Mobile-Anwendung sowohl für Android als auch für iOS entwickelt. 
             </span>
         </div>
     </div>

@@ -117,7 +117,7 @@
 }
 .key-datas h4
 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .key-datas ul
 {
@@ -125,7 +125,7 @@
 }
 .key-datas li
 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .key-datas li::marker 
 {
@@ -133,7 +133,7 @@
 }
 .key-datas span
 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .project-detail-technologies
 {
