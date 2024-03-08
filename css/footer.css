@@ -89,24 +89,16 @@ button:hover
 .footer-copyright
 {
     font-size: 16px;
+    width: 33.3%;
+    text-align: center;
 }
-
-.footer-copyright a
-{
-    text-decoration: none;
-}
-.footer-copyright a:visited
-{
-    color: white;
-}
-
 
 .footer-icons
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 25%;
+    justify-content: space-around;
+    width: 33.3%;
 }
 
 .footer-icons a
@@ -136,8 +128,14 @@ button:hover
 .footer-impressum
 {
     font-size: 16px;
+    width: 33.3%;
+    text-align: center;
 }
 
+.footer-impressum a:hover
+{
+    text-decoration: underline;
+}
 .footer-impressum a
 {
     text-decoration: none;

@@ -14,11 +14,11 @@
                 </a>
             </section >
         </header>
-        <h3>Designkonzeption</h3>
+        <h3 class="sub-headline">Designkonzeption</h3>
         <section class="project-detail-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ratione iste iure architecto aut ducimus, quos cupiditate 
-            dolorum placeat aperiam unde sint asperiores.
+        Die Mockups für die einzelnen Webseiten wurden sowohl aus persönlichem Interesse als auch im Rahmen des Studiums erstellt.
+        Die Mockups wurden mit der Software Adobe Photoshop erstellt. Alle enthaltenen Elemente, sei es Grafiken oder Bilder, 
+        wurden entweder eigenständig kreiert oder durch Ausschneiden und Einfügen aus anderen Quellen integriert.
         </section >
         <figure class="project-detail-images">
             <section class="slideshow-container">
@@ -73,9 +73,6 @@
         <section class="project-detail-technologies">
             <h2>Technologien</h2>
             <figure class="technologies-icons" style="justify-content: space-around">
-                <a title="Figma" href="https://www.figma.com/" target="_blank">
-                    <img src="images/icons/figma.png" alt="Figma">
-                </a>
                 <a title="Adobe Photoshop" href="https://www.adobe.com/de/products/photoshop.html" target="_blank">
                     <img src="images/icons/photoshop.png" alt="Adobe Photoshop">
                 </a>

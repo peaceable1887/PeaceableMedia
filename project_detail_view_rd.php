@@ -14,12 +14,42 @@
                 </a>
             </section >
         </header>
-        <h3>Designkonzeption</h3>
-        <section class="project-detail-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ratione iste iure architecto aut ducimus, quos cupiditate 
-            dolorum placeat aperiam unde sint asperiores.
-        </section >
+        <h3 class="sub-headline">Designkonzeption</h3>
+        <section class="key-datas">
+        <h3>Alleinstellungsmerkmal</h3>
+        <span>"Rating Drink" ist eine innovative App, die Bewertungen und Rezensionen von
+        Getränken in den Fokus stellt.
+        Nutzer haben die Möglichkeit, Getränke nach Bewertungen zu sortieren und
+        zusätzlich diese auch direkt über die App zu bestellen.
+        Die App ermöglicht es den Nutzern, neue Getränke zu entdecken und bietet somit
+        eine einzigartige Erfahrung im Bereich der Getränkeauswahl.</span>
+        <h3>Zielgruppe</h3>
+        <span>Die App wurde für eine Auflösung von 1080 x 2340 Pixel entwickelt, was einem
+        Bildformat von 6 Zoll entspricht. Dank ihres anpassungsfähigen Designs kann sie
+        jedoch problemlos auf Smartphones mit unterschiedlichen Größen angezeigt
+        werden, ohne dass es zu Einschränkungen kommt.
+        </span>
+        <h3>Endgeräte</h3>
+        <span>"Rating Drink" richtet sich eigentlich an alle Personen, da jeder “trinken” muss.
+        Besonders ansprechend ist die App für Menschen, die neugierig sind und gerne
+        neue Getränke ausprobieren möchten, aber nicht die Möglichkeit haben, in das
+        jeweilige Land oder die Region zu reisen. Die App ist auch für Personen geeignet,
+        die sich in der Regel bei der Getränkeauswahl auf die Erfahrungen und
+        Bewertungen anderer verlassen, da die App die Möglichkeit bietet, Bewertungen von
+        Getränken zu durchsuchen und zu vergleichen.
+        </span>
+        <h3>Typografie</h3>
+        <span>Die markante Schriftart für die App "Rating Drink" ist "Sparky Stones".
+        Sie verleiht der App einen spielerischen und ungezwungenen Look und ist Teil des
+        Logos.
+        Sie wird bei wichtigen Text-Elementen wie Seitenüberschriften verwendet.
+        Um eine gute Lesbarkeit bei wichtigen Informationen wie Preis, Rezensionen oder
+        Produktdetails zu gewährleisten, wurde eine eher konservative Schriftart namens
+        "Segoe UI Emoji" ausgewählt.
+        Diese wird in der Schrift-Variante "Regular" und in verschiedenen Schriftgrößen
+        angewendet.
+        </span>
+        </section>
         <figure class="project-detail-images">
             <section class="slideshow-container">
                 <div class="slider-wrapper">

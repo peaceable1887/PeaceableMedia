@@ -43,10 +43,10 @@
 }
 .description-text
 {
-    line-height: 1.3em;
-    font-size: 22px;
-    padding-top: 40px;
+    font-size: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    line-height: 1.4;
 }
 .description-btn
 {
@@ -102,7 +102,6 @@
     .description-text
     {
         font-size: 18px;
-        padding-top: 30px;
     }
     .description-link-text
     {
@@ -213,11 +212,12 @@
     }
     .headline-sub
     {
-        font-size: 10px;
+        font-size: 12px;
     }
     .description-text
     {
         font-size: 14px;
+        padding-top: 10px;
     }
     .description-btn
     {

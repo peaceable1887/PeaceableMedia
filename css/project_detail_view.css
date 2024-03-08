@@ -22,7 +22,7 @@
     margin: 0;
 
 }
-.project-detail-content h3
+.sub-headline
 {
     font-size: 16px;
     font-weight: 500;
@@ -35,13 +35,13 @@
 .project-detail-description
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: start;
-    line-height: 1.3em;
-    font-size: 22px;
-    padding: 40px 0 40px 0;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
     width: 80%;
+    line-height: 1.4;
 }
 .repo-btn
 {
@@ -106,6 +106,35 @@
     object-fit: cover;
     border-radius: 0.5rem;
 }
+.key-datas
+{
+    width: 80%;
+    padding: 0 0 20px 0;
+}
+.key-datas h3
+{
+    font-size: 22px;
+}
+.key-datas h4
+{
+    font-size: 18px;
+}
+.key-datas ul
+{
+    list-style-type: square;
+}
+.key-datas li
+{
+    font-size: 18px;
+}
+.key-datas li::marker 
+{
+    color: var(--color-primary);
+}
+.key-datas span
+{
+    font-size: 18px;
+}
 .project-detail-technologies
 {
     display: flex;
@@ -161,14 +190,13 @@
     {
         font-size: 35px;
     }
-    .project-detail-content h3
+    .sub-headline
     {
-        font-size: 12px;
+        font-size: 14px;
     }
     .project-detail-description
     {
         font-size: 18px;
-        padding: 20px 0 20px 0;
         font-size: 16px;
     }
     .project-detail-images
@@ -200,6 +228,26 @@
     {
         height: 20px;
         width: 20px;
+    }
+    .key-datas
+    {
+        
+    }
+    .key-datas h3
+    {
+        font-size: 18px;
+    }
+    .key-datas h4
+    {
+        font-size: 16px;
+    }
+    .key-datas li
+    {
+        font-size: 16px;
+    }
+    .key-datas span
+    {
+        font-size: 16px;
     }
 }
 
@@ -246,7 +294,6 @@
     .project-detail-description
     {
         font-size: 14px;
-        padding: 20px 0 20px 0;
     }
     .project-detail-images
     {
@@ -263,7 +310,7 @@
     }
     .project-detail-technologies
     {
-        padding: 0px 0 0px 0;
+        padding: 30px 0 0px 0;
     }
     .project-detail-content
     {
@@ -291,5 +338,25 @@
     {
         height: 50px;
         width: 50px;
+    }
+    .key-datas
+    {
+        
+    }
+    .key-datas h3
+    {
+        font-size: 16px;
+    }
+    .key-datas h4
+    {
+        font-size: 14px;
+    }
+    .key-datas li
+    {
+        font-size: 14px;
+    }
+    .key-datas span
+    {
+        font-size: 14px;
     }
 }

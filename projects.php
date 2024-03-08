@@ -14,9 +14,9 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione iste iure architecto aut ducimus, quos cupiditate 
-                dolorum placeat aperiam unde sint asperiores.
+            Die MemoDex-App befindet sich seit ungefähr 7 Monaten in der Entwicklungsphase und wird als native Mobile-Anwendung sowohl für Android als auch für iOS konzipiert. 
+            Meine gegenwärtige intensive und leidenschaftliche Arbeit konzentriert sich auf die Umsetzung und Gestaltung, 
+            um eine herausragende Benutzererfahrung auf beiden Plattformen zu gewährleisten.
             </span>
         </div>
     </div>
@@ -26,7 +26,7 @@
 </div>
 <div class="project">
     <div class="project-info">
-    <div class="project-headline">
+        <div class="project-headline">
             <span class="headline-topic">
                 Four Kingz
             </span>
@@ -40,9 +40,8 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione iste iure architecto aut ducimus, quos cupiditate 
-                dolorum placeat aperiam unde sint asperiores.
+            "FourKingz" entstand, da beim Vorglühen im Freundeskreis regelmäßig Karten fehlten und die verfügbaren Apps auf dem Markt nicht das gewünschte Spielangebot hatten.<br> 
+            In dieser Situation sah ich die Gelegenheit, meine Fähigkeiten in Vue.js durch ein praxisorientiertes Projekt weiter zu vertiefen.
             </span>
         </div>
     </div>
@@ -62,13 +61,13 @@
             </a>
         </div>
         <span class="headline-sub">
-            Browserspiel
+            Multiplayer Browserspiel
         </span>
         <div class="project-description">
             <span class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione iste iure architecto aut ducimus, quos cupiditate 
-                dolorum placeat aperiam unde sint asperiores.
+            "Quizduell" wurde im Rahmen eines Semesterprojekts an der Hochschule entwickelt. 
+            Das Projekt habe ich gemeinsam mit einem Kommilitonen umgesetzt.
+            Hierbei war ich hauptverantwortlich für die Entwicklung des Clients.
             </span>
         </div>
     </div>
@@ -92,9 +91,9 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione iste iure architecto aut ducimus, quos cupiditate 
-                dolorum placeat aperiam unde sint asperiores.
+            "Rating Drink" war Teil einer Aufgabe im Rahmen des Studienkurses Mediendesign. 
+            Diese Aufgabe umfasste die Konzeption und Entwicklung einer mobilen Anwendung für ein fiktives Unternehmen, 
+            die durch ein Alleinstellungsmerkmal herausragt.
             </span>
         </div>
     </div>
@@ -118,9 +117,7 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione iste iure architecto aut ducimus, quos cupiditate 
-                dolorum placeat aperiam unde sint asperiores.
+            Im Abschnitt "Website Mockups" sind Designkonzeptionen von Webseiten zu den Themen Online-Shop, Architektur und Gaming zu finden.
             </span>
         </div>
     </div>

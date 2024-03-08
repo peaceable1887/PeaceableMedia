@@ -14,12 +14,33 @@
                 </a>
             </section >
         </header>
-        <h3>Mobiles Browserspiel</h3>
+        <h3 class="sub-headline">Mobiles Browserspiel</h3>
         <section class="project-detail-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ratione iste iure architecto aut ducimus, quos cupiditate 
-            dolorum placeat aperiam unde sint asperiores.
+        "Four Kingz" ist ein Kartentrinkspiel, das als Browseranwendung für mobile Geräte, mit Vue.js, entwickelt wurde. 
+            Das Spiel nutzt ein Skat-Deck mit 32 Karten, wobei jede Karte eine Aktion repräsentiert. 
+            Die Spiel endet, sobald vier Könige gezogen wurden.
         </section >
+        <section class="key-datas">
+        <h3>Funktionsumfang</h3>
+            <h4>Spielprinzip</h4>
+            <ul>
+                <li>Jede Karte hat eine Aktion</li>
+                <li>Karten werden abwechselnd im Uhrzeigersinn gezogen</li>
+                <li>Die Person die die Karte zieht führt die Aktion aus</li>
+                <li>Spiel endet, sobald 4 Könige gezogen wurden</li>
+            </ul>
+            <h4>Einstellungen</h4>
+            <ul>
+                <li>Karten können frei belegt werden</li>
+                <li>Sound kann an/aus-geschaltet werden</li>
+            </ul>
+            <h3>Betriebssysteme</h3>
+            <span>Die Anwendung ist auf allen gängigen Browser lauffähig.</span>
+            <h3>weitere Informationen</h3>
+            <span>
+            Die Software stellt eine dedizierte Clientanwendung für den Webbrowser dar und wurde unter Verwendung des Vue.js-Frameworks entwickelt.
+            </span>
+        </section>
         <figure class="project-detail-images">
             <div class="slider-wrapper">
                 <div class="mySlides fade animate-left">

@@ -14,12 +14,45 @@
                 </a>
             </section >
         </header>
-        <h3>Browserspiel</h3>
+        <h3 class="sub-headline">Multiplayer Browserspiel</h3>
         <section class="project-detail-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ratione iste iure architecto aut ducimus, quos cupiditate 
-            dolorum placeat aperiam unde sint asperiores.
+        "Quizduell" ist ein Multiplayer-Spiel, bei dem zwei Spieler in sechs Runden gegeneinander antreten. 
+            Dabei werden Fragen zum Thema Informatik gestellt, 
+            der Spieler, der am Ende mehr Fragen korrekt beantwortet hat, gewinnt das Spiel.
         </section >
+        <section class="key-datas">
+        <h3>Funktionsumfang</h3>
+            <h4>Ablauf</h4>
+            <ul>
+                <li>Spieler können offene Spiele in einer Lobby finden</li>
+                <li>Spieler können Spiele selber erstellen</li>
+                <li>Spiel wird gestartet sobald beide Spieler bereit sind</li>
+            </ul>
+            <h4>Spielprinzip</h4>
+            <ul>
+                <li>Zwei Spieler treten in Echtzeit gegeneinander an</li>
+                <li>Verschiendene Kategorien aus dem Bereich der Informatik</li>
+                <li>Frage und Kategorien werden zufällig ausgewählt</li>
+                <li>Fragen werden gleichzeitig gestellt und beantwortet</li>
+                <li>Spieler haben 20 Sekunden Zeit, um eine Frage zu beantworten</li>
+                <li>Sobald ein Spieler geantwortet hat, hat der andere nur noch 6 Sekunden zeit.</li>
+                <li>Es werden 6 Fragen pro Spiel gestellt</li>
+                <li>Wer mehr Fragen richtig beantwortet hat gewonnen</li>
+            </ul>
+            <h4>weitere Funktionen</h4>
+            <ul>
+                <li>Spieler können personalisierten Avatar erstellen</li>
+                <li>Statistik wird über jeden Spieler geführt und ist einsehbar</li>
+            </ul>
+            <h3>Betriebssysteme</h3>
+            <span>Die Anwendung ist auf allen gängigen Browser lauffähig.</span>
+            <h3>weitere Informationen</h3>
+            <span>Die Softwarearchitektur basiert auf dem Client-Server-Modell, 
+                wobei Vue.js für die Entwicklung des Clients und Spring Boot für den Server eingesetzt wurden.<br> 
+                Als Datenbank wurde ein relationales MySQL-Datenbankschema gewählt.<br> 
+                Die Interaktion zwischen Client und Server erfolgt über REST-Schnittstellen und WebSocket-Kommunikation.
+            </span>
+        </section>
         <figure class="project-detail-images">
             <section class="slideshow-container">
                 <div class="slider-wrapper">
@@ -101,8 +134,8 @@
                 </a>
             </figure>
             <figure class="technologies-icons" style="justify-content: space-around;">
-                <a title="RESTful" href="https://en.wikipedia.org/wiki/REST" target="_blank">
-                    <img src="images/icons/api-mobile-program.png" alt="RESTful">
+                <a title="REST" href="https://developer.mozilla.org/en-US/docs/Glossary/REST" target="_blank">
+                    <img src="images/icons/api-mobile-program.png" alt="REST">
                 </a>
                 <a title="WebSocket" href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">
                     <img src="images/icons/websocket.png" alt="WebSocket">
