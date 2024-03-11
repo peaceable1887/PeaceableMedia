@@ -78,8 +78,6 @@ video
 {
     .text p{font-size: 40px}
     .text{margin-top: -154px; height: 150px}
-
-
 }
 
 @media screen and (max-width: 1000px)
@@ -109,7 +107,6 @@ video
 @media screen and (max-width: 700px)
 {
     .prev, .next{font-size: 40px;}
-
     video
     {
         margin: 7px auto;
