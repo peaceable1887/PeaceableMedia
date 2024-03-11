@@ -73,7 +73,7 @@
     flex-direction: row;
     justify-content: center;
     width: 80%;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 20px 0;
     margin: 0;
 }
 #clickable-slider-images
@@ -249,10 +249,7 @@
 
 @media screen and (max-width: 700px)
 {
-    .project-detail-images
-    {
-        padding: 10px 0 10px 0;
-    }
+
     #clickable-slider-images
     {
         padding: 0px 0 0px 0;

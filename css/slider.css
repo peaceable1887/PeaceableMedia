@@ -1,8 +1,7 @@
 .slider-wrapper
 {
-    width: 100%;
+    width: 80%;
     position: relative;
-    width: 70rem;
     margin: 0 auto;
 }
 .mySlides
@@ -80,10 +79,7 @@ video
     .text p{font-size: 40px}
     .text{margin-top: -154px; height: 150px}
 
-    .slider-wrapper
-    {
-        width: 50rem;
-    }
+
 }
 
 @media screen and (max-width: 1000px)
@@ -94,7 +90,7 @@ video
 
     .slider-wrapper
     {
-        width: 40rem;
+        width: 600px;
     }
     video
     {
@@ -102,13 +98,18 @@ video
     }
 }
 
+@media screen and (max-width: 900px)
+{
+    .slider-wrapper
+    {
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 700px)
 {
     .prev, .next{font-size: 40px;}
-    .slider-wrapper
-    {
-        width: 30rem;
-    }
+
     video
     {
         margin: 7px auto;
@@ -124,7 +125,7 @@ video
 
     .slider-wrapper
     {
-        width: 25rem;
+        width: 350px;
     }
     video
     {
