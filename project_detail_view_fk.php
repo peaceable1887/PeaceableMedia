@@ -44,10 +44,14 @@
         <figure class="project-detail-images">
             <div class="slider-wrapper">
                 <div class="mySlides fade animate-left">
-                    <img class="imageSlider" src="images/FourKingz_01.jpg">
+                    <a href="images/FourKingz_Cover.jpg">
+                        <img class="imageSlider" src="images/FourKingz_Cover.jpg">
+                    </a>    
                 </div>
                 <div class="mySlides fade animate-left">
-                    <img class="imageSlider" src="images/FourKingz.jpg">
+                    <a href="images/FourKingz_All_Screens.jpg">
+                        <img class="imageSlider" src="images/FourKingz_All_Screens.jpg">
+                    </a>   
                 </div>
                 <div class="mySlides fade animate-left">
                     <video src="videos/FourKingz_Screencast.mp4" controls></video>
@@ -56,10 +60,10 @@
         </figure>
         <figure id="clickable-slider-images">
             <button onclick="currentDiv(1)" class="clickable-image active">
-                <img src="images/FourKingz_01.jpg">
+                <img src="images/FourKingz_Cover.jpg">
             </button>
             <button onclick="currentDiv(2)" class="clickable-image active">
-                <img src="images/FourKingz.jpg">
+                <img src="images/FourKingz_All_Screens.jpg">
             </button>
             <button onclick="currentDiv(3)" class="clickable-image active">
                 <img src="images/play_video_icon.jpg">

@@ -54,10 +54,14 @@
             <section class="slideshow-container">
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Rating_Drink.jpg">
+                        <a href="images/Rating_Drink.jpg">
+                            <img class="imageSlider" src="images/Rating_Drink.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg">
+                        <a href="images/Rating_Drink_Mockups.jpg">
+                            <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg">
+                        </a>
                     </div>
                 </div>
             </section>

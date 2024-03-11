@@ -57,28 +57,42 @@
             <section class="slideshow-container">
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell.jpg">
+                        <a href="images/Quizduell.jpg">
+                            <img class="imageSlider" src="images/Quizduell.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <video src="videos/ScreenCast_Quizduell.mp4" controls></video>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Profil bearbeiten.jpg">
+                        <a href="images/Quizduell - Profil bearbeiten.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Profil bearbeiten.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Lobby.jpg">
+                        <a href="images/Quizduell - Lobby.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Lobby.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Home.jpg">
+                        <a href="images/Quizduell - Home.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Home.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Frage.jpg">
+                        <a href="images/Quizduell - Frage.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Frage.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Auswertung.jpg">
+                        <a href="images/Quizduell - Auswertung.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Auswertung.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Quizduell - Spiel erstellen.jpg">
+                        <a href="images/Quizduell - Spiel erstellen.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Spiel erstellen.jpg">
+                        </a>
                     </div>
                 </div>
             </section>

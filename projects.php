@@ -19,8 +19,8 @@
         </div>
     </div>
     <div class="project-image">
-        <a href="images/Website - MemoDex - Pic02.jpg">
-            <img class="project-image-src" src="images/Website - MemoDex - Pic02.jpg">
+        <a href="images/MemoDex_Cover.jpg">
+            <img class="project-image-src" src="images/MemoDex_Cover.jpg">
         </a>
     </div>
 </div>
@@ -46,8 +46,8 @@
         </div>
     </div>
     <div class="project-image">
-        <a href="images/FourKingz_01.jpg">
-            <img class="project-image-src" src="images/FourKingz_01.jpg">
+        <a href="images/FourKingz_Cover.jpg">
+            <img class="project-image-src" src="images/FourKingz_Cover.jpg">
         </a>
     </div>
 </div>

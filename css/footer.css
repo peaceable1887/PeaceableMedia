@@ -92,12 +92,11 @@ button:hover
     width: 33.3%;
     text-align: center;
 }
-.footer-copyright::after {
+.footer-copyright::after 
+{
     content: "\A";
     white-space: pre;
-    display: block;
 }
-
 
 .footer-icons
 {
@@ -110,7 +109,6 @@ button:hover
 .footer-icons a
 {
     text-decoration: none;
-   
 }
 
 .github-account img
@@ -145,6 +143,7 @@ button:hover
 .footer-impressum a
 {
     text-decoration: none;
+    color: white;
 }
 .footer-impressum a:visited
 {
@@ -199,10 +198,9 @@ button:hover
     .contactBox{height: 400px;}
     .footer-copyright {font-size: 12px;}
     .footer-impressum a{font-size: 12px;}
-    .github-account img{height: 35px; width: 35px;}
-    .linkedin-account img{height: 35px; width: 35px;}
-    .xing-account img{height: 35px; width: 35px;}
-    .mailContact  a button{}
+    .github-account img{height: 30px; width: 30px;}
+    .linkedin-account img{height: 30px; width: 30px;}
+    .xing-account img{height: 30px; width: 30px;}
     .contactBox .mailContact p{font-size: 26px}
     .mailContact img{height: 40px; width: 40px;}
 }

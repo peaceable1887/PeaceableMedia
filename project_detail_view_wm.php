@@ -24,25 +24,39 @@
             <section class="slideshow-container">
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Website_Mockups.jpg">
+                        <a href="images/Website_Mockups.jpg">
+                            <img class="imageSlider" src="images/Website_Mockups.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Gaming_Startseite.jpg">
+                        <a href="images/Gaming_Startseite.jpg">
+                            <img class="imageSlider" src="images/Gaming_Startseite.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Architektur_Startseite.jpg">
+                        <a href="images/Architektur_Startseite.jpg">
+                            <img class="imageSlider" src="images/Architektur_Startseite.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Shop_Startseite.jpg">
+                        <a href="images/Shop_Startseite.jpg">
+                            <img class="imageSlider" src="images/Shop_Startseite.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Shop_Warenansicht.jpg">
+                        <a href="images/Shop_Warenansicht.jpg">
+                            <img class="imageSlider" src="images/Shop_Warenansicht.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Shop_Kontakt.jpg">
+                        <a href="images/Shop_Kontakt.jpg">
+                            <img class="imageSlider" src="images/Shop_Kontakt.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Shop_Impressum.jpg">
+                        <a href="images/Shop_Impressum.jpg">
+                            <img class="imageSlider" src="images/Shop_Impressum.jpg">
+                        </a>
                     </div>
                 </div>
             </section>

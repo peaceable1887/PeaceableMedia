@@ -59,20 +59,24 @@
             <section class="slideshow-container">
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Website - MemoDex - Pic02.jpg">
+                        <a href="images/MemoDex_Cover.jpg">
+                            <img class="imageSlider" src="images/MemoDex_Cover.jpg">
+                        </a>
                     </div>
                     <div class="mySlides fade animate-left">
-                        <img class="imageSlider" src="images/Website - MemoDex - Pic03.jpg">
+                        <a href="images/MemoDex_Screens.jpg">
+                            <img class="imageSlider" src="images/MemoDex_Screens.jpg">
+                        </a>
                     </div>
                 </div>
             </section>
         </figure>
         <figure id="clickable-slider-images">
             <button onclick="currentDiv(1)" class="clickable-image active">
-                <img src="images/Website - MemoDex - Pic02.jpg">
+                <img src="images/MemoDex_Cover.jpg">
             </button>
             <button onclick="currentDiv(2)" class="clickable-image">
-                <img src="images/Website - MemoDex - Pic03.jpg">
+                <img src="images/MemoDex_Screens.jpg">
             </button>
         </figure>
     
