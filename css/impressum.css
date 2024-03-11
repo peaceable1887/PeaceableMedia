@@ -1,0 +1,76 @@
+.impressum-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0% 0;
+    height: 500px;
+}
+.impressum-container p
+{
+    color: black;
+    font-size: 18px;
+}
+.impressum-content
+{
+    width: 90%;
+}
+.impressum-content h1
+{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.impressum-content-adress
+{
+    padding: 20px 0 20px 10px;
+}
+.impressum-content h2
+{
+    padding: 0px 0 0 0;
+    margin: 0;
+    font-size: 22px;
+}
+.impressum-content-contact
+{
+    padding: 20px 0 20px 10px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .impressum-container p
+    {
+        font-size: 16px;
+    }
+    .impressum-content h1
+    {
+        font-size: 35px;
+    }
+    .impressum-content h2
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .impressum-container p
+    {
+        font-size: 14px;
+    }
+    .impressum-content h1
+    {
+        font-size: 30px;
+    }
+    .impressum-content h2
+    {
+        font-size: 18px;
+    }
+   
+}
+
+@media screen and (max-width: 500px)
+{
+   
+}
+
+
+

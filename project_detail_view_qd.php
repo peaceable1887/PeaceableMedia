@@ -147,12 +147,15 @@
                     <img src="images/icons/java.png" alt="Java">
                 </a>
             </figure>
-            <figure class="technologies-icons" style="justify-content: space-around;">
+            <figure class="technologies-icons">
                 <a title="REST" href="https://developer.mozilla.org/en-US/docs/Glossary/REST" target="_blank">
                     <img src="images/icons/api-mobile-program.png" alt="REST">
                 </a>
                 <a title="WebSocket" href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">
                     <img src="images/icons/websocket.png" alt="WebSocket">
+                </a>
+                <a title="MySQL" href="https://www.mysql.com/" target="_blank">
+                    <img src="images/icons/mysql.png" alt="MySQL">
                 </a>
             </figure>
         </section >

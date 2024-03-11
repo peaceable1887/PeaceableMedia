@@ -4,9 +4,24 @@
 ?>
 <?php include("header.php");?>
 <main>
-   Impressum
+    <div class="impressum-container">
+        <div class="impressum-content">
+            <h1>Impressum</h1>
+            <div class="impressum-content-adress">
+                <p>Felix Hansmann</p>
+                <p>Rissener Landstra&szlig;e 233</p>
+                <p>22559 Hamburg</p>
+            </div>
+            <h2>Kontakt</h2>
+            <div class="impressum-content-contact">
+                <p>Telefon: 015170536908</p>
+                <p>E-Mail: felix.hansmann@outlook.de</p>
+            </div>
+            <span class="impressum-content-source">Quelle: 
+                <a href="https://www.e-recht24.de">e-recht24.de</a>
+            </span>
+        </div>
+    </div>
 </main>
 <?php include("footer.php");?>
-<script type="text/javascript" src="javascript/slider.js"></script>
-<script type="text/javascript" src="javascript/activeImageButton.js"></script>
 <?php include("global_scripts.php");?>

@@ -133,7 +133,8 @@ button:hover
 {
     font-size: 16px;
     width: 33.3%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-impressum a:hover
@@ -208,10 +209,8 @@ button:hover
 @media screen and (max-width: 500px)
 {
     .contactBox{height: 250px;}
-    .footer-copyright::after {
-        content: "";
-    }
-    .footer-impressum a{font-size: 12px;}
+    .footer-copyright::after { content: "";}
+    .footer-impressum a{font-size: 10px;}
     .footer-icons{width: 30%;}
     .github-account img{height: 30px; width: 30px;}
     .linkedin-account img{height: 30px; width: 30px;}
