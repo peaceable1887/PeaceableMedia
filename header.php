@@ -16,6 +16,7 @@
         <meta name="keywords" content="Felix Hansmann, Hansmann, Softwareentwicklung, Webentwicklung, App-Entiwcklung, Design, Designkonzeption, UX/UI, Webdesign">
         <meta name="author" content="Felix Hansmann">
         <title>Felix Hansmann</title>
+        <link rel="icon" type="image/x-icon" href="images/Logo_32x32.png" sizes="32x32">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
