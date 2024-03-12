@@ -14,7 +14,6 @@
                 Mit 3 Jahren Erfahrung als Werkstudent in der Frontend- und Backend-Entwicklung habe ich bereits Einblicke in die professionelle Welt gewonnen.
                 <br>Die Herausforderungen und Erfahrungen in dieser Zeit haben meine Fertigkeiten weiter verfeinert. 
                 <p></p>
-                Falls du Fragen hast, Anregungen teilen möchtest oder einfach in einen lockeren Austausch treten willst, stehe ich gerne zur Verfügung!
             </section >
             <a class="download-cv-btn" download href="files/felix_hansmann_cv.pdf">
                 <span class="download-cv-text">Lebenslauf</span>

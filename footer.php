@@ -1,15 +1,24 @@
 <footer>
     <div class="contactBox">
         <div class="mailContact">
-            <p>Anfrage senden</p>
+            <h4>Anfrage senden</h4>
+            <p>
+                Falls du Fragen hast, Anregungen teilen möchtest oder einfach 
+                in einen lockeren Austausch treten willst, stehe ich gerne zur Verfügung!
+            </p>
             <a href="mailto:felix-hh1887@hotmail.de">
                 <button>Kontaktieren</button>
             </a>
         </div>
     </div>
     <div class="footer-data">
-        <div class="footer-copyright">
-           Copyright &copy; Felix Hansmann 2023
+        <div class="footer-info">
+            <div class="footer-copyright">
+            Copyright &copy; Felix Hansmann 2023
+            </div>
+            <div class="footer-impressum">
+                <a href="impressum.php">Impressum</a>
+            </div>
         </div>
         <div class="footer-icons">
             <a class="github-account" href="https://github.com/peaceable1887" target="_blank">
@@ -24,8 +33,6 @@
                 <img src="images/xing-icon.png">
             </a>
         </div>
-        <div class="footer-impressum">
-            <a href="impressum.php">Impressum</a>
-        </div>
+        
     </div>
 </footer>
