@@ -158,10 +158,6 @@ nav a:active
 {
     nav a{font-size: 18px}
 }
-@media screen and (max-width: 1000px)
-{
-    
-}
 
 @media screen and (max-width: 900px)
 {
@@ -216,7 +212,6 @@ nav a:active
 
     @media screen and (max-width: 500px)
     {
-        main{margin: 60px auto 0px auto;}
         .logo{height: 70px}
         #first-name
         {
