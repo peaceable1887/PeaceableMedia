@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
 #menu
 {
@@ -6,10 +12,18 @@
     top: 0;
     width: 100%;
     background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 10px 0px;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
 #menu.scrolled 
@@ -25,9 +39,18 @@
     background: var(--color-background-header);
     list-style: none;
     padding: 0 0 0 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
 #logo.scrolled
@@ -49,7 +72,11 @@
 }
 #menuIcon
 {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 .fa-bars
 {
@@ -57,7 +84,9 @@
 }
 .fa-xmark 
 {
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 nav
 {
@@ -66,14 +95,20 @@ nav
     list-style: none;
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: absolute;
     width: 300px;
     right: 5%;
 }
 #navItems
 {
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
     background: var(--color-background-header);
 }
@@ -95,6 +130,8 @@ nav a
     display: inline-block;
     text-align: center;
     margin: 0;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 nav a:hover,
@@ -104,12 +141,12 @@ nav a:active
 }
 @media all and(max-width: 1000px)
 {
-    nav ul {flex-wrap: wrap;}
-    nav li {flex: 1 1 50%}
+    nav ul {-ms-flex-wrap: wrap;flex-wrap: wrap;}
+    nav li {-webkit-box-flex: 1;-ms-flex: 1 1 50%;flex: 1 1 50%}
 }
 @media all and(max-width: 480px)
 {
-    nav li {flex-basis: 100%;}
+    nav li {-ms-flex-preferred-size: 100%;flex-basis: 100%;}
 }
 
 @media screen and (min-width: 900px)
@@ -197,4 +234,3 @@ nav a:active
 
     }
 }
-

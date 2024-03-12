@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .slider-wrapper
 {
     width: 80%;
@@ -7,18 +14,24 @@
 .mySlides
 {
     background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     aspect-ratio: 16 / 9;
     overflow-x: hidden;
     overflow-y: hidden;
-    box-shadow: 0 1.5rem 3rem -75rem hsla(0, 0%, 0%, 0.25);
+    -webkit-box-shadow: 0 1.5rem 3rem -75rem hsla(0, 0%, 0%, 0.25);
+            box-shadow: 0 1.5rem 3rem -75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
 }
 .imageSlider
 {
     width: 100%;
-    flex: 1 0 100%;
-    object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 video
 {
@@ -40,7 +53,10 @@ video
     font-weight: bold;
     font-size: 60px;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 .next
 {
@@ -59,6 +75,7 @@ video
 }
 .grabbing
 {
+    cursor: -webkit-grabbing;
     cursor: grabbing;
 }
 .author
@@ -68,7 +85,11 @@ video
 .animate-left
 {
     position: relative;
-    animation: animateleft 2.4s
+    -webkit-animation: animateleft 2.4s;
+            animation: animateleft 2.4s
+}
+@-webkit-keyframes animateleft {
+    from { left :0; opacity:0 } to { left:0; opacity:1 }
 }
 @keyframes animateleft {
     from { left :0; opacity:0 } to { left:0; opacity:1 }
@@ -118,7 +139,7 @@ video
     .prev, .next{font-size: 40px;}
     .text p{font-size: 18px; margin: 6% 5% 0 5%;}
     .text b{font-size: 19px; }
-    .text{margin-top: -104px; height: 100px; display: flex; align-items: center}
+    .text{margin-top: -104px; height: 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center}
 
     .slider-wrapper
     {

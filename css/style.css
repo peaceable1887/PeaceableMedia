@@ -28,19 +28,6 @@ p
     letter-spacing: 1px;
     color: white;
 }
-@media all and(max-width: 1000px)
-{
-    
-}
-@media all and(max-width: 480px)
-{
-   
-}
-
-@media screen and (min-width: 900px)
-{
-    
-}
 
 @media screen and (max-width: 1200px)
 {
