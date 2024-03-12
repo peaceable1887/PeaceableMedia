@@ -38,7 +38,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 50px 0 40px 0;
+    padding: 50px 0 0px 0;
     width: 80%;
 }
 .about-me-description
@@ -166,7 +166,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 40px 0 50px 0;
+    padding: 40px 0 0px 0;
 }
 .about-me-skills h4
 {
@@ -207,7 +207,7 @@
     }
     .about-me-skills
     {
-        padding: 40px 0 60px 0;
+        padding: 40px 0 0px 0;
     }
 }
 
@@ -227,7 +227,7 @@
     }
     .about-me-skills
     {
-        padding: 35px 0 45px 0;
+        padding: 35px 0 0px 0;
     }
 }
 
@@ -235,7 +235,7 @@
 {
     .about-me-content 
     {
-        padding: 30px 0 40px 0;
+        padding: 30px 0 0px 0;
     }
     .about-me-description 
     {
@@ -248,7 +248,7 @@
     }
     .about-me-skills
     {
-        padding: 25px 0 25px 0;
+        padding: 25px 0 0px 0;
     }
     .about-me-skills h4
     {
