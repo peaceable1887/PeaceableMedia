@@ -6,7 +6,7 @@
                 Falls du Fragen hast, Anregungen teilen möchtest oder einfach 
                 in einen lockeren Austausch treten willst, stehe ich gerne zur Verfügung!
             </p>
-            <a href="mailto:felix-hh1887@hotmail.de">
+            <a href="mailto:felix.hansmann@outlook.de">
                 <button>Kontaktieren</button>
             </a>
         </section>
