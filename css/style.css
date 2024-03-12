@@ -14,11 +14,12 @@ body
     font-family: var(--fontfamily-global);
     margin: auto;
     width: 100%;
+    background-color: grey;
 }
 main
 {
     margin: 140px auto 0 auto;
-    max-width: 100%;
+    max-width: 2000px;
     background:  var(--color-background-body);
 }
 p
