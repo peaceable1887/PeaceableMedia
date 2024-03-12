@@ -1,4 +1,4 @@
-<div class="project">
+<article class="project">
     <div class="project-info">
         <div class="project-headline">
             <span class="headline-topic">
@@ -18,13 +18,13 @@
             </span>
         </div>
     </div>
-    <div class="project-image">
+    <figure class="project-image">
         <a href="images/MemoDex_Cover.jpg">
-            <img class="project-image-src" src="images/MemoDex_Cover.jpg">
+            <img class="project-image-src" src="images/MemoDex_Cover.jpg" alt="Das Bild MemoDex_Cover.jpg zeigt, als Flyer, einzelne Screens der App.">
         </a>
-    </div>
-</div>
-<div class="project">
+    </figure>
+</article>
+<article class="project">
     <div class="project-info">
         <div class="project-headline">
             <span class="headline-topic">
@@ -45,13 +45,13 @@
             </span>
         </div>
     </div>
-    <div class="project-image">
+    <figure class="project-image">
         <a href="images/FourKingz_Cover.jpg">
-            <img class="project-image-src" src="images/FourKingz_Cover.jpg">
+            <img class="project-image-src" src="images/FourKingz_Cover.jpg" alt="Das Bild FourKingz_Cover.jpg zeigt, als Flyer, einzelne Screens der App.">
         </a>
-    </div>
-</div>
-<div class="project">
+    </figure>
+</article>
+<article class="project">
     <div class="project-info">
     <div class="project-headline">
             <span class="headline-topic">
@@ -73,13 +73,13 @@
             </span>
         </div>
     </div>
-    <div class="project-image">
+    <figure class="project-image">
         <a href="images/Quizduell.jpg">
-            <img class="project-image-src" src="images/Quizduell.jpg">
+            <img class="project-image-src" src="images/Quizduell.jpg" alt="Das Bild Quizduell.jpg zeigt verschiedene Seiten (Mockups) der Quizduell-App">
         </a>
-    </div>
-</div>
-<div class="project">
+    </figure>
+</article>
+<article class="project">
     <div class="project-info">
     <div class="project-headline">
             <span class="headline-topic">
@@ -101,13 +101,13 @@
             </span>
         </div>
     </div>
-    <div class="project-image">
+    <figure class="project-image">
         <a href="images/Rating_Drink.jpg">
-            <img class="project-image-src" src="images/Rating_Drink.jpg">
+            <img class="project-image-src" src="images/Rating_Drink.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
         </a>
-    </div>
-</div>
-<div class="project">
+    </figure>
+</article>
+<article class="project">
     <div class="project-info">
     <div class="project-headline">
             <span class="headline-topic">
@@ -127,9 +127,10 @@
             </span>
         </div>
     </div>
-    <div class="project-image">
+    <figure class="project-image">
         <a href="images/Website_Mockups.jpg">
-            <img class="project-image-src" src="images/Website_Mockups.jpg">
+            <img class="project-image-src" src="images/Website_Mockups.jpg" alt="Das Bild Website_Mockups.jpg zeigt drei verschiedene 
+            Designkonzeptionen, von Webseiten, zu den Themen Online-Shop, Architektur und Gaming.">
         </a>
-    </div>
-</div>
+    </figure >
+</article>

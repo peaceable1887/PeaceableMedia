@@ -11,7 +11,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Felix-Hansmann</title>
+        <meta name="description" content="Auf dieser Webseite präsentiere ich eine Vielzahl meiner Projekte, darunter bereits abgeschlossene Anwendungen, 
+        sich in Entwicklung befindende Projekte sowie Designkonzeptionen für Webseiten, mobile Anwendungen und Flyer.">
+        <meta name="keywords" content="Felix Hansmann, Hansmann, Softwareentwicklung, Webentwicklung, App-Entiwcklung, Design, Designkonzeption, UX/UI, Webdesign">
+        <meta name="author" content="Felix Hansmann">
+        <title>Felix Hansmann</title>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>

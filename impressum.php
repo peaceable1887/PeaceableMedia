@@ -5,7 +5,7 @@
 <?php include("header.php");?>
 <main>
     <div class="impressum-container">
-        <div class="impressum-content">
+        <section class="impressum-content">
             <h1>Impressum</h1>
             <div class="impressum-content-adress">
                 <p>Felix Hansmann</p>
@@ -20,7 +20,7 @@
             <span class="impressum-content-source">Quelle: 
                 <a href="https://www.e-recht24.de">e-recht24.de</a>
             </span>
-        </div>
+        </section>
     </div>
 </main>
 <?php include("footer.php");?>

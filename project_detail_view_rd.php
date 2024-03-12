@@ -10,7 +10,7 @@
             <section class="project-repo">
                 <a class="repo-btn" href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">
                     <span class="repo-link-text">Dropbox</span>
-                    <img src="images/icons/dropbox.png" alt="GitHuB" width="25" height="25">
+                    <img src="images/icons/dropbox.png" alt="GitHub" width="25" height="25">
                 </a>
             </section >
         </header>
@@ -55,12 +55,12 @@
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
                         <a href="images/Rating_Drink.jpg">
-                            <img class="imageSlider" src="images/Rating_Drink.jpg">
+                            <img class="imageSlider" src="images/Rating_Drink.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Rating_Drink_Mockups.jpg">
-                            <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg">
+                            <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
                         </a>
                     </div>
                 </div>
@@ -68,10 +68,10 @@
         </figure>
         <figure id="clickable-slider-images">
             <button onclick="currentDiv(1)" class="clickable-image active">
-                <img class="imageSlider" src="images/Rating_Drink.jpg">
+                <img class="imageSlider" src="images/Rating_Drink.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
             </button>
             <button onclick="currentDiv(2)" class="clickable-image">
-                <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg">
+                <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
             </button>
         </figure>
         <section class="project-detail-technologies">

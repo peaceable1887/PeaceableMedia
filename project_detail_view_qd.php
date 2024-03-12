@@ -10,7 +10,7 @@
             <section class="project-repo">
                 <a class="repo-btn" href="https://github.com/peaceable1887/Quizduell" target="_blank">
                     <span class="repo-link-text">GitHub</span>
-                    <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
+                    <img src="images/iconmonstr-github-1-240.png" alt="GitHub" width="25" height="25">
                 </a>
             </section >
         </header>
@@ -58,7 +58,7 @@
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell.jpg">
-                            <img class="imageSlider" src="images/Quizduell.jpg">
+                            <img class="imageSlider" src="images/Quizduell.jpg" alt="Das Bild Quizduell.jpg zeigt verschiedene Seiten (Mockups), der Quizduell-App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
@@ -66,32 +66,32 @@
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Profil bearbeiten.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Profil bearbeiten.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Profil bearbeiten.jpg" alt="Das Bild zeigt die Profil bearbeiten Seite, der Quizduell App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Lobby.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Lobby.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Lobby.jpg" alt="Das Bild zeigt die Mehrspielerseite bearbeiten, der Quizduell App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Home.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Home.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Home.jpg" alt="Das Bild zeigt die Homeseite bearbeiten, der Quizduell App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Frage.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Frage.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Frage.jpg" alt="Das Bild zeigt wie eine Beispielfrage aussehen würde, von der Quizduell App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Auswertung.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Auswertung.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Auswertung.jpg" alt="Das Bild zeigt wie die Auswertung einer Rund aussehen würde, von der Quizduell App">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/Quizduell - Spiel erstellen.jpg">
-                            <img class="imageSlider" src="images/Quizduell - Spiel erstellen.jpg">
+                            <img class="imageSlider" src="images/Quizduell - Spiel erstellen.jpg" alt="Das Bild zeigt wie ein Spiel erstellt wird, von der Quizduell App">
                         </a>
                     </div>
                 </div>
@@ -99,28 +99,28 @@
         </figure>
         <figure id="clickable-slider-images">
             <button onclick="currentDiv(1)" class="clickable-image active">
-                <img src="images/Quizduell.jpg">
+                <img src="images/Quizduell.jpg" alt="Das Bild Quizduell.jpg zeigt verschiedene Seiten (Mockups), der Quizduell-App">
             </button>
             <button onclick="currentDiv(2)" class="clickable-image">
-                <img src="images/play_video_icon.jpg">
+                <img src="images/play_video_icon.jpg" alt="Ein Screencast der Quizduell-App">
             </button>
             <button onclick="currentDiv(3)" class="clickable-image">
-                <img src="images/Quizduell - Profil bearbeiten.jpg">
+                <img src="images/Quizduell - Profil bearbeiten.jpg" alt="Das Bild zeigt die Profil bearbeiten Seite, der Quizduell App">
             </button>
-            <button onclick="currentDiv(4)" class="clickable-image">
-                <img src="images/Quizduell - Lobby.jpg">
+            <button onclick="currentDiv(4)" class="clickable-image" >
+                <img src="images/Quizduell - Lobby.jpg" alt="Das Bild zeigt die Mehrspielerseite bearbeiten, der Quizduell App">
             </button>
-            <button onclick="currentDiv(5)" class="clickable-image">
-                <img src="images/Quizduell - Home.jpg">
+            <button onclick="currentDiv(5)" class="clickable-image" >
+                <img src="images/Quizduell - Home.jpg" alt="Das Bild zeigt die Homeseite bearbeiten, der Quizduell App">
             </button>
             <button onclick="currentDiv(6)" class="clickable-image">
-                <img src="images/Quizduell - Frage.jpg">
+                <img src="images/Quizduell - Frage.jpg" alt="Das Bild zeigt wie eine Beispielfrage aussehen würde, von der Quizduell App">
             </button>
             <button onclick="currentDiv(7)" class="clickable-image">
-                <img src="images/Quizduell - Auswertung.jpg">
+                <img src="images/Quizduell - Auswertung.jpg" alt="Das Bild zeigt wie die Auswertung einer Rund aussehen würde, von der Quizduell App">
             </button>
-            <button onclick="currentDiv(3)" class="clickable-image">
-                <img src="images/Quizduell - Spiel erstellen.jpg">
+            <button onclick="currentDiv(8)" class="clickable-image">
+                <img src="images/Quizduell - Spiel erstellen.jpg" alt="Das Bild zeigt wie ein Spiel erstellt wird, von der Quizduell App">
             </button>
         </figure>
         <section class="project-detail-technologies">

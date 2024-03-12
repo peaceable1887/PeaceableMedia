@@ -10,7 +10,7 @@
             <section class="project-repo">
                 <a class="repo-btn" href="https://github.com/peaceable1887/memo_dex_client" target="_blank">
                     <span class="repo-link-text">GitHub</span>
-                    <img src="images/iconmonstr-github-1-240.png" alt="GitHuB" width="25" height="25">
+                    <img src="images/iconmonstr-github-1-240.png" alt="GitHub" width="25" height="25">
                 </a>
             </section >
         </header>
@@ -60,12 +60,12 @@
                 <div class="slider-wrapper">
                     <div class="mySlides fade animate-left">
                         <a href="images/MemoDex_Cover.jpg">
-                            <img class="imageSlider" src="images/MemoDex_Cover.jpg">
+                            <img class="imageSlider" src="images/MemoDex_Cover.jpg" alt="Das Bild MemoDex_Cover.jpg zeigt, als Flyer, einzelne Screens der App.">
                         </a>
                     </div>
                     <div class="mySlides fade animate-left">
                         <a href="images/MemoDex_Screens.jpg">
-                            <img class="imageSlider" src="images/MemoDex_Screens.jpg">
+                            <img class="imageSlider" src="images/MemoDex_Screens.jpg" alt="Das Bild MemoDex_Cover.jpg zeigt verschiedene Screens der App.">
                         </a>
                     </div>
                 </div>
@@ -73,10 +73,10 @@
         </figure>
         <figure id="clickable-slider-images">
             <button onclick="currentDiv(1)" class="clickable-image active">
-                <img src="images/MemoDex_Cover.jpg">
+                <img src="images/MemoDex_Cover.jpg" alt="Das Bild MemoDex_Cover.jpg zeigt, als Flyer, einzelne Screens der App.">
             </button>
             <button onclick="currentDiv(2)" class="clickable-image">
-                <img src="images/MemoDex_Screens.jpg">
+                <img src="images/MemoDex_Screens.jpg" alt="Das Bild MemoDex_Cover.jpg zeigt verschiedene Screens der App.">
             </button>
         </figure>
     
