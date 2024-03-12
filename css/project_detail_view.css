@@ -147,6 +147,7 @@
     height: 100px;
     width: 100px;
     border-radius: 0.5rem;
+    border: none;
 }
 .active, .clickable-image:hover
 {

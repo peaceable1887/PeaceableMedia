@@ -216,7 +216,7 @@ nav a:active
 
     @media screen and (max-width: 500px)
     {
-        main{margin: 80px auto 80px auto;}
+        main{margin: 60px auto 0px auto;}
         .logo{height: 70px}
         #first-name
         {
