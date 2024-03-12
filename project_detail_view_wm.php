@@ -65,22 +65,22 @@
             <button onclick="currentDiv(1)" class="clickable-image active">
                 <img class="imageSlider" src="images/Website_Mockups.jpg">
             </button>
-            <button onclick="currentDiv(2)" class="clickable-image active">
+            <button onclick="currentDiv(2)" class="clickable-image">
                 <img class="imageSlider" src="images/Gaming_Startseite.jpg">
             </button>
             <button onclick="currentDiv(3)" class="clickable-image">
                 <img class="imageSlider" src="images/Architektur_Startseite.jpg">
             </button>
-            <button onclick="currentDiv(4)" class="clickable-image active">
+            <button onclick="currentDiv(4)" class="clickable-image">
                 <img class="imageSlider" src="images/Shop_Startseite.jpg">
             </button>
             <button onclick="currentDiv(5)" class="clickable-image">
                 <img class="imageSlider" src="images/Shop_Warenansicht.jpg">
             </button>
-            <button onclick="currentDiv(6)" class="clickable-image active">
+            <button onclick="currentDiv(6)" class="clickable-image">
                 <img class="imageSlider" src="images/Shop_Kontakt.jpg">
             </button>
-            <button onclick="currentDiv(7)" class="clickable-image active">
+            <button onclick="currentDiv(7)" class="clickable-image">
                 <img class="imageSlider" src="images/Shop_Impressum.jpg">
             </button>
         </figure>

@@ -62,10 +62,10 @@
             <button onclick="currentDiv(1)" class="clickable-image active">
                 <img src="images/FourKingz_Cover.jpg">
             </button>
-            <button onclick="currentDiv(2)" class="clickable-image active">
+            <button onclick="currentDiv(2)" class="clickable-image">
                 <img src="images/FourKingz_All_Screens.jpg">
             </button>
-            <button onclick="currentDiv(3)" class="clickable-image active">
+            <button onclick="currentDiv(3)" class="clickable-image">
                 <img src="images/play_video_icon.jpg">
             </button>
         </figure>

@@ -70,7 +70,7 @@
             <button onclick="currentDiv(1)" class="clickable-image active">
                 <img class="imageSlider" src="images/Rating_Drink.jpg">
             </button>
-            <button onclick="currentDiv(2)" class="clickable-image active">
+            <button onclick="currentDiv(2)" class="clickable-image">
                 <img class="imageSlider" src="images/Rating_Drink_Mockups.jpg">
             </button>
         </figure>

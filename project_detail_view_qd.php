@@ -101,25 +101,25 @@
             <button onclick="currentDiv(1)" class="clickable-image active">
                 <img src="images/Quizduell.jpg">
             </button>
-            <button onclick="currentDiv(2)" class="clickable-image active">
+            <button onclick="currentDiv(2)" class="clickable-image">
                 <img src="images/play_video_icon.jpg">
             </button>
             <button onclick="currentDiv(3)" class="clickable-image">
                 <img src="images/Quizduell - Profil bearbeiten.jpg">
             </button>
-            <button onclick="currentDiv(4)" class="clickable-image active">
+            <button onclick="currentDiv(4)" class="clickable-image">
                 <img src="images/Quizduell - Lobby.jpg">
             </button>
             <button onclick="currentDiv(5)" class="clickable-image">
                 <img src="images/Quizduell - Home.jpg">
             </button>
-            <button onclick="currentDiv(6)" class="clickable-image active">
+            <button onclick="currentDiv(6)" class="clickable-image">
                 <img src="images/Quizduell - Frage.jpg">
             </button>
-            <button onclick="currentDiv(7)" class="clickable-image active">
+            <button onclick="currentDiv(7)" class="clickable-image">
                 <img src="images/Quizduell - Auswertung.jpg">
             </button>
-            <button onclick="currentDiv(3)" class="clickable-image active">
+            <button onclick="currentDiv(3)" class="clickable-image">
                 <img src="images/Quizduell - Spiel erstellen.jpg">
             </button>
         </figure>
