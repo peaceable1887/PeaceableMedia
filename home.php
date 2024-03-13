@@ -5,10 +5,13 @@
         <span class="helloText">
             Moin!
         </span>
-        <span class="presentationText">
+       <span class="presentationText">
             Ich bin Felix,<br>
             Entwickler und Designer<br>
             aus Hamburg
         </span>
+        <!--<div class="typewriter">
+            <h1>The cat and the hat.</h1>
+        </div>-->
     </div>
 </div>
