@@ -128,7 +128,7 @@ footer
 }
 .footer-data
 {
-    background-color: var(--color-background-footer);
+    background-color: #15171B;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

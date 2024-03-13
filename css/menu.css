@@ -11,7 +11,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--color-background-header);
+    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -28,7 +28,7 @@
 }
 #menu.scrolled 
 {
-    background-color: var(--color-secondary); 
+    background-color: #15171B;
 }
 #menu a
 {
@@ -55,7 +55,7 @@
 }
 #logo.scrolled
 {
-    background-color: var(--color-secondary);
+    background-color: #15171B; 
 }
 #first-name
 {
@@ -114,7 +114,7 @@ nav
 }
 #navItems.scrolled
 {
-    background-color: var(--color-secondary);
+    background-color: #15171B;
 }
 nav h1
 {
@@ -137,7 +137,7 @@ nav a
 nav a:hover,
 nav a:active
 {
-    color: var(--color-primary);
+    color: #0f5dc4;
 }
 @media all and(max-width: 1000px)
 {
