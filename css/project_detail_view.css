@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .project-detail-content
 {
     display: -webkit-box;
@@ -17,8 +24,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-
-    padding-bottom: 50px;
+    margin: 120px 0 0 0;
 }
 .project-detail-headlines 
 {
@@ -249,6 +255,10 @@
 
 @media screen and (max-width: 1200px)
 {
+    .project-detail-content
+    {
+        margin: 100px 0 0 0;
+    }
     .clickable-image 
     {
         height: 80px;
@@ -263,6 +273,7 @@
 
 @media screen and (max-width: 1000px)
 {
+    
     .project-detail-headlines h1
     {
         font-size: 35px;
@@ -326,7 +337,10 @@
 
 @media screen and (max-width: 700px)
 {
-
+    .project-detail-content
+    {
+        margin: 90px 0 0 0;
+    }
     #clickable-slider-images
     {
         padding: 0px 0 0px 0;
@@ -353,6 +367,10 @@
 }
 @media screen and (max-width: 500px)
 {
+    .project-detail-content
+    {
+        margin: 75px 0 0 0;
+    }
     .project-detail-headlines h1
     {
         font-size: 32px;
