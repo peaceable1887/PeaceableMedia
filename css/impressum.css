@@ -28,7 +28,7 @@
 }
 .impressum-container p
 {
-    color: black;
+    color: var(--color-font);
     font-size: 18px;
 }
 .impressum-content

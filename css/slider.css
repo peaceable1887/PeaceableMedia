@@ -13,7 +13,6 @@
 }
 .mySlides
 {
-    background: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -41,47 +40,6 @@ video
     width: 50%;
 }
 
-.prev, .next {
-    background-color: rgba(255,255,255,0);
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    font-weight: bold;
-    font-size: 60px;
-    border-radius: 0 3px 3px 0;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
-.next
-{
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover
-{
-    background-color: rgba(255,255,255,0);
-}
-.prev i:hover, .next i:hover
-{
-    color: #DADADA;
-}
-.grabbing
-{
-    cursor: -webkit-grabbing;
-    cursor: grabbing;
-}
-.author
-{
-    color: cornflowerblue;
-}
 .animate-left
 {
     position: relative;

@@ -22,7 +22,7 @@
 
 .project-info
 {
-    border-top: 1px solid grey; 
+    border-top: 1px solid var(--color-font-tertiary); 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex;
@@ -61,7 +61,7 @@
 .headline-sub
 {
     font-size: 16px;
-    color: grey;
+    color: var(--color-font-tertiary);
     text-transform: uppercase;
 }
 

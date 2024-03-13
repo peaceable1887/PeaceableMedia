@@ -80,7 +80,7 @@
 {
     font-weight: 400;
     font-size: 16px;
-    color: grey;
+    color: var(--color-font-tertiary);
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -177,7 +177,6 @@
 }
 .skill-technologie-icon
 {
-    background-color: blueviolet;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
