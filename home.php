@@ -11,7 +11,10 @@
             aus Hamburg
         </span>
         <!--<div class="typewriter">
-            <h1>The cat and the hat.</h1>
+            <div class="typewriter01">Moin!</div>
+            <div class="typewriter02">Ich bin Felix,</div>
+            <div class="typewriter03">Entwickler und Designer</div>
+            <div class="typewriter04">aus Hamburg</div>
         </div>-->
     </div>
 </div>
