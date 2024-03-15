@@ -11,8 +11,8 @@
             </div>
         </a>
         <nav id="navItems">
-        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="home">Projekte</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="projects">Über Mich</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="projects">Projekte</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="aboutMe">Über Mich</a>
         <a class="navLink" href="https://www.felix-hansmann.de/#contact" data-scroll="contact">Kontakt</a>';
       
     } else 
@@ -26,7 +26,7 @@
         </a>
         <nav id="navItems">
         <a class="navLink" href="#projects" data-scroll="projects">Projekte</a>
-        <a class="navLink" href="#aboutMe" data-scroll="home">Über Mich</a>
+        <a class="navLink" href="#aboutMe" data-scroll="aboutMe">Über Mich</a>
         <a class="navLink" href="#contact" data-scroll="contact">Kontakt</a>';
     }
     ?>

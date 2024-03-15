@@ -169,18 +169,22 @@
 .key-datas h3
 {
     font-size: 22px;
+    margin: 16px 0 16px 0;
 }
 .key-datas h4
 {
     font-size: 20px;
+    margin: 16px 0 16px 0;
 }
 .key-datas ul
 {
     list-style-type: square;
+    margin: 16px 0 16px 0;
 }
 .key-datas li
 {
     font-size: 20px;
+    margin-left: 40px;
 }
 .key-datas li::marker 
 {

@@ -28,30 +28,114 @@
     width: 550px;
     height: 550px;
 }
-.topPresentationText
+.context 
 {
+    height: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 
     -webkit-box-orient: vertical;
+
+    -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+}
+.text-content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 60%;
+}
+.slogan-text
+{
+    color: var(--color-font-secondary);
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sub-text
+{
+    color: var(--color-font-secondary);
+    font-size: 30px;
+    font-weight: 500;
+}
+.contact-btn
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    background-color: var(--color-primary);
+    width: 150px;
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    border: 2px solid white;
 }
-.helloText
+.contact-btn:hover
 {
-    font-size: 80px;
-    font-weight: 600;
-    color: var(--color-primary);
+    background: var(--color-primary);
+    color: white;
 }
-.presentationText
+.contact-btn-text
 {
-    font-size: 48px;
-    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact-btn:hover .contact-btn-text
+{
+    color: white;
+}
+@media screen and (max-width: 1200px)
+{
+    .context 
+    {
+        height: 450px;
+    }
+    .text-content
+    {
+       
+    }
+    .slogan-text
+    {
+        font-size: 70px;
+    }
+    .sub-text
+    {
+        font-size: 28px;
+    }
+    .contact-btn
+    {
+        width: 120px;
+        padding: 10px;
+        text-decoration: none;
+        border: 2px solid white;
+    }
+    .contact-btn-text
+    {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1000px)
@@ -67,15 +151,29 @@
                 align-items: center;
         margin-bottom: 40px;
     }
-    .topPresentationText
+    .context 
     {
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        height: 400px;
     }
-    .presentationText
+    
+    .slogan-text
     {
-        text-align: center;
+        font-size: 65px;
+    }
+    .sub-text
+    {
+        font-size: 26px;
+    }
+    .contact-btn
+    {
+        width: 120px;
+        padding: 10px;
+        text-decoration: none;
+        border: 2px solid white;
+    }
+    .contact-btn-text
+    {
+        font-size: 16px;
     }
 }
 
@@ -103,15 +201,56 @@
             -ms-flex-align: center;
                 align-items: center;
     }
-    .helloText
+    .context 
     {
-        font-size: 65px;
-        padding-bottom: 10px;
+        height: 340px;
     }
-    .presentationText
+    .slogan-text
     {
-        font-size: 32px;
-        text-align: center;
+        font-size: 50px;
+    }
+    .sub-text
+    {
+        font-size: 22px;
+    }
+    .contact-btn
+    {
+        width: 100px;
+        padding: 10px;
+        text-decoration: none;
+        border: 1.5px solid white;
+    }
+    .contact-btn-text
+    {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 700px)
+{
+    
+    .context 
+    {
+        height: 300px;
+    }
+    .slogan-text
+    {
+        font-size: 45px;
+    }
+    .sub-text
+    {
+        font-size: 20px;
+    }
+    .contact-btn
+    {
+        width: 100px;
+        padding: 10px;
+        text-decoration: none;
+        border: 1.5px solid white;
+    }
+    .contact-btn-text
+    {
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 500px)
@@ -121,13 +260,32 @@
         width: 350px;
         height: 350px;
     }
-    .helloText
+    .context 
     {
-        font-size: 50px;
-        padding-bottom: 10px;
+        height: 280px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
-    .presentationText
+    .slogan-text
     {
-        font-size: 24px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .sub-text
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .contact-btn
+    {
+        width: 100px;
+        padding: 10px;
+        text-decoration: none;
+        border: 1.5px solid white;
+    }
+    .contact-btn-text
+    {
+        font-size: 14px;
     }
 }
