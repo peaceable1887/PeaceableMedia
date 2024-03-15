@@ -107,6 +107,14 @@
 {
     color: white;
 }
+@media (orientation: landscape)
+{
+    .context 
+    {
+        top: 18%;
+    }
+   
+}
 @media screen and (max-width: 1200px)
 {
     .context 
@@ -225,10 +233,7 @@
 @media screen and (max-width: 700px)
 {
     
-    .context 
-    {
-        height: 300px;
-    }
+    
     .slogan-text
     {
         font-size: 45px;
@@ -258,7 +263,7 @@
     }
     .context 
     {
-        height: 280px;
+    
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
