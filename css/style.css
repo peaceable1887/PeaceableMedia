@@ -20,6 +20,8 @@ main
     max-width: 100%;
     background:  var(--color-background-body);
 }
+
+
 p
 {
     margin: 0;

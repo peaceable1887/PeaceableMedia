@@ -4,7 +4,7 @@
             <span class="headline-topic">
                 MemoDex
             </span>
-            <a class="description-btn" href="project_detail_view_md.php">
+            <a class="description-btn" href="/project_detail_view_md.php">
                 <span class="description-link-text">Details</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </a>
