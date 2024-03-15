@@ -24,6 +24,7 @@
         </a>
     </div>
 </article>
+<hr>
 <article class="project">
     <div class="project-info">
         <div class="project-headline">
@@ -51,6 +52,7 @@
         </a>
     </div>
 </article>
+<hr>
 <article class="project">
     <div class="project-info">
         <div class="project-headline">
@@ -79,6 +81,7 @@
         </a>
     </div>
 </article>
+<hr>
 <article class="project">
     <div class="project-info">
         <div class="project-headline">
@@ -107,6 +110,7 @@
         </a>
     </div>
 </article>
+<hr>
 <article class="project">
     <div class="project-info">
         <div class="project-headline">
@@ -134,3 +138,4 @@
         </a>
     </div >
 </article>
+<hr>
