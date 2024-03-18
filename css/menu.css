@@ -135,8 +135,11 @@ nav a
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
-.navItems .navLink:hover,
-.navLink.activeLink
+.navItems .navLink:hover
+{
+    color: #0f5dc4;
+}
+.activeLink
 {
     color: #0f5dc4;
 }

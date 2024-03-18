@@ -43,8 +43,8 @@ video
 .animate-left
 {
     position: relative;
-    -webkit-animation: animateleft 2.4s;
-            animation: animateleft 2.4s
+    -webkit-animation: animateleft 0.4s;
+            animation: animateleft 0.4s
 }
 @-webkit-keyframes animateleft {
     from { left :0; opacity:0 } to { left:0; opacity:1 }
