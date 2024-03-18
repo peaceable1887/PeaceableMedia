@@ -13,4 +13,4 @@ for (var x = 0; x < btns.length; x++)
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
     });
-  }
+}

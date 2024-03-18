@@ -1,6 +1,7 @@
 window.onscroll = function()
 {
     scrollFunction();
+
 };
 
 document.addEventListener('DOMContentLoaded', function() 
@@ -22,15 +23,16 @@ function scrollFunction()
         menu.style.fontSize = "";
         menu.style.borderBottom = "";
         menu.style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px";
+
         document.getElementById("last-name").style.color= "white";
-        
-        
+      
         var navLinks = document.getElementsByClassName("navLink");
 
         for (var i = 0; i < navLinks.length; i++) 
         {
+            
             navLinks[i].style.color = "white"; 
-
+           
             navLinks[i].addEventListener("mouseenter", function() 
             {
                 this.style.color = "#0f5dc4"; 
@@ -38,7 +40,7 @@ function scrollFunction()
 
             navLinks[i].addEventListener("mouseleave", function() 
             {
-                this.style.color = "white";
+                this.style.color = "white"; 
             });
             
         }
@@ -69,17 +71,19 @@ function scrollFunction()
 
         for (var i = 0; i < navLinks.length; i++) 
         {
+        
             navLinks[i].style.color = "black"; 
 
-            navLinks[i].addEventListener("mouseenter", function() {
+            navLinks[i].addEventListener("mouseenter", function() 
+            {
                 // Ändern Sie den Stil für den Hover-Zustand
                 this.style.color = "#0f5dc4"; // Ändern Sie die Farbe entsprechend Ihren Anforderungen
             });
 
                 // Fügen Sie einen Event-Listener für den "aus dem Hover"-Effekt hinzu
-            navLinks[i].addEventListener("mouseleave", function() {
-                // Setzen Sie den Stil zurück, wenn der Mauszeiger den Link verlässt
-                this.style.color = "black";
+            navLinks[i].addEventListener("mouseleave", function() 
+            {             
+                this.style.color = "black";         
             });
         }
 
