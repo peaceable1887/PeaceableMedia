@@ -140,6 +140,17 @@ nav a:active
 {
     color: #0f5dc4;
 }
+@-webkit-keyframes foldInSmooth
+{
+    from
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
+}
 @keyframes foldInSmooth
 {
     from
@@ -149,6 +160,18 @@ nav a:active
     to
     {
         opacity: 0;
+    }
+}
+
+@-webkit-keyframes unfoldSmooth
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
     }
 }
 
