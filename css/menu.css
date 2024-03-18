@@ -104,6 +104,7 @@ nav
     position: absolute;
     width: 300px;
     right: 5%;
+
 }
 #navItems
 {
@@ -138,6 +139,29 @@ nav a:hover,
 nav a:active
 {
     color: #0f5dc4;
+}
+@keyframes foldInSmooth
+{
+    from
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes unfoldSmooth
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
 }
 @media all and(max-width: 1000px)
 {

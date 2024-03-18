@@ -144,7 +144,7 @@ window.addEventListener('scroll', function()
         iconElement.classList.add("fa-bars");
 
     } else if (scroll < position && width < 900)
-        {
+    {
         nav.style.display = "none";
         iconElement.classList.remove("fa-xmark");
         iconElement.classList.add("fa-bars");

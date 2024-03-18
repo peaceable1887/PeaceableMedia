@@ -2,7 +2,7 @@ function burgerMenu()
 {
     let elms = document.getElementsByTagName("nav");
 
-    for (var i = 0; i < elms.length; i++) 
+    for (let i = 0; i < elms.length; i++) 
     {
         if (elms[i].style.display !== "flex" || elms[i].style.display === "") 
         {
@@ -11,13 +11,19 @@ function burgerMenu()
             elms[i].style.flexDirection = "column";
             elms[i].style.right = "0%";
             elms[i].style.top = "100%";
-            elms[i].style.borderTop = "1px solid grey";
             elms[i].style.width = "100%";
+            elms[i].style.zIndex = "-1";
             elms[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px";
-
+            elms[i].style.animation = "unfoldSmooth 0.25s";
+            elms[i].style.borderTop = "1px solid rgb(168, 168, 168)";
         } else 
         {
-            elms[i].style.display = "none";
+            elms[i].style.animation = "foldInSmooth 0.25s";
+            elms[i].addEventListener("animationend", function closureFunction() 
+            {
+                elms[i].style.display = "none";
+                elms[i].removeEventListener("animationend", closureFunction);
+            });
         }
     }
 }
