@@ -1,6 +1,31 @@
-main
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+main, footer
 {
-    animation: transitionIn 0.60s;
+    -webkit-animation: transitionIn 0.60s;
+            animation: transitionIn 0.60s;
+}
+
+@-webkit-keyframes transitionIn 
+{
+    from
+    {
+        opacity: 0;
+        -webkit-transform: rotateX(-10deg);
+                transform: rotateX(-10deg);
+    }
+
+    to
+    {
+        opacity: 1;
+        -webkit-transform: rotateX(0);
+                transform: rotateX(0);
+    }
 }
 
 @keyframes transitionIn 
@@ -8,12 +33,14 @@ main
     from
     {
         opacity: 0;
-        transform: rotateX(-10deg);
+        -webkit-transform: rotateX(-10deg);
+                transform: rotateX(-10deg);
     }
 
     to
     {
         opacity: 1;
-        transform: rotateX(0);
+        -webkit-transform: rotateX(0);
+                transform: rotateX(0);
     }
 }

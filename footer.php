@@ -1,6 +1,5 @@
 <hr>
 <footer>
- 
     <div class="contactBox">
         <section class="mailContact">
             <h4>Anfrage senden</h4>
