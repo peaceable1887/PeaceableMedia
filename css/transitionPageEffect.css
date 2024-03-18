@@ -1,0 +1,19 @@
+main
+{
+    animation: transitionIn 0.60s;
+}
+
+@keyframes transitionIn 
+{
+    from
+    {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to
+    {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
