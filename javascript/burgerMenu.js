@@ -13,7 +13,7 @@ function burgerMenu()
             elms[i].style.top = "100%";
             elms[i].style.width = "100%";
             elms[i].style.zIndex = "-1";
-            elms[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px";
+            elms[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem";
             elms[i].style.animation = "unfoldSmooth 0.25s";
             elms[i].style.borderTop = "1px solid rgb(168, 168, 168)";
         } else 

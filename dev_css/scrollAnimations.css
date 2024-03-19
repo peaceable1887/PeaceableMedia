@@ -1,0 +1,26 @@
+.headline-topic, .headline-sub, .description-text, .about-me-content, .about-me-skills
+{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 35% cover 35%;
+}
+
+.project-image
+{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 25% cover 25%;
+}
+
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}

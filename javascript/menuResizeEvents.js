@@ -10,7 +10,7 @@ function adjustNavigation()
         iconElement.classList.add("fa-bars");
 
         nav.style.display = "none";
-        nav.style.width = "300px";
+        nav.style.width = "18.75rem";
         nav.style.boxShadow = "";
 
     } else if (width > 900) 

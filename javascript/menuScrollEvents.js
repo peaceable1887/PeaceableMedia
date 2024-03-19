@@ -19,7 +19,7 @@ function changeMenuStyle()
         navItems.classList.add("scrolled");
         menu.style.fontSize = "";
         menu.style.borderBottom = "";
-        menu.style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px";
+        menu.style.boxShadow = "rgba(0, 0, 0, 0.15) 0rem 0.122rem 0.163rem";
 
         document.getElementById("last-name").style.color= "white";
       
