@@ -4,7 +4,7 @@
     if ($_SESSION['changedPage']) 
     {
         echo '
-        <a href="https://www.felix-hansmann.de/" data-scroll="home">
+        <a class="navLink" id="navLinkLogo" href="https://www.felix-hansmann.de/" data-scroll="home">
             <div id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>
@@ -18,7 +18,7 @@
     } else 
     {
         echo '
-        <a href="#home" data-scroll="home">
+        <a class="navLink" class="navLink" id="navLinkLogo" href="#home" data-scroll="home">
             <div id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>

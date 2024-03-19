@@ -135,13 +135,10 @@ nav a
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
-.navItems .navLink:hover
-{
-    color: #0f5dc4;
-}
+
 .activeLink
 {
-    color: #0f5dc4;
+    color: #0f5dc4 !important;
 }
 @-webkit-keyframes foldInSmooth
 {
@@ -231,7 +228,10 @@ nav a
     {
         padding: 0 5% 0 0 ;
     }
-
+    #navLinkLogo
+    {
+        padding: 0 !important;
+    }
     .navLink 
     {
         padding: 15px 0 15px 3% ;
