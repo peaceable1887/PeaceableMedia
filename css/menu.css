@@ -38,7 +38,7 @@
 {
     background: var(--color-background-header);
     list-style: none;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -231,10 +231,11 @@ nav a
     #navLinkLogo
     {
         padding: 0 !important;
+        border: none !important;
     }
     .navLink 
     {
-        padding: 0.9375rem 0 0.9375rem 3%;
+        padding: 0.9375rem 0 0.9375rem 1.5rem;
         text-decoration: none;
         font-size: 0.9375rem;
         display: block;
@@ -253,11 +254,9 @@ nav a
         color: var(--color-primary);
     }
 
-    .logo 
+    #logo 
     {
-        color: var(--color-font);
-        height: 5.625rem;
-        margin: 0;
+        padding: 0 0 0 1.5rem;
     }
 
     @media screen and (max-width: 500px)

@@ -4,7 +4,7 @@ function adjustNavigation()
     var nav = document.querySelector("nav");
     var width = document.documentElement.clientWidth;
 
-    if (width <= 900) 
+    if (width < 900) 
     {
         iconElement.classList.remove("fa-xmark");
         iconElement.classList.add("fa-bars");
@@ -21,7 +21,21 @@ function adjustNavigation()
         nav.style.paddingTop = "0";
         nav.style.right = "5%";
         nav.style.top = "";
-        nav.style.borderTop = "none";
+        nav.style.border = "none";
+    }
+
+    let linkEls = document.getElementsByClassName("navLink");
+
+    for (let i = 0; i < linkEls.length; i++) 
+    {
+        if (width < 900) 
+        {
+            linkEls[i].style.borderTop = "0.0625rem solid rgb(168, 168, 168)";
+        } 
+        else if (width > 900) 
+        {
+            linkEls[i].style.border = "none";
+        }
     }
 }
 

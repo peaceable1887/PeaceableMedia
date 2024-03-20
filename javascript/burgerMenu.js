@@ -1,29 +1,40 @@
 function burgerMenu() 
 {
-    let elms = document.getElementsByTagName("nav");
+    let navEls = document.getElementsByTagName("nav");
 
-    for (let i = 0; i < elms.length; i++) 
+    for (let i = 0; i < navEls.length; i++) 
     {
-        if (elms[i].style.display !== "flex" || elms[i].style.display === "") 
+        if (navEls[i].style.display !== "flex" || navEls[i].style.display === "") 
         {
-            elms[i].style.display = "flex";
-            elms[i].style.alignItems = "flex-start";
-            elms[i].style.flexDirection = "column";
-            elms[i].style.right = "0%";
-            elms[i].style.top = "100%";
-            elms[i].style.width = "100%";
-            elms[i].style.zIndex = "-1";
-            elms[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem";
-            elms[i].style.animation = "unfoldSmooth 0.25s";
-            elms[i].style.borderTop = "1px solid rgb(168, 168, 168)";
+            navEls[i].style.display = "flex";
+            navEls[i].style.alignItems = "flex-start";
+            navEls[i].style.flexDirection = "column";
+            navEls[i].style.right = "0%";
+            navEls[i].style.top = "100%";
+            navEls[i].style.width = "100%";
+            navEls[i].style.zIndex = "-1";
+            navEls[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem";
+            navEls[i].style.animation = "unfoldSmooth 0.25s";
         } else 
         {
-            elms[i].style.animation = "foldInSmooth 0.25s";
-            elms[i].addEventListener("animationend", function closureFunction() 
+            navEls[i].style.animation = "foldInSmooth 0.25s";
+            navEls[i].addEventListener("animationend", function closureFunction() 
             {
-                elms[i].style.display = "none";
-                elms[i].removeEventListener("animationend", closureFunction);
+                navEls[i].style.display = "none";
+                navEls[i].removeEventListener("animationend", closureFunction);
             });
+        }
+    }
+
+    let linkEls = document.getElementsByClassName("navLink");
+
+    for (let i = 0; i < linkEls.length; i++) 
+    {
+        if (linkEls[i].style.display !== "flex" || linkEls[i].style.display === "") 
+        {
+            linkEls[i].style.width = "100%";
+            linkEls[i].style.display = "flex";
+            linkEls[i].style.alignItems = "flex-start";
         }
     }
 }
