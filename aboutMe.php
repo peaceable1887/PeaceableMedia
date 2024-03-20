@@ -15,7 +15,7 @@
                 <br>Die Herausforderungen und Erfahrungen in dieser Zeit haben meine Fertigkeiten weiter verfeinert. 
                 <p></p>
             </section >
-            <a class="download-cv-btn" download href="files/felix_hansmann_cv.pdf">
+            <a class="download-cv-btn" download href="files/Lebenslauf_FelixHansmann.pdf">
                 <span class="download-cv-text">Lebenslauf</span>
                 <i class="fa-solid fa-file-arrow-down"></i>
             </a>
