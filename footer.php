@@ -33,6 +33,10 @@
             <a class="xing-account" href="https://www.xing.com/profile/Felix_Hansmann069230/web_profiles?expandNeffi=true" target="_blank">
                 <img src="images/xing-icon.png">
             </a>
+
+            <a class="dribbble-account" href="https://dribbble.com/Peaceable1887" target="_blank">
+                <img src="images/dribbble-icon.png">
+            </a>
         </figure>
     </div>
 </footer>

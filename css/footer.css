@@ -175,7 +175,7 @@ footer
 }
 .footer-icons
 {
-    width: 30%;
+    width: 35%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -205,6 +205,11 @@ footer
 }
 
 .xing-account img
+{
+    height: 2.8125rem;
+    width: 2.8125rem;
+}
+.dribbble-account img
 {
     height: 2.8125rem;
     width: 2.8125rem;
@@ -249,6 +254,11 @@ footer
         height: 2.5rem;
         width: 2.5rem;
     }
+    .dribbble-account img
+    {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 1000px)
@@ -273,6 +283,11 @@ footer
     }
 
     .xing-account img
+    {
+        height: 2.1875rem;
+        width: 2.1875rem;
+    }
+    .dribbble-account img
     {
         height: 2.1875rem;
         width: 2.1875rem;
@@ -309,6 +324,11 @@ footer
     .linkedin-account img{height: 1.875rem; width: 1.875rem;}
     .xing-account img{height: 1.875rem; width: 1.875rem;}
     .mailContact img{height: 2.5rem; width: 2.5rem;}
+    .dribbble-account img
+    {
+        height: 1.875rem; width: 1.875rem;
+    }
+    
 }
 
 @media screen and (max-width: 500px)
