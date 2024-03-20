@@ -21,6 +21,7 @@ function burgerMenu()
             navEls[i].addEventListener("animationend", function closureFunction() 
             {
                 navEls[i].style.display = "none";
+               
                 navEls[i].removeEventListener("animationend", closureFunction);
             });
         }

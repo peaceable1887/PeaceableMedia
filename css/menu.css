@@ -232,6 +232,7 @@ nav a
     {
         padding: 0 !important;
         border: none !important;
+        width: 0% !important;
     }
     .navLink 
     {

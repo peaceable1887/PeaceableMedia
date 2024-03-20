@@ -25,16 +25,21 @@ function adjustNavigation()
     }
 
     let linkEls = document.getElementsByClassName("navLink");
+    let logoEl = document.getElementById("navLinkLogo");
 
     for (let i = 0; i < linkEls.length; i++) 
     {
         if (width < 900) 
         {
             linkEls[i].style.borderTop = "0.0625rem solid rgb(168, 168, 168)";
+            linkEls[i].style.justifyContent = "start";
+            linkEls[i].style.width = "100%";
         } 
         else if (width > 900) 
         {
             linkEls[i].style.border = "none";
+            linkEls[i].style.width = "auto";
+            logoEl.style.width = "0%";
         }
     }
 }
