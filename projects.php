@@ -99,7 +99,7 @@
         <div class="project-description">
             <span class="description-text">
             "Rating Drink" war Teil einer Aufgabe im Rahmen des Studienkurses Mediendesign. 
-            Diese Aufgabe umfasste die Konzeption und Entwicklung einer mobilen Anwendung für ein fiktives Unternehmen, 
+            Diese Aufgabe umfasste die Konzeption einer mobilen Anwendung für ein fiktives Unternehmen, 
             die durch ein Alleinstellungsmerkmal herausragt.
             </span>
         </div>
@@ -109,6 +109,35 @@
             <img class="project-image-src" src="images/Rating_Drink.jpg" alt="Das Bild Rating_Drink.jpg zeigt drei verschiedene Ansichten der Rating Drink App.">
         </a>
     </div>
+</article>
+<hr>
+<article class="project">
+    <div class="project-info">
+        <div class="project-headline">
+            <span class="headline-topic">
+                Flyer Designs
+            </span>
+            <a class="description-btn" href="project_detail_view_fd.php">
+                <span class="description-link-text">Details</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <span class="headline-sub">
+            Designkonzeption
+        </span>
+        <div class="project-description">
+            <span class="description-text">
+            Die Designkonzepte dieser Flyer waren auch Teil einer Hausarbeit im Studiengang Mediendesign. 
+            Dabei umfasste die Aufgabe sowohl die Gestaltung einer Printanzeige als auch die Erstellung eines Leporello-Flyers.
+            </span>
+        </div>
+    </div>
+    <div class="project-image">
+        <a href="images/Flyer_Uhr_3D.jpg">
+            <img class="project-image-src" src="images/Flyer_Uhr_3D.jpg" alt="Das Bild zeigt eine Printanzeige für eine innovative Armbanduhr, 
+            die in einer gekruemmten 3D-Darstellung praesentiert wird.">
+        </a>
+    </div >
 </article>
 <hr>
 <article class="project">
@@ -139,3 +168,4 @@
     </div >
 </article>
 <hr>
+

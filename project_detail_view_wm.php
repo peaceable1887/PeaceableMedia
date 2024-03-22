@@ -10,7 +10,7 @@
             <section class="project-repo">
                 <a class="repo-btn" href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">
                     <span class="repo-link-text">Dropbox</span>
-                    <img src="images/icons/dropbox.png" alt="GitHub" width="25" height="25">
+                    <img src="images/icons/dropbox.png" alt="Dropbox" width="25" height="25">
                 </a>
             </section >
         </header>
