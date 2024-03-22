@@ -127,7 +127,7 @@
         </span>
         <div class="project-description">
             <span class="description-text">
-            Die Designkonzepte dieser Flyer waren auch Teil einer Hausarbeit im Studiengang Mediendesign. 
+            Die Designkonzepte dieser Flyer waren auch Teil einer Hausarbeit im Studienkurs Mediendesign. 
             Dabei umfasste die Aufgabe sowohl die Gestaltung einer Printanzeige als auch die Erstellung eines Leporello-Flyers.
             </span>
         </div>
