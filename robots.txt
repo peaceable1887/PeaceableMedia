@@ -1,0 +1,4 @@
+# robots.txt zu https://www.felix-hansmann.de
+
+User-agent: *
+Allow: /
