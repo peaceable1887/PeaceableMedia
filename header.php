@@ -11,6 +11,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="wWBbi-85L9t8nkCSYHZ4MrFRQXFB0cYVGtg461TKNLU" />
         <meta name="description" content="Auf dieser Webseite präsentiere ich eine Vielzahl meiner Projekte, darunter bereits abgeschlossene Anwendungen, 
         sich in Entwicklung befindende Projekte sowie Designkonzeptionen für Webseiten, mobile Anwendungen und Flyer.">
         <meta name="keywords" content="Felix Hansmann, Hansmann, Softwareentwicklung, Webentwicklung, App-Entiwcklung, Design, Designkonzeption, UX/UI, Webdesign">
