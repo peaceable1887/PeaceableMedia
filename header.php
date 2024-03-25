@@ -14,7 +14,6 @@
         <meta name="google-site-verification" content="wWBbi-85L9t8nkCSYHZ4MrFRQXFB0cYVGtg461TKNLU" />
         <meta name="description" content="Auf dieser Webseite präsentiere ich eine Vielzahl meiner Projekte, darunter bereits abgeschlossene Anwendungen, 
         sich in Entwicklung befindende Projekte sowie Designkonzeptionen für Webseiten, mobile Anwendungen und Flyer.">
-        <meta name="keywords" content="Felix Hansmann, Hansmann, Softwareentwicklung, Webentwicklung, App-Entiwcklung, Design, Designkonzeption, UX/UI, Webdesign">
         <meta name="author" content="Felix Hansmann">
         <title>Felix Hansmann</title>
         <link rel="icon" type="image/x-icon" href="images/Logo_32x32.png" sizes="32x32">
