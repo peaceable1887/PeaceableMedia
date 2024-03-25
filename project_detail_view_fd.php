@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>Flyer Designs</h1>
+            <h3>Flyer Designs</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://www.dropbox.com/sh/jgqubfau4qbfkhr/AAAZ3PBKvXckppc1Aa1NSUGFa?dl=0" target="_blank">
                     <span class="repo-link-text">Dropbox</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Designkonzeption</h3>
+        <h4 class="sub-headline">Designkonzeption</h4>
         <section class="project-detail-description">
         Die Aufgabe beim Flyer für die Uhr bestand darin, eine Printanzeige für eine innovative Armbanduhr zu gestalten, die sich auf irgendeine Weise von gängigen Modellen unterscheidet. 
         Dabei war kreative Freiheit ausdrücklich erwünscht. Die andere Aufgabe bestand darin, einen Leporello-Flyer für eine Ausstellung in einem Kunstmuseum zu entwerfen. 
@@ -63,7 +63,7 @@
             </button>
         </figure>
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons" style="justify-content: space-around">
                 <a title="Adobe Photoshop" href="https://www.adobe.com/de/products/photoshop.html" target="_blank">
                     <img src="images/icons/photoshop.png" alt="Adobe Photoshop">

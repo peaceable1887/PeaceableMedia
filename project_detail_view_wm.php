@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>Website Mockups</h1>
+            <h3>Website Mockups</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">
                     <span class="repo-link-text">Dropbox</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Designkonzeption</h3>
+        <h4 class="sub-headline">Designkonzeption</h4>
         <section class="project-detail-description">
         Die Mockups für die einzelnen Webseiten wurden sowohl aus persönlichem Interesse als auch im Rahmen des Studiums erstellt.
         Die Mockups wurden mit der Software Adobe Photoshop erstellt. Alle enthaltenen Elemente, sei es Grafiken oder Bilder, 
@@ -87,7 +87,7 @@
             </button>
         </figure>
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons" style="justify-content: space-around">
                 <a title="Adobe Photoshop" href="https://www.adobe.com/de/products/photoshop.html" target="_blank">
                     <img src="images/icons/photoshop.png" alt="Adobe Photoshop">

@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>FourKingz</h1>
+            <h3>FourKingz</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://github.com/peaceable1887/FourKingz" target="_blank">
                     <span class="repo-link-text">GitHub</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Mobiles Browserspiel</h3>
+        <h4 class="sub-headline">Mobiles Browserspiel</h4>
         <section class="project-detail-description">
         "Four Kingz" ist ein Kartentrinkspiel, das als Browseranwendung für mobile Geräte, mit Vue.js, entwickelt wurde. 
             Das Spiel nutzt ein Skat-Deck mit 32 Karten, wobei jede Karte eine Aktion repräsentiert. 
@@ -70,7 +70,7 @@
             </button>
         </figure>
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons">
                 <a title="Vue.js" href="https://vuejs.org/" target="_blank">
                     <img src="images/icons/vue-dot-js.png" alt="NodeJS">

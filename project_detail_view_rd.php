@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>Rating Drink</h1>
+            <h3>Rating Drink</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://www.dropbox.com/sh/scn9h50qy36934p/AACyfcjiCEXF0XpfIK4LR5Mna?dl=0" target="_blank">
                     <span class="repo-link-text">Dropbox</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Designkonzeption</h3>
+        <h4 class="sub-headline">Designkonzeption</h4>
         <section class="key-datas">
         <h3>Alleinstellungsmerkmal</h3>
         <span>"Rating Drink" ist eine innovative App, die Bewertungen und Rezensionen von
@@ -75,7 +75,7 @@
             </button>
         </figure>
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons" style="justify-content: space-around">
                 <a title="Figma" href="https://www.figma.com/" target="_blank">
                     <img src="images/icons/figma.png" alt="Figma">

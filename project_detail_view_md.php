@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>MemoDex</h1>
+            <h3>MemoDex</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://github.com/peaceable1887/memo_dex_client" target="_blank">
                     <span class="repo-link-text">GitHub</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Native Mobilanwendung</h3>
+        <h4 class="sub-headline">Native Mobilanwendung</h4>
         <section class="project-detail-description">
         Die MemoDex-App wird eine innovative Lernanwendung sein, die es den Nutzern ermöglicht, mühelos und effektiv durch den Einsatz von Karteikarten zu lernen.<br> 
             Die Anwendung erlaubt es den Nutzern, individuelle Stapel zu verschiedenen Themen zu erstellen und ihre Karteikarten effizient zu verwalten.<br> 
@@ -81,7 +81,7 @@
         </figure>
     
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons">
                 <a title="Figma" href="https://www.figma.com/" target="_blank">
                     <img src="images/icons/figma.png" alt="Figma">

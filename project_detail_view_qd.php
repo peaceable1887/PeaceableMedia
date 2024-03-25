@@ -6,7 +6,7 @@
 <main>
    <article class="project-detail-content">
         <header class="project-detail-headlines">
-            <h1>Quizduell</h1>
+            <h3>Quizduell</h3>
             <section class="project-repo">
                 <a class="repo-btn" href="https://github.com/peaceable1887/Quizduell" target="_blank">
                     <span class="repo-link-text">GitHub</span>
@@ -14,7 +14,7 @@
                 </a>
             </section >
         </header>
-        <h3 class="sub-headline">Multiplayer Browserspiel</h3>
+        <h4 class="sub-headline">Multiplayer Browserspiel</h4>
         <section class="project-detail-description">
         "Quizduell" ist ein Multiplayer-Spiel, bei dem zwei Spieler in sechs Runden gegeneinander antreten. 
             Dabei werden Fragen zum Thema Informatik gestellt, 
@@ -124,7 +124,7 @@
             </button>
         </figure>
         <section class="project-detail-technologies">
-            <h2>Technologien</h2>
+            <h4>Technologien</h4>
             <figure class="technologies-icons">
                 <a title="Vue.js" href="https://vuejs.org/" target="_blank">
                     <img src="images/icons/vue-dot-js.png" alt="NodeJS">

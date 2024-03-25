@@ -5,10 +5,10 @@
     {
         echo '
         <a class="navLink" id="navLinkLogo" href="https://www.felix-hansmann.de/" data-scroll="home">
-            <div id="logo">
+            <h1 id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>
-            </div>
+            </h1>
         </a>
         <nav id="navItems">
         <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="projects">Projekte</a>
@@ -19,10 +19,10 @@
     {
         echo '
         <a class="navLink" class="navLink" id="navLinkLogo" href="#home" data-scroll="home">
-            <div id="logo">
+            <h1 id="logo">
                 <span id="first-name">Felix</span>
                 <span id="last-name">Hansmann</span>
-            </div>
+            </h1>
         </a>
         <nav id="navItems">
         <a class="navLink" href="#projects" data-scroll="projects">Projekte</a>
