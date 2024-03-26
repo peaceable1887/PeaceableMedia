@@ -15,7 +15,7 @@
         <meta name="description" content="Auf dieser Webseite präsentiere ich eine Vielzahl meiner Projekte, darunter bereits abgeschlossene Anwendungen, 
         sich in Entwicklung befindende Projekte sowie Designkonzeptionen für Webseiten, mobile Anwendungen und Flyer.">
         <meta name="author" content="Felix Hansmann">
-        <title>Felix Hansmann</title>
+        <title>Felix Hansmann - Entwickler und Designer</title>
         <link rel="icon" type="image/x-icon" href="images/Logo_32x32.png" sizes="32x32">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="

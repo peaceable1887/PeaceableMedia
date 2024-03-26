@@ -21,6 +21,11 @@ footer
             flex-direction: column;
     font-size: 0.875rem;
     color: var(--color-font-secondary);
+    background: url("../images/Contact-Background.jpg");
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 .contactBox
@@ -33,11 +38,6 @@ footer
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: url("../images/Contact-Background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
 }
 
 .mailContact
@@ -115,7 +115,6 @@ footer
 }
 .footer-data
 {
-    background-color: #15171B;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
