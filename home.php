@@ -7,7 +7,7 @@
             </span>
             <h2 class="sub-text">
                 Ich bin Felix,
-                Entwickler und Designer
+                Entwickler und Multimedia Designer
                 aus Hamburg
             </h2>
         </div>

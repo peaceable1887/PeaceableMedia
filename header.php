@@ -12,10 +12,10 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="wWBbi-85L9t8nkCSYHZ4MrFRQXFB0cYVGtg461TKNLU" />
-        <meta name="description" content="Als begeisterter Entwickler und Designer zeige ich auf dieser Webseite eine Vielzahl meiner Projekte, 
+        <meta name="description" content="Als begeisterter Entwickler und Multimedia Designer zeige ich auf dieser Webseite eine Vielzahl meiner Projekte, 
         darunter bereits abgeschlossene Anwendungen, laufende Projekte und Designkonzepte für Webseiten, mobile Anwendungen und Flyer.">
         <meta name="author" content="Felix Hansmann">
-        <title>Felix Hansmann - Entwickler und Designer aus Hamburg</title>
+        <title>Felix Hansmann - Entwickler und Multimedia Designer aus Hamburg</title>
         <link rel="icon" type="image/x-icon" href="images/Logo_32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="images/Logo_48x48.png" sizes="48x48">
         <link rel="icon" type="image/png" href="images/Logo_192x192.png" sizes="192x192">
