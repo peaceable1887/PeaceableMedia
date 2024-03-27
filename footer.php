@@ -1,17 +1,15 @@
 <hr>
 <footer>
-    <div class="contactBox">
-        <section class="mailContact">
-            <h4>Anfrage senden</h4>
-            <p>
-                Falls du Fragen hast, Anregungen teilen möchtest oder einfach 
-                in einen lockeren Austausch treten willst, stehe ich gerne zur Verfügung!
-            </p>
-            <a href="mailto:felix.hansmann@outlook.de">
-                <button>Kontaktieren</button>
-            </a>
-        </section>
-    </div>
+    <section class="contactBox">
+        <h4>Anfrage senden</h4>
+        <p>
+            Falls du Fragen hast, Anregungen teilen möchtest oder einfach 
+            in einen lockeren Austausch treten willst, stehe ich gerne zur Verfügung!
+        </p>
+        <a href="mailto:felix.hansmann@outlook.de">
+            <button>Kontaktieren</button>
+        </a>
+    </section>
     <div class="footer-data">
         <section class="footer-info">
             <div class="footer-copyright">

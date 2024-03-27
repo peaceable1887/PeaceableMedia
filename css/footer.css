@@ -9,12 +9,11 @@ footer
 {
     width: 100%;
     height: 100vh;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -23,7 +22,6 @@ footer
     color: var(--color-font-secondary);
     background: url("../images/Contact-Background.jpg");
     background-size: cover;
- 
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
@@ -31,18 +29,8 @@ footer
 .contactBox
 {
     width: 100%;
-    height: 40.625rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-
-.mailContact
-{
-    width: 80%;
+    position: absolute;
+    top: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -54,37 +42,38 @@ footer
         -ms-flex-direction: column;
             flex-direction: column;
 }
-.mailContact h4
+
+.contactBox h4
 {
     color: var(--color-font);
     margin: 0 0 0 0;
     padding: 0;
     font-size: 3.5rem;
 }
-.mailContact p
+.contactBox p
 {
     margin: 1.25rem 0 0 0;
     padding: 0;
     color: var(--color-font-tertiary);
-    width: 80%;
+    width: 60%;
     text-align: center;
     font-size: 1.25rem;
     letter-spacing: normal;
 }
-.mailContact img
+.contactBox img
 {
     height: 3.125rem;
     width: 3.125rem;
 }
-.mailContact span
+.contactBox span
 {
     color: var(--color-font-secondary);
 }
-.mailContact a
+.contactBox a
 {
     color: var(--color-font-secondary);
 }
-.mailContact  a button
+.contactBox  a button
 {
     font-family: var(--fontfamily-global);
     background-color: var(--color-background-button);
@@ -109,12 +98,14 @@ footer
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
-.mailContact a button:hover
+.contactBox a button:hover
 {
  background-color: var(--backgroundColor-button-hover);
 }
 .footer-data
 {
+    position: absolute;
+    bottom: 5%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -128,7 +119,6 @@ footer
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 4% 0 4% 0;
 }
 .footer-info
 {
@@ -216,15 +206,15 @@ footer
 
 @media screen and (max-width: 1200px)
 {
-    .mailContact h4
+    .contactBox h4
     {
         font-size: 3.125rem;
     }
-    .mailContact p
+    .contactBox p
     {
         font-size: 1.125rem;
     }
-    .mailContact  a button
+    .contactBox  a button
     {
         padding: 0.9375rem 2rem;
         font-size: 1rem;
@@ -262,7 +252,7 @@ footer
 
 @media screen and (max-width: 1000px)
 {
-    .mailContact h4
+    .contactBox h4
     {
         font-size: 2.625rem;
     }
@@ -294,17 +284,17 @@ footer
 }
 @media screen and (max-width: 900px)
 {
-    .mailContact h4
+    .contactBox h4
     {
         font-size: 2.1875rem;
         margin: 1.875rem 0 0 0;
     }
-    .mailContact p
+    .contactBox p
     {
         margin: 0.9375rem 0 0 0;
         font-size: 1rem;
     }
-    .mailContact  a button
+    .contactBox  a button
     {
         padding: 0.875rem 1.5625rem;
         font-size: 1rem;
@@ -336,16 +326,16 @@ footer
     {
        
     }
-    .mailContact h4
+    .contactBox h4
     {
         font-size: 1.6rem;
         margin: 0 0 0 0;
     }
-    .mailContact p
+    .contactBox p
     {
         font-size: 0.875rem;
     }
-    .mailContact  a button
+    .contactBox  a button
     {
         padding: 0.8125rem 1.5625rem;
         font-size: 0.75rem;
@@ -353,6 +343,7 @@ footer
     }
     .footer-data
     {
+        bottom: 5%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
