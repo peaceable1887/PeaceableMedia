@@ -359,8 +359,9 @@ footer
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        padding: 0 0 1.25rem;
+        padding: 0 0 2rem;
     }
     .footer-copyright{ padding: 0 0 0.125rem 0;}
     .footer-impressum a{font-size: 0.75rem;}
+    .footer-icons{width: 50%;}
 }
