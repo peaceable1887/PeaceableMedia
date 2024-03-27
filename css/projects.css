@@ -17,7 +17,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-bottom: 3.125rem;
+    padding-bottom: 5%;
     width: 100%;
 
 }
@@ -34,7 +34,7 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 80%;
-    padding-top: 3.125rem;
+    padding-top: 5%;
 }
 
 .project-headline
@@ -164,10 +164,7 @@ hr
 
 @media screen and (max-width: 1000px)
 {
-    .project-info
-    {
-        padding-top: 1.875rem;
-    }
+
     .headline-topic
     {
         font-size: 2.625rem;
@@ -192,19 +189,9 @@ hr
 
 @media screen and (max-width: 900px)
 {
-    .project
-    {
-        padding-bottom: 1.875rem;
-    }
-    .project-info
-    {
-        padding-top: 1.875rem;
-     
-    }
     .project-image
     {
         padding: 1.25rem 0 1.25rem 0;
-     
     }
     .project-image-src
     {
@@ -241,16 +228,6 @@ hr
 }
 @media screen and (max-width: 500px)
 {
-   
-    .project-info
-    {
-        padding-top: 1.25rem;
-       
-    }
-    .project
-    {
-        padding-bottom: 1.25rem;
-    }
     .project-image
     {
         padding: 0 0 1.25rem 0;

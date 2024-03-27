@@ -4,6 +4,7 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
+
 .aboutMe
 {
     display: -webkit-box;
@@ -29,8 +30,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 3.125rem 0 0 0;
-    width: 80%;
+    padding: 5% 0 0 0;
 }
 .about-me-description
 {
@@ -45,6 +45,7 @@
         -ms-flex-align: center;
             align-items: center;
     padding: 0 0 2.5rem 0;
+    width: 80%;
 }
 .about-me-description h2
 {
@@ -99,6 +100,7 @@
     text-align: center;
     line-height: 1.4;
     width: 80%;
+    color: var(--color-font-tertiary);
 }
 
 .about-me-text p
@@ -146,7 +148,6 @@
 .about-me-skills
 {
     width: 80%;
-    width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -157,7 +158,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem 0 5% 0;
 }
 .about-me-skills h4
 {
@@ -195,10 +196,6 @@
     {
         font-size: 1.125rem;
     }
-    .about-me-skills 
-    {
-        padding: 2.5rem 0; 
-    }
 }
 
 @media screen and (max-width: 1000px)
@@ -214,10 +211,6 @@
     .about-me-text
     {
         font-size: 1.125rem; 
-    }
-    .about-me-skills 
-    {
-        padding: 2.1875rem 0; 
     }
 }
 
@@ -236,10 +229,6 @@
     {
         font-size: 2.1875rem;
         padding: 0;
-    }
-    .about-me-skills 
-    {
-        padding: 1.5625rem 0; 
     }
     .about-me-skills h4 
     {
@@ -273,10 +262,6 @@
     {
         font-size: 1.6rem; 
         padding: 0;
-    }
-    .about-me-skills 
-    {
-        padding: 0.625rem 0 0.625rem 0; 
     }
     .about-me-skills h4 
     {
