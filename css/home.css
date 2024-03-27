@@ -29,7 +29,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
+    left: 5rem;
     -webkit-box-orient: vertical;
 
     -webkit-box-direction: normal;
@@ -65,7 +65,6 @@
     color: var(--color-font-secondary);
     font-size: 1.875rem;
     font-weight: 500;
-    margin-top: 1.25rem;
 }
 .contact-btn
 {
@@ -76,7 +75,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: var(--color-primary);
+    background-color: var(--color-background-header);
     width: 9.375rem;
     border-radius: 0.3125rem;
     padding: 0.75rem;
@@ -93,8 +92,8 @@
 }
 .contact-btn-text
 {
-    color: white;
-    font-size: 1.125rem;
+    color: var(--color-primary);
+    font-size: 1.325rem;
     font-weight: 700;
 }
 .contact-btn:hover .contact-btn-text
@@ -170,6 +169,11 @@
 
 @media screen and (max-width: 900px)
 {
+    .context
+    {
+        left: auto;
+        right: auto;
+    }
     .topPresentation
     {
         -webkit-box-orient: vertical;
@@ -218,8 +222,6 @@
 }
 @media screen and (max-width: 700px)
 {
-    
-    
     .slogan-text
     {
         font-size: 2.8125rem;
@@ -249,7 +251,6 @@
     }
     .context 
     {
-    
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -263,6 +264,7 @@
     {
         font-size: 1rem;
         text-align: center;
+        margin-bottom: 1rem;
     }
     .contact-btn
     {

@@ -2,21 +2,20 @@
 <div class="topPresentation">
     <div class="context">
         <div class="text-content">
+            <h2 class="sub-text">
+                Entwickler und Multimedia Designer
+            </h2>
             <span class="slogan-text">
                 Denken Konzipieren<br>Umsetzen
             </span>
-            <h2 class="sub-text">
-                Ich bin Felix,
-                Entwickler und Multimedia Designer
-                aus Hamburg
-            </h2>
+            
         </div>
         <a class="contact-btn" href="#aboutMe" data-scroll="aboutMe">
             <span class="contact-btn-text">Mehr</span>
         </a>
         <!--<div id="typedtext"></div>-->
     </div>
-    <div class="area" >
+   <div class="area" >
         <ul class="circles">
             <li></li>
             <li></li>
