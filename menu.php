@@ -13,7 +13,7 @@
         <nav id="navItems">
         <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="projects">Projekte</a>
         <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="aboutMe">Über Mich</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="mySkills">Fähigkeiten</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#mySkills" data-scroll="mySkills">Fähigkeiten</a>
         <a class="navLink" href="https://www.felix-hansmann.de/#contact" data-scroll="contact">Kontakt</a>';
       
     } else 
