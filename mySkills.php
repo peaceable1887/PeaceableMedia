@@ -1,6 +1,6 @@
 <div class="mySkills">
     <section class="about-me-skills">
-        <h4>Meine Fähigkeiten</h4>
+        <h4>Fähigkeiten</h4>
         <figure class="skill-technologie-icon ">
             <a title="Vue.js" href="https://vuejs.org/" target="_blank">
                 <img src="images/icons/vue-dot-js.png" alt="NodeJS">

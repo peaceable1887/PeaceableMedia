@@ -11,10 +11,10 @@
             </h1>
         </a>
         <nav id="navItems">
-        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="projects">Projects</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="aboutMe">About Me</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="mySkills">My Skills</a>
-        <a class="navLink" href="https://www.felix-hansmann.de/#contact" data-scroll="contact">Contact</a>';
+        <a class="navLink" href="https://www.felix-hansmann.de/#projects" data-scroll="projects">Projekte</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="aboutMe">Über Mich</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#aboutMe" data-scroll="mySkills">Fähigkeiten</a>
+        <a class="navLink" href="https://www.felix-hansmann.de/#contact" data-scroll="contact">Kontakt</a>';
       
     } else 
     {
@@ -26,10 +26,10 @@
             </h1>
         </a>
         <nav id="navItems">
-        <a class="navLink" href="#projects" data-scroll="projects">Projects</a>
-        <a class="navLink" href="#aboutMe" data-scroll="aboutMe">About Me</a>
-        <a class="navLink" href="#mySkills" data-scroll="mySkills">My Skills</a>
-        <a class="navLink" href="#contact" data-scroll="contact">Contact</a>';
+        <a class="navLink" href="#projects" data-scroll="projects">Projekte</a>
+        <a class="navLink" href="#aboutMe" data-scroll="aboutMe">Über Mich</a>
+        <a class="navLink" href="#mySkills" data-scroll="mySkills">Fähigkeiten</a>
+        <a class="navLink" href="#contact" data-scroll="contact">Kontakt</a>';
     }
     ?>
         
