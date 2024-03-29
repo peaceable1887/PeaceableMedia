@@ -167,5 +167,4 @@
         </a>
     </div >
 </article>
-<hr>
 
