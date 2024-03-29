@@ -16,6 +16,8 @@
     <section class="section" id="aboutMe" data-anchor="aboutMe"></section>
     <?php include("aboutMe.php");?>
 
+    <section class="section" id="mySkills" data-anchor="mySkills"></section>
+    <?php include("mySkills.php");?>
 </main>
     <!--Footer -->
     <section class="section" id="contact" data-anchor="contact"></section>

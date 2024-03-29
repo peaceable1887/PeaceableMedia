@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="css/projects.css" media="screen">
         <link rel="stylesheet" href="css/project_detail_view.css" media="screen">
         <link rel="stylesheet" href="css/aboutMe.css" media="screen">
+        <link rel="stylesheet" href="css/mySkills.css" media="screen">
         <link rel="stylesheet" href="css/impressum.css" media="screen">
         <link rel="stylesheet" href="css/animatedBackground.css" media="screen">
         <link rel="stylesheet" href="css/transitionPageEffect.css" media="screen">

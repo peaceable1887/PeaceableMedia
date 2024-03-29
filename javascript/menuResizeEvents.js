@@ -22,6 +22,7 @@ function adjustNavigation()
         nav.style.right = "5%";
         nav.style.top = "";
         nav.style.border = "none";
+        nav.style.width = "35%";
     }
 
     let linkEls = document.getElementsByClassName("navLink");
