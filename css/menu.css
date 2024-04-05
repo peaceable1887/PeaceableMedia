@@ -280,8 +280,12 @@ nav a
     {
         padding: 0.9375rem 0 0.9375rem 1.5rem;
         text-decoration: none;
-        font-size: 1.125rem;
+        font-size: 1.525rem;
         display: block;
+    }
+    .call-to-action-btn-text
+    {
+        font-size: 1.525rem;
     }
 
     #menu a.icon 
@@ -316,11 +320,11 @@ nav a
         #menu a.icon{font-size: 1.875rem;}
         .navLink 
         {
-            font-size: 0.875rem;
+            font-size: 1.425rem;
         }
         .call-to-action-btn-text
         {
-            font-size: 0.875rem;
+            font-size: 1.425rem;
         }
 
     }
