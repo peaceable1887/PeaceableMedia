@@ -13,16 +13,34 @@ function adjustNavigation()
         nav.style.width = "18.75rem";
         nav.style.boxShadow = "";
 
-    } else if (width > 900) 
+    }
+    if(width > 900 && width < 1200)
     {
         nav.style.alignItems = "end";
         nav.style.display = 'flex';
+        nav.style.justifyContent = "space-between";
         nav.style.flexDirection = "row";
         nav.style.paddingTop = "0";
         nav.style.right = "5%";
         nav.style.top = "";
         nav.style.border = "none";
-        nav.style.width = "35%";
+        nav.style.width = "50%";
+        nav.style.alignItems = "center";
+        nav.style.height = "0vh";
+    }
+    else if (width > 1200) 
+    {
+        nav.style.alignItems = "end";
+        nav.style.display = 'flex';
+        nav.style.justifyContent = "space-between";
+        nav.style.flexDirection = "row";
+        nav.style.paddingTop = "0";
+        nav.style.right = "5%";
+        nav.style.top = "";
+        nav.style.border = "none";
+        nav.style.width = "40%";
+        nav.style.alignItems = "center";
+        nav.style.height = "0vh";
     }
 
     let linkEls = document.getElementsByClassName("navLink");
@@ -32,15 +50,19 @@ function adjustNavigation()
     {
         if (width < 900) 
         {
-            linkEls[i].style.borderTop = "0.0625rem solid rgb(168, 168, 168)";
-            linkEls[i].style.justifyContent = "start";
+            
             linkEls[i].style.width = "100%";
+            linkEls[i].style.margin = "50px 0";
+            linkEls[i].style.justifyContent = "center";
+            
         } 
         else if (width > 900) 
         {
             linkEls[i].style.border = "none";
             linkEls[i].style.width = "auto";
             logoEl.style.width = "0%";
+            linkEls[i].style.justifyContent = "start";
+            linkEls[i].style.margin = "0px 0";
         }
     }
 }

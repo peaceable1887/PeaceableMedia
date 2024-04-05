@@ -9,15 +9,19 @@ function burgerMenu()
             navEls[i].style.display = "flex";
             navEls[i].style.alignItems = "flex-start";
             navEls[i].style.flexDirection = "column";
+            navEls[i].style.justifyContent = "center";
+            navEls[i].style.alignItems = "center";
             navEls[i].style.right = "0%";
-            navEls[i].style.top = "100%";
+            navEls[i].style.top = "0";
             navEls[i].style.width = "100%";
+            navEls[i].style.height = "100vh";
             navEls[i].style.zIndex = "-1";
             navEls[i].style.boxShadow = "rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem";
             navEls[i].style.animation = "unfoldSmooth 0.25s";
         } else 
         {
             navEls[i].style.animation = "foldInSmooth 0.25s";
+          
             navEls[i].addEventListener("animationend", function closureFunction() 
             {
                 navEls[i].style.display = "none";
@@ -34,8 +38,10 @@ function burgerMenu()
         if (linkEls[i].style.display !== "flex" || linkEls[i].style.display === "") 
         {
             linkEls[i].style.width = "100%";
+            linkEls[i].style.fontWeight = "500";
             linkEls[i].style.display = "flex";
             linkEls[i].style.alignItems = "flex-start";
+            linkEls[i].style.padding = "0 0";
         }
     }
 }

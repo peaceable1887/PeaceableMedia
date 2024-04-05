@@ -57,6 +57,7 @@
 {
     background-color: #15171B; 
 }
+
 #first-name
 {
     font-size: 2.8125rem;
@@ -104,8 +105,6 @@ nav
     position: absolute;
     width: 18.75rem;
     right: 5rem;
-    width: 35%;
-
 }
 #navItems
 {
@@ -126,8 +125,9 @@ nav h1
 }
 nav a
 {
-    font-weight:700;
+    font-weight:500;
     font-size: 1.125rem;
+    letter-spacing: 0.125rem;
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -136,6 +136,36 @@ nav a
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
+
+#call-to-action-btn
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center !important;
+    background-color: var(--color-primary);
+    width: 7.5rem !important;
+    border-radius: 0.3125rem;
+    padding: 0.625rem !important;
+    text-decoration: none;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+#call-to-action-btn:hover
+{
+    background-color: var(--backgroundColor-button-hover);
+}
+
+.call-to-action-btn-text
+{
+    font-weight: 500;
+    color: var(--color-font-secondary);
+    font-size: 1.125rem;
+}
+
 
 .activeLink
 {
@@ -187,6 +217,10 @@ nav a
         opacity: 1;
     }
 }
+@media all and(max-width: 1200px)
+{
+    
+}
 @media all and(max-width: 1000px)
 {
     nav ul {-ms-flex-wrap: wrap;flex-wrap: wrap;}
@@ -234,12 +268,19 @@ nav a
         padding: 0 !important;
         border: none !important;
         width: 0% !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start !important;
+            -ms-flex-pack: start !important;
+                justify-content: start !important;
+        margin: 0 !important;
     }
     .navLink 
     {
         padding: 0.9375rem 0 0.9375rem 1.5rem;
         text-decoration: none;
-        font-size: 0.9375rem;
+        font-size: 1.125rem;
         display: block;
     }
 
@@ -274,6 +315,10 @@ nav a
         }
         #menu a.icon{font-size: 1.875rem;}
         .navLink 
+        {
+            font-size: 0.875rem;
+        }
+        .call-to-action-btn-text
         {
             font-size: 0.875rem;
         }
