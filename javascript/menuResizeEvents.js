@@ -52,7 +52,7 @@ function adjustNavigation()
         {
             
             linkEls[i].style.width = "100%";
-            linkEls[i].style.margin = "50px 0";
+            linkEls[i].style.margin = "3.5rem 0";
             linkEls[i].style.justifyContent = "center";
             
         } 
